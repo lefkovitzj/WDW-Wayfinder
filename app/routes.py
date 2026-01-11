@@ -6,13 +6,16 @@ Author: Joseph Lefkovitz (github.com/lefkovitzj)
 Last Modified: 1/10/2026
 """
 
-# Python standard library imports
+# Python standard library imports.
 from typing import List
 
-# Third-party imports
+# Third-party imports.
 from fastapi import APIRouter, Request, Form, Depends
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+
+# Local imports.
+from app.core.config import settings
 
 router = APIRouter()
 templates = Jinja2Templates(directory="app/templates")
@@ -20,12 +23,13 @@ templates = Jinja2Templates(directory="app/templates")
 def get_graph(request: Request):
     return request.app.state.graph
 
-@router.get("/", response_class=templates.HTMLResponse)
+@router.get("/", response_class=HTMLResponse)
 async def home(request: Request):
     """ Home page route."""
-    return templates.TemplateResponse("home.html", {
+    return templates.TemplateResponse("index.html", {
         "request": request,
-        "app_name": request.app.state.config.app_name
+        "locations": request.app.state.graph.valid_stops,
+        "settings": settings
     })
 
 @router.post("/search-locations", response_class=HTMLResponse)
@@ -35,7 +39,8 @@ async def search(request: Request, q: str = Form(""), graph=Depends(get_graph)):
         name: loc_id for name, loc_id in graph.display_names.items()
         if q.lower() in name.lower() and loc_id.endswith("_MAIN")
     }
-    return templates.TemplateResponse("search_results.html", {
+    print(f"Search query: {q}, Matches found: {len(matches)}")
+    return templates.TemplateResponse("components/search_results.html", {
         "request": request,
         "query": q,
         "matches": matches
