@@ -1,0 +1,23 @@
+<div class="menu bg-base-100 w-full rounded-box shadow-xl border border-base-300">
+    {% if matches %}
+        {% for name, loc_id in matches.items() %}
+        <li>
+            <button type="button" 
+                    class="hover:bg-primary hover:text-white w-full text-left p-2"
+                    {# Use double quotes for the JS object to allow single quotes in names #}
+                    hx-on:click='
+                        const container = this.closest(".relative");
+                        const input = container.querySelector("input[type=text]");
+                        htmx.trigger(input, "itemSelected", {
+                            "val": "{{ loc_id }}", 
+                            "label": {{ name | tojson }}
+                        });
+                    '>
+                {{ name }}
+            </button>
+        </li>
+        {% endfor %}
+    {% else %}
+        <li class="disabled"><span class="text-error font-medium p-2">No locations found</span></li>
+    {% endif %}
+</div>
