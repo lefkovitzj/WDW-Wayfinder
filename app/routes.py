@@ -47,18 +47,32 @@ async def search(request: Request, q: str = Form(""), graph=Depends(get_graph)):
     })
 
 @router.post("/plan", response_class=HTMLResponse)
-async def plan_trip(
+async def plan_route(
     request: Request,
     start: str = Form(...),
     end: str = Form(...),
-    stops: List[str] = Form(default=[]),
+    stops: List[str] = Form([]),
     graph=Depends(get_graph)
 ):
-    """ Calculate and return the optimized itinerary. """
-    result = graph.plan_itinerary(start, end, stops)
-    return templates.TemplateResponse("itinerary.html", {
+    # Filter out empty stops
+    valid_stops = [s for s in stops if s.strip()]
+    
+    # Run the TSP/Dijkstra logic
+    result = graph.plan_itinerary(start, end, valid_stops)
+    
+    # Check if this is an HTMX request
+    inverted_display_names = {v: k for k, v in graph.display_names.items()}
+    if request.headers.get("HX-Request"):
+        print(inverted_display_names)
+        return templates.TemplateResponse("components/itinerary.html", {
+            "request": request,
+            "result": result,
+            "display_names": inverted_display_names
+        })
+    
+    # Fallback for full page reload
+    return templates.TemplateResponse("pages/index.html", {
         "request": request,
-        "itinerary": result["itinerary"],
-        "total_time": result["total_time"],
-        "optimized_order": result["optimized_order"]
+        "locations": inverted_display_names,
+        "result": result
     })

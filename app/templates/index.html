@@ -7,14 +7,28 @@
         <div class="card-body">
             <h2 class="card-title text-2xl mb-4 text-primary">Plan Your Journey</h2>
             
-            <form action="/plan" method="POST" class="space-y-4">
-                <div class="form-control">
+            <form hx-post="/plan" 
+                hx-target="#itinerary-result" 
+                hx-indicator="#loading-spinner"
+                class="space-y-4">
+                <div class="form-control relative pt-4 border-t border-base-300 mt-4">
                     <label class="label"><span class="label-text font-bold uppercase text-xs">Starting Point</span></label>
-                    <select name="start" class="select select-bordered w-full">
-                        {% for name, id in locations.items() %}
-                        <option value="{{ id }}">{{ name }}</option>
-                        {% endfor %}
-                    </select>
+                    <input type="text" 
+                           id="start-display"
+                           placeholder="Where are you starting?" 
+                           class="input input-bordered w-full"
+                           hx-post="/search-locations" 
+                           hx-trigger="keyup changed delay:200ms, focus" 
+                           hx-target="#start-results"
+                           hx-on:item-selected="
+                                document.getElementById('start-dest-input').value = event.detail.val;
+                                this.value = event.detail.label;
+                                document.getElementById('start-results').innerHTML = '';
+                           "
+                           autocomplete="off" />
+                    
+                    <input type="hidden" name="start" id="start-dest-input">
+                    <div id="start-results" class="absolute z-50 w-full top-24"></div>
                 </div>
 
                 <div id="stops-container" class="space-y-4">
@@ -52,42 +66,11 @@
         </div>
     </div>
 
-    <div class="lg:col-span-2">
-        {% if result %}
-        <div class="card bg-base-100 shadow-xl border-t-4 border-accent">
-            <div class="card-body">
-                <h2 class="card-title text-2xl">Optimized Itinerary</h2>
-                <div class="badge badge-accent badge-lg my-2">Total Est. Travel Time: {{ result.total_time }} mins</div>
-                
-                <div class="overflow-x-auto mt-4">
-                    <table class="table table-zebra w-full">
-                        <thead>
-                            <tr>
-                                <th>Order</th>
-                                <th>Location</th>
-                                <th>Transit Method</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for node, mode in result.itinerary %}
-                            <tr>
-                                <td>{{ loop.index }}</td>
-                                <td class="font-medium text-primary">{{ node }}</td>
-                                <td>
-                                    {% if mode %}
-                                    <span class="badge badge-outline badge-md">{{ mode }}</span>
-                                    {% else %}
-                                    <span class="text-gray-400 italic">Starting Point</span>
-                                    {% endif %}
-                                </td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+    <div class="lg:col-span-2" id="itinerary-result">
+        <div id="loading-spinner" class="htmx-indicator flex justify-center p-20">
+            <span class="loading loading-spinner loading-lg text-primary"></span>
+            <span class="ml-4 font-bold">Magic in progress...</span>
         </div>
-        {% else %}
         <div class="alert bg-base-100 shadow-md">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             <div>
@@ -95,7 +78,6 @@
                 <div class="text-xs">Select your starting resort and where you want to go. The optimizer will handle the rest.</div>
             </div>
         </div>
-        {% endif %}
     </div>
 </div>
 

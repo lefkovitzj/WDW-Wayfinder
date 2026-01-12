@@ -31,7 +31,7 @@
 <script>
     document.addEventListener('click', function (event) {
         // 1. Find every result container currently on the page
-        const allResultContainers = document.querySelectorAll('[id^="results-"], #final-results');
+        const allResultContainers = document.querySelectorAll('[id^="results-"], #final-results, #start-results');
 
         allResultContainers.forEach(container => {
             // 2. Check if the container is already empty (nothing to do)
@@ -51,7 +51,7 @@
 </script>
 <style>
     /* Ensure the results dropdown always stays on top of other form elements */
-    [id^="results-"], #final-results {
+    [id^="results-"], #final-results, #start-results {
         z-index: 9999 !important;
         position: absolute;
         /* Adding a slight background blur and shadow helps it pop */
