@@ -30,16 +30,18 @@
                         {# Look up the pretty name, fall back to the ID if not found #}
                         {{ display_names.get(node, node) }}
                     </div>                    
-                    {% if mode %}
                     <div class="mt-2">
                         <span class="badge badge-outline badge-lg gap-2 p-4">
-                            {% if "Bus" in mode %}🚌{% elif "Monorail" in mode %}🚝{% elif "Skyliner" in mode %}🚠{% elif "Boat" in mode %}🛥️{% else %}🚶{% endif %}
-                            {{ mode }}
+                            {% if loop.first %}
+                                📍 Start Here
+                            {% elif loop.last %}
+                                🏁 {{ mode }}
+                            {% else %}
+                                {% if "Bus" in mode %}🚌{% elif "Monorail" in mode %}🚝{% elif "Skyliner" in mode %}🚠{% elif "Boat" in mode %}🛥️{% else %}🚶{% endif %}
+                                {{ mode }}
+                            {% endif %}
                         </span>
                     </div>
-                    {% else %}
-                    <div class="badge badge-ghost mt-2">🏁 Destination Reached</div>
-                    {% endif %}
                 </div>
                 {% if not loop.last %}<hr class="bg-primary"/>{% endif %}
             </li>
