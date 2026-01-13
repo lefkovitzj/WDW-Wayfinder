@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    
+    <div class="card bg-base-100 shadow-xl">
+        <div class="card-body">
+            <h2 class="card-title text-2xl mb-4 text-primary">Plan Your Journey</h2>
+            
+            <form hx-post="/plan" 
+                hx-target="#itinerary-result" 
+                hx-indicator="#loading-spinner"
+                class="space-y-4">
+                <div class="form-control relative pt-4 border-t border-base-300 mt-4">
+                    <label class="label"><span class="label-text font-bold uppercase text-xs">Starting Point</span></label>
+                    <input type="text" 
+                           id="start-display"
+                           placeholder="Where are you starting?" 
+                           class="input input-bordered w-full"
+                           hx-post="/search-locations" 
+                           hx-trigger="keyup changed delay:200ms, focus" 
+                           hx-target="#start-results"
+                           hx-vals='js:{"q": document.getElementById("start-display").value}'
+                           hx-on:item-selected="
+                                document.getElementById('start-dest-input').value = event.detail.val;
+                                this.value = event.detail.label;
+                                document.getElementById('start-results').innerHTML = '';
+                           "
+                           autocomplete="off" />
+                    
+                    <input type="hidden" name="start" id="start-dest-input">
+                    <div id="start-results" class="absolute z-50 w-full top-24"></div>
+                </div>
+
+                <div id="stops-container" class="space-y-4">
+                    <label class="label"><span class="label-text font-bold uppercase text-xs text-secondary">Must-Visit Stops</span></label>
+                    </div>
+
+                <button type="button" onclick="addStopField()" class="btn btn-outline btn-secondary btn-sm w-full mt-2">
+                    + Add Intermediate Stop
+                </button>
+
+                <div class="form-control relative pt-4 border-t border-base-300 mt-4">
+                    <label class="label"><span class="label-text font-bold uppercase text-xs">Final Destination</span></label>
+                    <input type="text" 
+                           id="final-display"
+                           placeholder="Where are you ending?" 
+                           class="input input-bordered w-full"
+                           hx-post="/search-locations" 
+                           hx-trigger="keyup changed delay:200ms, focus" 
+                           hx-target="#final-results"
+                           hx-vals='js:{"q": document.getElementById("final-display").value}'
+                           hx-on:item-selected="
+                                document.getElementById('final-dest-input').value = event.detail.val;
+                                this.value = event.detail.label;
+                                document.getElementById('final-results').innerHTML = '';
+                           "
+                           autocomplete="off" />
+                    
+                    <input type="hidden" name="end" id="final-dest-input">
+                    <div id="final-results" class="absolute z-50 w-full top-24"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-full mt-6 shadow-lg">
+                    Calculate Optimized Route 🚀
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="lg:col-span-2" id="itinerary-result">
+        <div id="loading-spinner" class="htmx-indicator flex justify-center p-20">
+            <span class="loading loading-spinner loading-lg text-primary"></span>
+            <span class="ml-4 font-bold">Magic in progress...</span>
+        </div>
+        <div class="alert bg-base-100 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <div>
+                <h3 class="font-bold">Ready to explore?</h3>
+                <div class="text-xs">Select your starting resort and where you want to go. The optimizer will handle the rest.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let stopCount = 0;
+
+    function addStopField() {
+        stopCount++;
+        const container = document.getElementById('stops-container');
+        const stopId = `stop-${stopCount}`;
+        
+        const html = `
+            <div class="form-control relative animate-fadeIn" id="container-${stopId}">
+                <div class="flex gap-2">
+                    <input type="text" 
+                           id="display-${stopId}"
+                           placeholder="Search for a stop..." 
+                           class="input input-bordered w-full input-sm"
+                           hx-post="/search-locations" 
+                           hx-trigger="keyup changed delay:200ms, focus" 
+                           hx-target="#results-${stopId}"
+                           hx-vals='js:{"q": document.getElementById("display-${stopId}").value}'
+                           hx-on:item-selected="
+                                document.getElementById('input-${stopId}').value = event.detail.val;
+                                this.value = event.detail.label;
+                                document.getElementById('results-${stopId}').innerHTML = '';
+                           "
+                           autocomplete="off" />
+                    <button type="button" onclick="this.closest('.form-control').remove()" class="btn btn-square btn-sm btn-error btn-outline">✕</button>
+                </div>
+                <input type="hidden" name="stops" id="input-${stopId}">
+                <div id="results-${stopId}" class="absolute z-50 w-full top-10"></div>
+            </div>
+        `;
+        
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const newField = tempDiv.firstElementChild;
+        container.appendChild(newField);
+        
+        // Re-initialize HTMX for the new dynamic elements
+        htmx.process(newField);
+    }
+</script>
+
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-5px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeIn { animation: fadeIn 0.2s ease-out forwards; }
+</style>
+{% endblock %}

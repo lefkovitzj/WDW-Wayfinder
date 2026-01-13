@@ -1,0 +1,56 @@
+<div class="card bg-base-100 shadow-2xl border-t-8 border-primary animate-fadeIn">
+    <div class="card-body">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="card-title text-3xl font-black text-primary">Your Disney Wayfinder</h2>
+            <button onclick="window.print()" class="btn btn-ghost btn-sm">
+                🖨️ Print Path
+            </button>
+        </div>
+
+        <div class="stats shadow bg-primary text-primary-content mb-8">
+            <div class="stat">
+                <div class="stat-title text-primary-content opacity-70">Total Travel Time</div>
+                <div class="stat-value text-4xl">{{ result.total_time }} min</div>
+                <div class="stat-desc text-primary-content opacity-70">Optimized via {{ result.itinerary|length }} steps</div>
+            </div>
+        </div>
+
+        <ul class="timeline timeline-vertical timeline-compact">
+            {% for node, mode in result.itinerary %}
+            <li>
+                {% if not loop.first %}<hr class="bg-primary"/>{% endif %}
+                <div class="timeline-middle">
+                    <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                        {{ loop.index }}
+                    </div>
+                </div>
+                <div class="timeline-end mb-10 ml-4">
+                    <time class="font-mono italic text-sm opacity-50">Step {{ loop.index }}</time>
+                    <div class="text-xl font-black">
+                        {# Look up the pretty name, fall back to the ID if not found #}
+                        {{ display_names.get(node, node) }}
+                    </div>                    
+                    <div class="mt-2">
+                        <span class="badge badge-outline badge-lg gap-2 p-4">
+                            {% if loop.first %}
+                                📍 Start Here
+                            {% elif loop.last %}
+                                🏁 {{ mode }}
+                            {% else %}
+                                {% if "Bus" in mode %}🚌{% elif "Monorail" in mode %}🚝{% elif "Skyliner" in mode %}🚠{% elif "Boat" in mode %}🛥️{% else %}🚶{% endif %}
+                                {{ mode }}
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+                {% if not loop.last %}<hr class="bg-primary"/>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div class="alert alert-info mt-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span>Times are estimates. Real-world transit may vary based on weather or crowds!</span>
+        </div>
+    </div>
+</div>

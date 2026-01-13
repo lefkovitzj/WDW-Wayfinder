@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: wdw_wayfinder
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Mount the app folder for "Hot Reloading" during development
+      - ./app:/app/app
+      # Mount the data folder to persist the SQLite DB and JSON
+      - ./data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///./data/wdw_app.db
+      - GRAPH_DATA_PATH=./data/wdw_graph.json
+    restart: unless-stopped
