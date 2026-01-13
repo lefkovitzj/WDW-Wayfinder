@@ -20,6 +20,7 @@
                            hx-post="/search-locations" 
                            hx-trigger="keyup changed delay:200ms, focus" 
                            hx-target="#start-results"
+                           hx-vals='js:{"q": document.getElementById("start-display").value}'
                            hx-on:item-selected="
                                 document.getElementById('start-dest-input').value = event.detail.val;
                                 this.value = event.detail.label;
@@ -48,6 +49,7 @@
                            hx-post="/search-locations" 
                            hx-trigger="keyup changed delay:200ms, focus" 
                            hx-target="#final-results"
+                           hx-vals='js:{"q": document.getElementById("final-display").value}'
                            hx-on:item-selected="
                                 document.getElementById('final-dest-input').value = event.detail.val;
                                 this.value = event.detail.label;
@@ -99,6 +101,7 @@
                            hx-post="/search-locations" 
                            hx-trigger="keyup changed delay:200ms, focus" 
                            hx-target="#results-${stopId}"
+                           hx-vals='js:{"q": document.getElementById("display-${stopId}").value}'
                            hx-on:item-selected="
                                 document.getElementById('input-${stopId}').value = event.detail.val;
                                 this.value = event.detail.label;
