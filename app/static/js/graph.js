@@ -75,12 +75,11 @@
     }
 
     components.sort((a, b) => b.length - a.length);
-    const largestComponent = new Set(components[0] || []);
-    const disconnectedFromLargest = [...ids].filter((id) => !largestComponent.has(id));
-    const isolated = [...ids].filter((id) => ((inDeg.get(id) || 0) + (outDeg.get(id) || 0)) === 0);
 
+    const isolated = [...ids].filter(
+      (id) => ((inDeg.get(id) || 0) + (outDeg.get(id) || 0)) === 0
+    );
     const isolatedSet = new Set(isolated);
-    const disconnectedSet = new Set(disconnectedFromLargest);
 
     function edgeColor(mode) {
       const m = String(mode || "").toLowerCase();
@@ -95,7 +94,6 @@
     const nodeItems = [...ids].map((id) => {
       const readable = idToName[id] || id;
       const isIso = isolatedSet.has(id);
-      const isDisc = disconnectedSet.has(id);
 
       return {
         id,
@@ -103,11 +101,7 @@
         title: `${readable}<br/><code>${id}</code>`,
         shape: "dot",
         size: isIso ? 16 : 11,
-        color: isIso
-          ? { background: "#fecaca", border: "#dc2626" } // isolated = red-ish
-          : isDisc
-            ? { background: "#fde68a", border: "#d97706" } // disconnected = yellow-ish
-            : undefined
+        color: isIso ? { background: "#fecaca", border: "#dc2626" } : undefined
       };
     });
 
@@ -138,7 +132,10 @@
           navigationButtons: true,
           keyboard: true
         },
-        layout: { improvedLayout: true },
+        layout: {
+          improvedLayout: true,
+          randomSeed: 42
+        },
         physics: {
           enabled: true,
           stabilization: { enabled: true, iterations: 400 },
@@ -161,7 +158,6 @@
     // ---------- Connectivity side panel ----------
     const statsEl = document.getElementById("stats");
     const isolatedListEl = document.getElementById("isolatedList");
-    const disconnectedListEl = document.getElementById("disconnectedList");
 
     const makeLi = (id) => {
       const li = document.createElement("li");
@@ -171,17 +167,12 @@
 
     if (statsEl) {
       statsEl.textContent =
-        `Nodes: ${ids.size} | Edges: ${connections.length} | Components: ${components.length} | Largest: ${largestComponent.size}`;
+        `Nodes: ${ids.size} | Edges: ${connections.length} | Components: ${components.length}`;
     }
 
     if (isolatedListEl) {
       isolatedListEl.innerHTML = "";
       isolated.forEach((id) => isolatedListEl.appendChild(makeLi(id)));
-    }
-
-    if (disconnectedListEl) {
-      disconnectedListEl.innerHTML = "";
-      disconnectedFromLargest.forEach((id) => disconnectedListEl.appendChild(makeLi(id)));
     }
 
     // ---------- Search ----------
@@ -204,13 +195,15 @@
     function highlightAndFocus(id) {
       const base = baseNodeById.get(id);
       if (!base) return;
-      nodeDS.update([{
-        ...base,
-        id,
-        size: 24,
-        borderWidth: 3,
-        color: { background: "#fde047", border: "#a16207" }
-      }]);
+      nodeDS.update([
+        {
+          ...base,
+          id,
+          size: 24,
+          borderWidth: 3,
+          color: { background: "#fde047", border: "#a16207" }
+        }
+      ]);
       network.selectNodes([id]);
       network.focus(id, { scale: 1.15, animation: true });
     }
@@ -264,7 +257,6 @@
         if (e.key === "Enter") runSearch();
       });
     }
-
   } catch (err) {
     console.error(err);
     document.body.innerHTML = `<pre style="padding:12px;white-space:pre-wrap;">${String(err)}</pre>`;
