@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>WDW Graph</title>
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100dvh;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .wrap {
+      display: flex;
+      width: 100%;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    #graph {
+      flex: 1 1 auto;
+      min-width: 0;
+      min-height: 0;
+      border-right: 1px solid #ddd;
+    }
+
+    #panel {
+      width: 340px;
+      min-width: 340px;
+      height: 100%;
+      overflow: auto;
+      box-sizing: border-box;
+      padding: 12px;
+    }
+
+    ul { margin: 8px 0 16px; padding-left: 20px; }
+    code { font-size: 12px; }
+    .muted { color: #666; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div id="graph"></div>
+    <aside id="panel">
+    <h3>Connectivity</h3>
+
+    <h4>Find node</h4>
+    <input id="nodeSearch" type="text" placeholder="Type node name or ID..." style="width:100%;box-sizing:border-box;" />
+    <div style="margin-top:8px;">
+        <button id="searchBtn" type="button">Search</button>
+        <button id="clearSearchBtn" type="button">Clear</button>
+    </div>
+    <div id="searchStatus" class="muted" style="margin-top:6px;"></div>
+    <ul id="searchResults"></ul>
+      <div id="stats" class="muted">Loading…</div>
+      <h4>Isolated nodes (degree 0)</h4>
+      <ul id="isolatedList"></ul>
+    </aside>
+  </div>
+
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="/static/js/graph.js"></script>
+</body>
+</html>
