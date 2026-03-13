@@ -57,6 +57,9 @@
     "Disney's Yacht and Beach Club Resorts": "YBC_MAIN",
     "Disney's Boardwalk Inn": "BWI_MAIN",
     "Swan and Dolphin Hotel": "SND_MAIN",
+    "Disney's Winter Summerland Miniature Golf": "WS_MAIN",
+    "Disney's Blizzard Beach Water Park": "BB_MAIN",
+    "Disney's Fantasia Gardens & Fairways Miniature Golf": "FG_MAIN",
     "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
     "Disney's All-Star Movies Resort": "AS_MOVIE_MAIN",
     "Disney's All-Star Music Resort": "AS_MUSIC_MAIN",
@@ -69,7 +72,6 @@
     "Disney Springs - Landing": "DS_LANDING",
     "Disney Springs - Marketplace": "DS_MARKET",
     "Disney Springs - West Side": "DS_WEST",
-    "Disney's Blizzard Beach Water Park": "BB_MAIN",
     "Disney's Typhoon Lagoon Water Park": "TL_MAIN"
   },
   "connections": [
@@ -1038,6 +1040,20 @@
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
+    },
+    {
+      "from": "WS_MAIN",
+      "to": "BB_MAIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "FG_MAIN",
+      "to": "BWI_MAIN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
     },
     {
       "from": "MK_MAIN_BUS",

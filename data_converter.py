@@ -43,6 +43,8 @@ mapping = {
         "Disney Springs - West Side": "DS_WEST",
         "Disney's Blizzard Beach Water Park": "BB_MAIN",
         "Disney's Typhoon Lagoon Water Park": "TL_MAIN",
+        "Disney's Fantasia Gardens & Fairways Miniature Golf": "FG_MAIN",
+        "Disney's Winter Summerland Miniature Golf": "WS_MAIN",
     }
 
 monorails = [
@@ -201,6 +203,9 @@ walks = [
 
     ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses - Blue Flag Sassagoula River Ferry Boat", 1, "Walk", False),
     ("Disney's Saratoga Springs Resort and Tree Houses - Blue Flag Sassagoula River Ferry Boat", "Disney's Saratoga Springs Resort and Tree Houses", 20, "Walk", False),
+
+    ("Disney's Winter Summerland Miniature Golf", "Disney's Blizzard Beach Water Park", 5, "Walk", True),
+    ("Disney's Fantasia Gardens & Fairways Miniature Golf", "Disney's Boardwalk Inn", 15, "Walk", True),
 ]
 
 bus_destinations = {
