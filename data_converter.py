@@ -3,10 +3,47 @@ Project Name: WDW-Transit-Optimizer
 File Name: data_converter.py
 Description: Data JSON generation and conversion utility.
 Author: Joseph Lefkovitz (github.com/lefkovitzj)
-Last Modified: 1/12/2026
+Last Modified: 3/12/2026
 """
 
 import json
+
+mapping = {
+        "Magic Kingdom": "MK_MAIN",
+        "Epcot": "EP_MAIN",
+        "Hollywood Studios": "HS_MAIN",
+        "Animal Kingdom": "AK_MAIN",
+        "Ticket & Transportation Center": "TTC_MAIN",
+        "Disney's Polynesian Village Resort": "POLY_MAIN",
+        "Disney's Grand Floridian Resort & Spa": "GF_MAIN",
+        "Disney's Contemporary Resort": "CONT_MAIN",
+        "Disney's Fort Wilderness Resort & Campground": "FTW_MAIN",
+        "Disney's Wilderness Lodge Resort": "WL_MAIN",
+        "Disney's Pop Century Resort": "POP_MAIN",
+        "Disney's Art of Animation Resort": "AOA_MAIN",
+        "Disney's Caribbean Beach Resort": "CBR_MAIN",
+        "Disney Vacation Club Riviera Resort": "RIV_MAIN",
+        "Swan and Dolphin Hotel": "SND_MAIN",
+        "Disney's Yacht and Beach Club Resorts": "YBC_MAIN",
+        "Disney's Boardwalk Inn": "BWI_MAIN",
+        "Epcot International Gateway": "EP_INTGATE",
+        "Disney Springs Marketplace": "DS_MARKET",
+        "Disney Springs Landing": "DS_LANDING",
+        "Disney Springs West Side": "DS_WEST",
+        "Disney's Port Orleans French Quarter Resort": "POFQ_MAIN",
+        "Disney's Port Orleans Riverside Resort": "POR_MAIN",
+        "Disney's Saratoga Springs Resort and Tree Houses": "SSR_MAIN",
+        "Disney's Old Key West Resort": "OKW_MAIN",
+        "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
+        "Disney's All-Star Movies Resort": "AS_MOVIE_MAIN",
+        "Disney's All-Star Music Resort": "AS_MUSIC_MAIN",
+        "Disney Springs": "DS_MAIN",
+        "Disney Springs - Landing": "DS_LANDING",
+        "Disney Springs - Marketplace": "DS_MARKET",
+        "Disney Springs - West Side": "DS_WEST",
+        "Disney's Blizzard Beach Water Park": "BB_MAIN",
+        "Disney's Typhoon Lagoon Water Park": "TL_MAIN",
+    }
 
 monorails = [
     ("Ticket & Transportation Center - Resort Monorail", "Disney's Polynesian Village Resort - Resort Monorail", 4, "Resort Monorail", False),
@@ -165,48 +202,45 @@ walks = [
     ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses - Blue Flag Sassagoula River Ferry Boat", 1, "Walk", False),
     ("Disney's Saratoga Springs Resort and Tree Houses - Blue Flag Sassagoula River Ferry Boat", "Disney's Saratoga Springs Resort and Tree Houses", 20, "Walk", False),
 ]
-bus_only = [
+
+bus_destinations = {
+    "Magic Kingdom":20,
+    "Epcot":20,
+    "Hollywood Studios":20,
+    "Animal Kingdom":20,
+    "Disney Springs":25,
+    "Ticket & Transportation Center": None, # No Disney busses offered to/from TTC hub.
+    "Disney's Blizzard Beach Water Park":25,
+    "Disney's Typhoon Lagoon Water Park":25,
+}
+
+bus_sources = [
+    "Disney's Polynesian Village Resort",
+    "Disney's Grand Floridian Resort & Spa",
+    "Disney's Contemporary Resort",
+    "Disney's Fort Wilderness Resort & Campground",
+    "Disney's Wilderness Lodge Resort",
+    "Disney's Pop Century Resort",
+    "Disney's Art of Animation Resort",
+    "Disney's Caribbean Beach Resort",
+    "Disney Vacation Club Riviera Resort",
+    "Swan and Dolphin Hotel",
+    "Disney's Yacht and Beach Club Resorts",
+    "Disney's Boardwalk Inn",
+    "Disney's Port Orleans French Quarter Resort",
+    "Disney's Port Orleans Riverside Resort",
+    "Disney's Saratoga Springs Resort and Tree Houses",
+    "Disney's Old Key West Resort",
     "Disney's Animal Kingdom Lodge Resort",
     "Disney's All-Star Movies Resort",
     "Disney's All-Star Music Resort",
 ]
 
-mapping = {
-        "Magic Kingdom": "MK_MAIN",
-        "Epcot": "EP_MAIN",
-        "Hollywood Studios": "HS_MAIN",
-        "Animal Kingdom": "AK_MAIN",
-        "Ticket & Transportation Center": "TTC_MAIN",
-        "Disney's Polynesian Village Resort": "POLY_MAIN",
-        "Disney's Grand Floridian Resort & Spa": "GF_MAIN",
-        "Disney's Contemporary Resort": "CONT_MAIN",
-        "Disney's Fort Wilderness Resort & Campground": "FTW_MAIN",
-        "Disney's Wilderness Lodge Resort": "WL_MAIN",
-        "Disney's Pop Century Resort": "POP_MAIN",
-        "Disney's Art of Animation Resort": "AOA_MAIN",
-        "Disney's Caribbean Beach Resort": "CBR_MAIN",
-        "Disney Vacation Club Riviera Resort": "RIV_MAIN",
-        "Swan and Dolphin Hotel": "SND_MAIN",
-        "Disney's Yacht and Beach Club Resorts": "YBC_MAIN",
-        "Disney's Boardwalk Inn": "BWI_MAIN",
-        "Epcot International Gateway": "EP_INTGATE",
-        "Disney Springs Marketplace": "DS_MARKET",
-        "Disney Springs Landing": "DS_LANDING",
-        "Disney Springs West Side": "DS_WEST",
-        "Disney's Port Orleans French Quarter Resort": "POFQ_MAIN",
-        "Disney's Port Orleans Riverside Resort": "POR_MAIN",
-        "Disney's Saratoga Springs Resort and Tree Houses": "SSR_MAIN",
-        "Disney's Old Key West Resort": "OKW_MAIN",
-        "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
-        "Disney's All-Star Movies Resort": "AS_MOVIE_MAIN",
-        "Disney's All-Star Music Resort": "AS_MUSIC_MAIN",
-        "Disney Springs": "DS_MAIN",
-        "Disney Springs - Landing": "DS_LANDING",
-        "Disney Springs - Marketplace": "DS_MARKET",
-        "Disney Springs - West Side": "DS_WEST",
-        "Disney's Blizzard Beach Water Park": "BB_MAIN",
-        "Disney's Typhoon Lagoon Water Park": "TL_MAIN",
-    }
+bus_only = [
+    "Disney's Animal Kingdom Lodge Resort",
+    "Disney's All-Star Movies Resort",
+    "Disney's All-Star Music Resort",
+]
 
 no_bus_nodes = [
     # Resorts with direct monorail and/or boat connections to Magic Kingdom & Epcot, so no busses offered to Magic Kingdom and/or Epcot from these resorts.
@@ -282,58 +316,65 @@ def has_premium_transit(resort_id, park_id, connections, no_bus_nodes=no_bus_nod
     park_name = reverse_display_names[park_id]
     resort_name = reverse_display_names[resort_id]
     if (resort_name, park_name) in no_bus_nodes:
-        print(f"  No bus offered from {resort_name} to {park_name} due to direct transit connection.")
         return True
     return False
 
 def generate_busses(final_data):
     """ Dynamically create bus routes based on existing data. """
     bus_connections = []
-    display_names = final_data['display_names']
-    hubs = {"MK_MAIN":20, "EP_MAIN":20, "HS_MAIN":20, "AK_MAIN":20, "DS_MAIN":25, "TTC_MAIN":None, "BB_MAIN":25, "TL_MAIN":25}
-    
-    # Select resort MAIN nodes only.
-    resorts = [node_id for node_id in display_names.values() if node_id.endswith("_MAIN") and node_id not in hubs]
-    for resort in resorts:
-        resort_bus = resort.replace("_MAIN", "_BUS")
-        bus_connections.append({
-            "from": resort, "to": resort_bus, "weight": 20, "mode": "Walk & Wait", "bidirectional": False
-        })
-        bus_connections.append({
-            "from": resort_bus, "to": resort, "weight": 5, "mode": "Walk", "bidirectional": False
-        })
-
-        for hub, weight in hubs.items():
-            # No busses offered from resorts to this hub (TTC).
-            if not weight:
-                pass
-            elif not has_premium_transit(resort, hub, final_data["connections"], no_bus_nodes=no_bus_nodes, display_names=display_names):
-                hub_bus = hub.replace("_MAIN", "_BUS")
-                bus_connections.append({
-                    "from": resort_bus, "to": hub_bus, "weight": 20, "mode": "Bus", "bidirectional": True
-                })
 
     # One-time creation of busses at hubs.
-    for hub, weight in hubs.items():
+    for hub, weight in bus_destinations.items():
         # No Disney busses offered to/from TTC hub.
         if weight:
-            hub_bus = hub.replace("_MAIN", "_BUS")
+            hub_id = clean_id(hub)
+            hub_bus = hub_id+ "_BUS"
             bus_connections.append({
-                "from": hub_bus, "to": hub, "weight": 5, "mode": "Walk", "bidirectional": False
+                "from": hub_bus, "to": hub_id, "weight": 5, "mode": "Walk", "bidirectional": False
             })
             bus_connections.append({
-                "from": hub, "to": hub_bus, "weight": 20, "mode": "Walk & Wait", "bidirectional": False
+                "from": hub_id, "to": hub_bus, "weight": 20, "mode": "Walk & Wait", "bidirectional": False
             })
-    
+
+    # Resort busses.
+    for bus_source in bus_sources:
+        bus_source_id = clean_id(bus_source)
+        bus_source_stop_id = f"{bus_source_id}_BUS"
+
+        # Create the bus stop node for the resort and connect with walk (and wait if boarding).
+        bus_connections.append({
+            "from": bus_source_id, "to": bus_source_stop_id, "weight": 20, "mode": "Walk & Wait", "bidirectional": False
+        })
+        bus_connections.append({
+            "from": bus_source_stop_id, "to": bus_source_id, "weight": 5, "mode": "Walk", "bidirectional": False
+        })
+
+        for bus_destination, weight in bus_destinations.items():
+            if not weight:
+                continue
+            bus_destination_id = clean_id(bus_destination)
+            if not has_premium_transit(bus_source_id,
+                                       bus_destination_id,
+                                       final_data["connections"],
+                                       no_bus_nodes=no_bus_nodes,
+                                       display_names=final_data["display_names"]):
+
+                # Handle bus stops at resorts. Connect with walk (and wait if boarding).
+                bus_destination_stop_id = f"{bus_destination_id}_BUS"
+
+                bus_connections.append({
+                    "from": bus_source_stop_id, "to": bus_destination_stop_id, "weight": weight, "mode": "Bus", "bidirectional": False
+                })
+
     # Park hopper busses.
     parks = ["MK_MAIN", "EP_MAIN", "HS_MAIN", "AK_MAIN"]
     for i, park_a in enumerate(parks):
         for park_b in parks[i+1:]:
             # Parks are always connected to each other by bus (or other modes handled elsewhere)
-            if not has_premium_transit(park_a, park_b, final_data["connections"], no_bus_nodes=no_bus_nodes, display_names=display_names):
+            if not has_premium_transit(park_a, park_b, final_data["connections"], no_bus_nodes=no_bus_nodes, display_names=final_data["display_names"]):
                 bus_connections.append({
-                    "from": park_a.replace("_MAIN", "_BUS"), 
-                    "to": park_b.replace("_MAIN", "_BUS"), 
+                    "from": park_a + "_BUS",
+                    "to": park_b + "_BUS", 
                     "weight": 15, "mode": "Bus", "bidirectional": True
                 })
 
