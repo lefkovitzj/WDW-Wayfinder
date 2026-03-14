@@ -9,7 +9,7 @@
     const data = await res.json();
 
     const display = data.display_names || {};
-    const connections = data.connections || [];
+    const connections = data.connections || {};
 
     // Map internal ID -> readable name
     const idToName = Object.fromEntries(
@@ -91,6 +91,38 @@
       return "#2563eb";
     }
 
+    function separateOverlappingEdges(edges) {
+      const groups = new Map();
+
+      for (const e of edges) {
+        const from = String(e.from);
+        const to = String(e.to);
+        const key = from < to ? `${from}|${to}` : `${to}|${from}`;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(e);
+      }
+
+      for (const list of groups.values()) {
+        if (list.length <= 1) {
+          list[0].smooth = false;
+          continue;
+        }
+
+        for (let i = 0; i < list.length; i++) {
+          const layer = i;
+          const cw = i % 2 === 0;
+
+          list[i].smooth = {
+            enabled: true,
+            type: cw ? "curvedCW" : "curvedCCW",
+            roundness: 0.24 * layer
+          };
+        }
+      }
+
+      return edges;
+    }
+
     const nodeItems = [...ids].map((id) => {
       const readable = idToName[id] || id;
       const isIso = isolatedSet.has(id);
@@ -105,7 +137,7 @@
       };
     });
 
-    const edgeItems = connections.map((c, i) => ({
+    let edgeItems = connections.map((c, i) => ({
       id: i + 1,
       from: c.from,
       to: c.to,
@@ -115,6 +147,8 @@
       color: { color: edgeColor(c.mode) },
       smooth: false
     }));
+
+    edgeItems = separateOverlappingEdges(edgeItems);
 
     const container = document.getElementById("graph");
     if (!container) throw new Error("Missing #graph element in graph.html");
@@ -145,7 +179,10 @@
             springConstant: 0.04
           }
         },
-        edges: { font: { size: 10 } },
+        edges: {
+          font: { size: 10 },
+          smooth: { enabled: false }
+        },
         nodes: { font: { size: 12 } }
       }
     );
