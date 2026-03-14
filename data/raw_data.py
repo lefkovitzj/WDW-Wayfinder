@@ -135,8 +135,6 @@ walks = [
     ("Epcot International Gateway", "Epcot - Epcot Monorail", 25, "Walk", True),
     ("Epcot International Gateway", "Epcot International Gateway - Epcot Skyliner", 1, "Walk", True),
     ("Epcot International Gateway - Crescent Lake Friendship Boat to Epcot", "Epcot International Gateway", 1, "Walk", False),
-    ("Epcot International Gateway", "Epcot International Gateway - Crescent Lake Friendship Boat to Hollywood Studios", 7, "Walk", False),
-    ("Hollywood Studios", "Hollywood Studios - Crescent Lake Friendship Boat to Epcot", 7, "Walk", False),
     ("Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios", "Hollywood Studios", 1, "Walk", False),
     ("Disney's Old Key West Resort", "Disney's Old Key West Resort - Green Flag Sassagoula River Ferry Boat", 10, "Walk", False),
     ("Disney's Old Key West Resort - Green Flag Sassagoula River Ferry Boat", "Disney's Old Key West Resort", 1, "Walk", False),
@@ -184,14 +182,10 @@ walks = [
     ("Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Epcot", "Disney's Boardwalk Inn", 1, "Walk", False),
     ("Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Hollywood Studios", "Disney's Boardwalk Inn", 1, "Walk", False),
     
-    ("Epcot International Gateway", "Epcot International Gateway - Crescent Lake Friendship Boat to Epcot", 20, "Walk", False),
     ("Epcot International Gateway", "Epcot International Gateway - Crescent Lake Friendship Boat to Hollywood Studios", 20, "Walk", False),
     ("Epcot International Gateway - Crescent Lake Friendship Boat to Epcot", "Epcot International Gateway", 1, "Walk", False),
-    ("Epcot International Gateway - Crescent Lake Friendship Boat to Hollywood Studios", "Epcot International Gateway", 1, "Walk", False),
     
     ("Hollywood Studios", "Hollywood Studios - Crescent Lake Friendship Boat to Epcot", 20, "Walk", False),
-    ("Hollywood Studios", "Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios", 20, "Walk", False),
-    ("Hollywood Studios - Crescent Lake Friendship Boat to Epcot", "Hollywood Studios", 1, "Walk", False),
     ("Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios", "Hollywood Studios", 1, "Walk", False),
     
     ("Swan and Dolphin Hotel", "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Epcot", 20, "Walk", False),

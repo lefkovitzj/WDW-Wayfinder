@@ -680,20 +680,6 @@
       "bidirectional": false
     },
     {
-      "from": "EP_INTGATE",
-      "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
-      "weight": 7,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "HS_MAIN",
-      "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
-      "weight": 7,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
       "from": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "HS_MAIN",
       "weight": 1,
@@ -961,22 +947,8 @@
     },
     {
       "from": "EP_INTGATE",
-      "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
-      "weight": 20,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "EP_INTGATE",
       "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
-      "to": "EP_INTGATE",
-      "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
@@ -984,20 +956,6 @@
       "from": "HS_MAIN",
       "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "HS_MAIN",
-      "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
-      "weight": 20,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
-      "to": "HS_MAIN",
-      "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
