@@ -8,6 +8,7 @@ Last Modified: 3/13/2026
 
 # Standard library imports
 import json
+import re
 
 # Local imports
 from data.raw_data import (
@@ -30,27 +31,37 @@ def lookup_id(id, mapping=mapping):
     return id
 
 
+def _norm_suffix(text: str) -> str:
+    """Normalize a stop suffix into an ID-safe token."""
+    return re.sub(r"[^A-Z0-9]+", "_", text.upper()).strip("_")
+
 def clean_id(name, mapping=mapping):
     """Maps long strings to standardized Sub-node IDs."""
 
     # Check for direct matches first
-    if name in mapping: return mapping[name]
+    if name in mapping:
+        return mapping[name]
 
     # Process suffixes for transit sub-nodes
-    base = name.split(" - ")[0]
+    parts = name.split(" - ", 1)
+    base = parts[0]
+    suffix = parts[1] if len(parts) > 1 else ""
     base_id = mapping.get(base, base.replace(" ", "_").upper())
 
-    if "Resort Monorail" in name: return f"{base_id}_MONO_R"
-    if "Express Monorail" in name: return f"{base_id}_MONO_E"
-    if "Epcot Monorail" in name: return f"{base_id}_MONO_EP"
-    if "Skyliner" in name: return f"{base_id}_SKY"
-    boat_colors = ["Gold", "Green", "Red", "Blue", "Purple", "Yellow"]
-    if "Launch" in name or "Boat" in name or "Ferry" in name: 
-        boat_ext = ""
-        for boat_color in boat_colors:
-            if boat_color in name:
-                boat_ext = f"_{boat_color.upper()}"
-        return f"{base_id}_BOAT{boat_ext}"
+    if "Resort Monorail" in name:
+        return base_id + "_RMON"
+    if "Express Monorail" in name:
+        return base_id + "_EMON"
+    if "Epcot Monorail" in name:
+        return base_id + "_EPMON"
+    if "Skyliner" in name:
+        return base_id + "_SKY"
+
+    # IMPORTANT: keep boat stops distinct by suffix (e.g. ...TO_EPCOT vs ...TO_HOLLYWOOD_STUDIOS)
+    if "Launch" in name or "Boat" in name or "Ferry" in name:
+        if suffix:
+            return f"{base_id}_{_norm_suffix(suffix)}"
+        return base_id + "_BOAT"
 
     return base_id
 
@@ -152,11 +163,11 @@ def convert_to_json(all_raw_data, bus_only=[]):
         for u_raw, v_raw, weight, mode, bidirectional in data_list:
             u_id = clean_id(u_raw)
             v_id = clean_id(v_raw)
-            
-            # Populate display names for _MAIN nodes
-            if "_MAIN" in u_id: display_names[u_raw] = u_id
-            if "_MAIN" in v_id: display_names[v_raw] = v_id
-            
+
+            # Keep human-readable labels for all raw nodes (including boat sub-stops)
+            display_names[u_raw] = u_id
+            display_names[v_raw] = v_id
+
             connections.append({
                 "from": u_id,
                 "to": v_id,
@@ -170,6 +181,15 @@ def convert_to_json(all_raw_data, bus_only=[]):
         display_names[bus_only_u] = bus_id
     all_transport = {"display_names": display_names, "connections": connections}
     all_transport["connections"].extend(generate_busses(all_transport))
+
+    seen = set()
+    all_transport["connections"] = [
+        c for c in all_transport["connections"]
+        if not (
+            (k := (c["from"], c["to"], c["weight"], c["mode"], c.get("bidirectional", False))) in seen
+            or seen.add(k)
+        )
+    ]
     insert_bus_display_names(all_transport)
     return all_transport
 

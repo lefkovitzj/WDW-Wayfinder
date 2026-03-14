@@ -1,42 +1,53 @@
 {
   "display_names": {
-    "Ticket & Transportation Center - Resort Monorail": "TTC_MAIN_MONO_R",
-    "Disney's Polynesian Village Resort - Resort Monorail": "POLY_MAIN_MONO_R",
-    "Disney's Grand Floridian Resort & Spa - Resort Monorail": "GF_MAIN_MONO_R",
-    "Magic Kingdom - Resort Monorail": "MK_MAIN_MONO_R",
-    "Disney's Contemporary Resort - Resort Monorail": "CONT_MAIN_MONO_R",
-    "Ticket & Transportation Center - Express Monorail": "TTC_MAIN_MONO_E",
-    "Magic Kingdom - Express Monorail": "MK_MAIN_MONO_E",
-    "Ticket & Transportation Center - Epcot Monorail": "TTC_MAIN_MONO_EP",
-    "Epcot - Epcot Monorail": "EP_MAIN_MONO_EP",
-    "Ticket & Transportation Center - Ferry": "TTC_MAIN_BOAT",
+    "Ticket & Transportation Center - Resort Monorail": "TTC_MAIN_RMON",
+    "Disney's Polynesian Village Resort - Resort Monorail": "POLY_MAIN_RMON",
+    "Disney's Grand Floridian Resort & Spa - Resort Monorail": "GF_MAIN_RMON",
+    "Magic Kingdom - Resort Monorail": "MK_MAIN_RMON",
+    "Disney's Contemporary Resort - Resort Monorail": "CONT_MAIN_RMON",
+    "Ticket & Transportation Center - Express Monorail": "TTC_MAIN_EMON",
+    "Magic Kingdom - Express Monorail": "MK_MAIN_EMON",
+    "Ticket & Transportation Center - Epcot Monorail": "TTC_MAIN_EPMON",
+    "Epcot - Epcot Monorail": "EP_MAIN_EPMON",
+    "Ticket & Transportation Center - Ferry": "TTC_MAIN_FERRY",
     "Magic Kingdom": "MK_MAIN",
-    "Disney's Polynesian Village Resort - Gold Flag Launch": "POLY_MAIN_BOAT_GOLD",
-    "Magic Kingdom - Gold Flag Launch": "MK_MAIN_BOAT_GOLD",
-    "Disney's Grand Floridian Resort & Spa - Gold Flag Launch": "GF_MAIN_BOAT_GOLD",
-    "Magic Kingdom - Green Flag Launch": "MK_MAIN_BOAT_GREEN",
-    "Disney's Fort Wilderness Resort & Campground - Green Flag Launch": "FTW_MAIN_BOAT_GREEN",
-    "Disney's Wilderness Lodge Resort - Red Flag Launch": "WL_MAIN_BOAT_RED",
-    "Magic Kingdom - Red Flag Launch": "MK_MAIN_BOAT_RED",
-    "Disney's Contemporary Resort - Blue Flag Launch": "CONT_MAIN_BOAT_BLUE",
-    "Disney's Fort Wilderness Resort & Campground - Blue Flag Launch": "FTW_MAIN_BOAT_BLUE",
-    "Disney's Wilderness Lodge Resort - Blue Flag Launch": "WL_MAIN_BOAT_BLUE",
-    "Hollywood Studios - Crescent Lake Friendship Boat to Epcot": "HS_MAIN_BOAT",
-    "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Epcot": "SND_MAIN_BOAT",
-    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Epcot": "YBC_MAIN_BOAT",
-    "Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Epcot": "BWI_MAIN_BOAT",
-    "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Hollywood Studios": "SND_MAIN_BOAT",
-    "Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios": "HS_MAIN_BOAT",
-    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Hollywood Studios": "YBC_MAIN_BOAT",
-    "Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Hollywood Studios": "BWI_MAIN_BOAT",
-    "Disney's Port Orleans French Quarter Resort - Purple Flag Sassagoula River Ferry Boat": "POFQ_MAIN_BOAT_PURPLE",
-    "Disney's Port Orleans Riverside Resort - Yellow Flag Sassagoula River Ferry Boat": "POR_MAIN_BOAT_YELLOW",
-    "Disney's Saratoga Springs Resort and Tree Houses - Blue Flag Sassagoula River Ferry Boat": "SSR_MAIN_BOAT_BLUE",
-    "Disney's Old Key West Resort - Green Flag Sassagoula River Ferry Boat": "OKW_MAIN_BOAT_GREEN",
+    "Disney's Polynesian Village Resort - Gold Flag Launch": "POLY_MAIN_GOLD_FLAG_LAUNCH",
+    "Magic Kingdom - Gold Flag Launch": "MK_MAIN_GOLD_FLAG_LAUNCH",
+    "Disney's Grand Floridian Resort & Spa - Gold Flag Launch": "GF_MAIN_GOLD_FLAG_LAUNCH",
+    "Magic Kingdom - Green Flag Launch": "MK_MAIN_GREEN_FLAG_LAUNCH",
+    "Disney's Fort Wilderness Resort & Campground - Green Flag Launch": "FTW_MAIN_GREEN_FLAG_LAUNCH",
+    "Disney's Wilderness Lodge Resort - Red Flag Launch": "WL_MAIN_RED_FLAG_LAUNCH",
+    "Magic Kingdom - Red Flag Launch": "MK_MAIN_RED_FLAG_LAUNCH",
+    "Disney's Contemporary Resort - Blue Flag Launch": "CONT_MAIN_BLUE_FLAG_LAUNCH",
+    "Disney's Fort Wilderness Resort & Campground - Blue Flag Launch": "FTW_MAIN_BLUE_FLAG_LAUNCH",
+    "Disney's Wilderness Lodge Resort - Blue Flag Launch": "WL_MAIN_BLUE_FLAG_LAUNCH",
+    "Hollywood Studios - Crescent Lake Friendship Boat to Epcot": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+    "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Epcot": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Epcot": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+    "Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Epcot": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+    "Epcot International Gateway - Crescent Lake Friendship Boat to Epcot": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+    "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Hollywood Studios": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+    "Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Hollywood Studios": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+    "Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Hollywood Studios": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+    "Epcot International Gateway - Crescent Lake Friendship Boat to Hollywood Studios": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+    "Disney's Port Orleans French Quarter Resort - Purple Flag Sassagoula River Ferry Boat": "POFQ_MAIN_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney Springs Marketplace - Purple Flag Sassagoula River Ferry Boat": "DS_MARKET_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney's Port Orleans Riverside Resort - Yellow Flag Sassagoula River Ferry Boat": "POR_MAIN_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney Springs Marketplace - Yellow Flag Sassagoula River Ferry Boat": "DS_MARKET_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney's Saratoga Springs Resort and Tree Houses - Blue Flag Sassagoula River Ferry Boat": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney Springs Landing - Blue Flag Sassagoula River Ferry Boat": "DS_LANDING_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney's Old Key West Resort - Green Flag Sassagoula River Ferry Boat": "OKW_MAIN_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney Springs Landing - Green Flag Sassagoula River Ferry Boat": "DS_LANDING_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+    "Disney Springs Landing - Red Flag Ferry Boat": "DS_LANDING_RED_FLAG_FERRY_BOAT",
+    "Disney Springs West Side - Red Flag Ferry Boat": "DS_WEST_RED_FLAG_FERRY_BOAT",
+    "Disney Springs Marketplace - Red Flag Ferry Boat": "DS_MARKET_RED_FLAG_FERRY_BOAT",
     "Disney's Caribbean Beach Resort - Epcot Skyliner": "CBR_MAIN_SKY",
     "Disney Vacation Club Riviera Resort - Epcot Skyliner": "RIV_MAIN_SKY",
+    "Epcot International Gateway - Epcot Skyliner": "EP_INTGATE_SKY",
     "Hollywood Studios - Hollywood Studios Skyliner": "HS_MAIN_SKY",
     "Disney's Caribbean Beach Resort - Pop Century/Art of Animation Skyliner": "CBR_MAIN_SKY",
+    "Generation Gap Bridge - Pop Century/Art of Animation Skyliner": "GENERATION_GAP_BRIDGE_SKY",
     "Ticket & Transportation Center": "TTC_MAIN",
     "Disney's Polynesian Village Resort": "POLY_MAIN",
     "Disney's Grand Floridian Resort & Spa": "GF_MAIN",
@@ -48,11 +59,15 @@
     "Disney's Caribbean Beach Resort": "CBR_MAIN",
     "Disney's Caribbean Beach Resort - Hollywood Studios Skyliner": "CBR_MAIN_SKY",
     "Disney Vacation Club Riviera Resort": "RIV_MAIN",
+    "Epcot International Gateway": "EP_INTGATE",
     "Hollywood Studios": "HS_MAIN",
     "Disney's Old Key West Resort": "OKW_MAIN",
+    "Disney Springs Marketplace": "DS_MARKET",
+    "Disney Springs Landing": "DS_LANDING",
     "Disney's Saratoga Springs Resort and Tree Houses": "SSR_MAIN",
     "Disney's Port Orleans Riverside Resort": "POR_MAIN",
     "Disney's Port Orleans French Quarter Resort": "POFQ_MAIN",
+    "Disney Springs West Side": "DS_WEST",
     "Disney Springs": "DS_MAIN",
     "Disney's Yacht and Beach Club Resorts": "YBC_MAIN",
     "Disney's Boardwalk Inn": "BWI_MAIN",
@@ -65,10 +80,6 @@
     "Disney's All-Star Music Resort": "AS_MUSIC_MAIN",
     "Epcot": "EP_MAIN",
     "Animal Kingdom": "AK_MAIN",
-    "Epcot International Gateway": "EP_INTGATE",
-    "Disney Springs Marketplace": "DS_MARKET",
-    "Disney Springs Landing": "DS_LANDING",
-    "Disney Springs West Side": "DS_WEST",
     "Disney Springs - Landing": "DS_LANDING",
     "Disney Springs - Marketplace": "DS_MARKET",
     "Disney Springs - West Side": "DS_WEST",
@@ -102,225 +113,225 @@
   },
   "connections": [
     {
-      "from": "TTC_MAIN_MONO_R",
-      "to": "POLY_MAIN_MONO_R",
+      "from": "TTC_MAIN_RMON",
+      "to": "POLY_MAIN_RMON",
       "weight": 4,
       "mode": "Resort Monorail",
       "bidirectional": false
     },
     {
-      "from": "POLY_MAIN_MONO_R",
-      "to": "GF_MAIN_MONO_R",
+      "from": "POLY_MAIN_RMON",
+      "to": "GF_MAIN_RMON",
       "weight": 4,
       "mode": "Resort Monorail",
       "bidirectional": false
     },
     {
-      "from": "GF_MAIN_MONO_R",
-      "to": "MK_MAIN_MONO_R",
+      "from": "GF_MAIN_RMON",
+      "to": "MK_MAIN_RMON",
       "weight": 4,
       "mode": "Resort Monorail",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_MONO_R",
-      "to": "CONT_MAIN_MONO_R",
+      "from": "MK_MAIN_RMON",
+      "to": "CONT_MAIN_RMON",
       "weight": 4,
       "mode": "Resort Monorail",
       "bidirectional": false
     },
     {
-      "from": "CONT_MAIN_MONO_R",
-      "to": "TTC_MAIN_MONO_R",
+      "from": "CONT_MAIN_RMON",
+      "to": "TTC_MAIN_RMON",
       "weight": 4,
       "mode": "Resort Monorail",
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_MONO_E",
-      "to": "MK_MAIN_MONO_E",
+      "from": "TTC_MAIN_EMON",
+      "to": "MK_MAIN_EMON",
       "weight": 7,
       "mode": "Express Monorail",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_MONO_E",
-      "to": "TTC_MAIN_MONO_E",
+      "from": "MK_MAIN_EMON",
+      "to": "TTC_MAIN_EMON",
       "weight": 5,
       "mode": "Express Monorail",
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_MONO_EP",
-      "to": "EP_MAIN_MONO_EP",
+      "from": "TTC_MAIN_EPMON",
+      "to": "EP_MAIN_EPMON",
       "weight": 10,
       "mode": "Epcot Monorail",
       "bidirectional": true
     },
     {
-      "from": "TTC_MAIN_BOAT",
+      "from": "TTC_MAIN_FERRY",
       "to": "MK_MAIN",
       "weight": 11,
       "mode": "Ferry",
       "bidirectional": true
     },
     {
-      "from": "POLY_MAIN_BOAT_GOLD",
-      "to": "MK_MAIN_BOAT_GOLD",
+      "from": "POLY_MAIN_GOLD_FLAG_LAUNCH",
+      "to": "MK_MAIN_GOLD_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Gold Flag Launch",
       "bidirectional": false
     },
     {
-      "from": "GF_MAIN_BOAT_GOLD",
-      "to": "POLY_MAIN_BOAT_GOLD",
+      "from": "GF_MAIN_GOLD_FLAG_LAUNCH",
+      "to": "POLY_MAIN_GOLD_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Gold Flag Launch",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_BOAT_GOLD",
-      "to": "GF_MAIN_BOAT_GOLD",
+      "from": "MK_MAIN_GOLD_FLAG_LAUNCH",
+      "to": "GF_MAIN_GOLD_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Gold Flag Launch",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_BOAT_GREEN",
-      "to": "FTW_MAIN_BOAT_GREEN",
+      "from": "MK_MAIN_GREEN_FLAG_LAUNCH",
+      "to": "FTW_MAIN_GREEN_FLAG_LAUNCH",
       "weight": 15,
       "mode": "Green Flag Launch",
       "bidirectional": true
     },
     {
-      "from": "WL_MAIN_BOAT_RED",
-      "to": "MK_MAIN_BOAT_RED",
+      "from": "WL_MAIN_RED_FLAG_LAUNCH",
+      "to": "MK_MAIN_RED_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Red Flag Launch",
       "bidirectional": true
     },
     {
-      "from": "CONT_MAIN_BOAT_BLUE",
-      "to": "FTW_MAIN_BOAT_BLUE",
+      "from": "CONT_MAIN_BLUE_FLAG_LAUNCH",
+      "to": "FTW_MAIN_BLUE_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Blue Flag Launch",
       "bidirectional": true
     },
     {
-      "from": "WL_MAIN_BOAT_BLUE",
-      "to": "FTW_MAIN_BOAT_BLUE",
+      "from": "WL_MAIN_BLUE_FLAG_LAUNCH",
+      "to": "FTW_MAIN_BLUE_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Blue Flag Launch",
       "bidirectional": true
     },
     {
-      "from": "WL_MAIN_BOAT_BLUE",
-      "to": "CONT_MAIN_BOAT_BLUE",
+      "from": "WL_MAIN_BLUE_FLAG_LAUNCH",
+      "to": "CONT_MAIN_BLUE_FLAG_LAUNCH",
       "weight": 7,
       "mode": "Blue Flag Launch",
       "bidirectional": true
     },
     {
-      "from": "HS_MAIN_BOAT",
-      "to": "SND_MAIN_BOAT",
+      "from": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "to": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Epcot",
       "bidirectional": false
     },
     {
-      "from": "SND_MAIN_BOAT",
-      "to": "YBC_MAIN_BOAT",
+      "from": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Epcot",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BOAT",
-      "to": "BWI_MAIN_BOAT",
+      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "to": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Epcot",
       "bidirectional": false
     },
     {
-      "from": "BWI_MAIN_BOAT",
-      "to": "EP_INTGATE_BOAT",
+      "from": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Epcot",
       "bidirectional": false
     },
     {
-      "from": "SND_MAIN_BOAT",
-      "to": "HS_MAIN_BOAT",
+      "from": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Hollywood Studios",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BOAT",
-      "to": "SND_MAIN_BOAT",
+      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "to": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Hollywood Studios",
       "bidirectional": false
     },
     {
-      "from": "BWI_MAIN_BOAT",
-      "to": "YBC_MAIN_BOAT",
+      "from": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Hollywood Studios",
       "bidirectional": false
     },
     {
-      "from": "EP_INTGATE_BOAT",
-      "to": "BWI_MAIN_BOAT",
+      "from": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "to": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Hollywood Studios",
       "bidirectional": false
     },
     {
-      "from": "POFQ_MAIN_BOAT_PURPLE",
-      "to": "DS_MARKET_BOAT_PURPLE",
+      "from": "POFQ_MAIN_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "DS_MARKET_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Purple Flag Sassagoula River Ferry Boat",
       "bidirectional": true
     },
     {
-      "from": "POR_MAIN_BOAT_YELLOW",
-      "to": "DS_MARKET_BOAT_YELLOW",
+      "from": "POR_MAIN_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "DS_MARKET_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 17,
       "mode": "Yellow Flag Sassagoula River Ferry Boat",
       "bidirectional": true
     },
     {
-      "from": "SSR_MAIN_BOAT_BLUE",
-      "to": "DS_LANDING_BOAT_BLUE",
+      "from": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "DS_LANDING_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 15,
       "mode": "Blue Flag Sassagoula River Ferry Boat",
       "bidirectional": true
     },
     {
-      "from": "OKW_MAIN_BOAT_GREEN",
-      "to": "DS_LANDING_BOAT_GREEN",
+      "from": "OKW_MAIN_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "DS_LANDING_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 10,
       "mode": "Green Flag Sassagoula River Ferry Boat",
       "bidirectional": true
     },
     {
-      "from": "DS_LANDING_BOAT_RED",
-      "to": "DS_WEST_BOAT_RED",
+      "from": "DS_LANDING_RED_FLAG_FERRY_BOAT",
+      "to": "DS_WEST_RED_FLAG_FERRY_BOAT",
       "weight": 6,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_WEST_BOAT_RED",
-      "to": "DS_MARKET_BOAT_RED",
+      "from": "DS_WEST_RED_FLAG_FERRY_BOAT",
+      "to": "DS_MARKET_RED_FLAG_FERRY_BOAT",
       "weight": 6,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_MARKET_BOAT_RED",
-      "to": "DS_LANDING_BOAT_RED",
+      "from": "DS_MARKET_RED_FLAG_FERRY_BOAT",
+      "to": "DS_LANDING_RED_FLAG_FERRY_BOAT",
       "weight": 6,
       "mode": "Walk",
       "bidirectional": false
@@ -355,13 +366,13 @@
     },
     {
       "from": "MK_MAIN",
-      "to": "MK_MAIN_MONO_R",
+      "to": "MK_MAIN_RMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_MONO_R",
+      "from": "MK_MAIN_RMON",
       "to": "MK_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -369,13 +380,13 @@
     },
     {
       "from": "MK_MAIN",
-      "to": "MK_MAIN_MONO_E",
+      "to": "MK_MAIN_EMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_MONO_E",
+      "from": "MK_MAIN_EMON",
       "to": "MK_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -383,13 +394,13 @@
     },
     {
       "from": "MK_MAIN",
-      "to": "MK_MAIN_BOAT_GOLD",
+      "to": "MK_MAIN_GOLD_FLAG_LAUNCH",
       "weight": 11,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_BOAT_GOLD",
+      "from": "MK_MAIN_GOLD_FLAG_LAUNCH",
       "to": "MK_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -397,13 +408,13 @@
     },
     {
       "from": "MK_MAIN",
-      "to": "MK_MAIN_BOAT_GREEN",
+      "to": "MK_MAIN_GREEN_FLAG_LAUNCH",
       "weight": 15,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_BOAT_GREEN",
+      "from": "MK_MAIN_GREEN_FLAG_LAUNCH",
       "to": "MK_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -411,13 +422,13 @@
     },
     {
       "from": "MK_MAIN",
-      "to": "MK_MAIN_BOAT_RED",
+      "to": "MK_MAIN_RED_FLAG_LAUNCH",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "MK_MAIN_BOAT_RED",
+      "from": "MK_MAIN_RED_FLAG_LAUNCH",
       "to": "MK_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -425,41 +436,41 @@
     },
     {
       "from": "TTC_MAIN",
-      "to": "TTC_MAIN_MONO_R",
+      "to": "TTC_MAIN_RMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "TTC_MAIN",
-      "to": "TTC_MAIN_MONO_E",
+      "to": "TTC_MAIN_EMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "TTC_MAIN",
-      "to": "TTC_MAIN_MONO_EP",
+      "to": "TTC_MAIN_EPMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_MONO_R",
+      "from": "TTC_MAIN_RMON",
       "to": "TTC_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_MONO_E",
+      "from": "TTC_MAIN_EMON",
       "to": "TTC_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_MONO_EP",
+      "from": "TTC_MAIN_EPMON",
       "to": "TTC_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -467,13 +478,13 @@
     },
     {
       "from": "TTC_MAIN",
-      "to": "TTC_MAIN_BOAT",
+      "to": "TTC_MAIN_FERRY",
       "weight": 11,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_BOAT",
+      "from": "TTC_MAIN_FERRY",
       "to": "TTC_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -481,13 +492,13 @@
     },
     {
       "from": "POLY_MAIN",
-      "to": "POLY_MAIN_MONO_R",
+      "to": "POLY_MAIN_RMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "POLY_MAIN_MONO_R",
+      "from": "POLY_MAIN_RMON",
       "to": "POLY_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -495,13 +506,13 @@
     },
     {
       "from": "POLY_MAIN",
-      "to": "POLY_MAIN_BOAT_GOLD",
+      "to": "POLY_MAIN_GOLD_FLAG_LAUNCH",
       "weight": 11,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "POLY_MAIN_BOAT_GOLD",
+      "from": "POLY_MAIN_GOLD_FLAG_LAUNCH",
       "to": "POLY_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -509,13 +520,13 @@
     },
     {
       "from": "GF_MAIN",
-      "to": "GF_MAIN_MONO_R",
+      "to": "GF_MAIN_RMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "GF_MAIN_MONO_R",
+      "from": "GF_MAIN_RMON",
       "to": "GF_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -523,13 +534,13 @@
     },
     {
       "from": "GF_MAIN",
-      "to": "GF_MAIN_BOAT_GOLD",
+      "to": "GF_MAIN_GOLD_FLAG_LAUNCH",
       "weight": 11,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "GF_MAIN_BOAT_GOLD",
+      "from": "GF_MAIN_GOLD_FLAG_LAUNCH",
       "to": "GF_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -537,13 +548,13 @@
     },
     {
       "from": "CONT_MAIN",
-      "to": "CONT_MAIN_MONO_R",
+      "to": "CONT_MAIN_RMON",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "CONT_MAIN_MONO_R",
+      "from": "CONT_MAIN_RMON",
       "to": "CONT_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -551,13 +562,13 @@
     },
     {
       "from": "CONT_MAIN",
-      "to": "CONT_MAIN_BOAT_BLUE",
+      "to": "CONT_MAIN_BLUE_FLAG_LAUNCH",
       "weight": 15,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "CONT_MAIN_BOAT_BLUE",
+      "from": "CONT_MAIN_BLUE_FLAG_LAUNCH",
       "to": "CONT_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -565,13 +576,13 @@
     },
     {
       "from": "FTW_MAIN",
-      "to": "FTW_MAIN_BOAT_GREEN",
+      "to": "FTW_MAIN_GREEN_FLAG_LAUNCH",
       "weight": 15,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "FTW_MAIN_BOAT_GREEN",
+      "from": "FTW_MAIN_GREEN_FLAG_LAUNCH",
       "to": "FTW_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -579,13 +590,13 @@
     },
     {
       "from": "FTW_MAIN",
-      "to": "FTW_MAIN_BOAT_BLUE",
+      "to": "FTW_MAIN_BLUE_FLAG_LAUNCH",
       "weight": 15,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "FTW_MAIN_BOAT_BLUE",
+      "from": "FTW_MAIN_BLUE_FLAG_LAUNCH",
       "to": "FTW_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -593,13 +604,13 @@
     },
     {
       "from": "WL_MAIN",
-      "to": "WL_MAIN_BOAT_RED",
+      "to": "WL_MAIN_RED_FLAG_LAUNCH",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "WL_MAIN_BOAT_RED",
+      "from": "WL_MAIN_RED_FLAG_LAUNCH",
       "to": "WL_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -607,13 +618,13 @@
     },
     {
       "from": "WL_MAIN",
-      "to": "WL_MAIN_BOAT_BLUE",
+      "to": "WL_MAIN_BLUE_FLAG_LAUNCH",
       "weight": 15,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "WL_MAIN_BOAT_BLUE",
+      "from": "WL_MAIN_BLUE_FLAG_LAUNCH",
       "to": "WL_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -641,20 +652,6 @@
       "bidirectional": true
     },
     {
-      "from": "CBR_MAIN",
-      "to": "CBR_MAIN_SKY",
-      "weight": 1,
-      "mode": "Walk",
-      "bidirectional": true
-    },
-    {
-      "from": "CBR_MAIN",
-      "to": "CBR_MAIN_SKY",
-      "weight": 1,
-      "mode": "Walk",
-      "bidirectional": true
-    },
-    {
       "from": "RIV_MAIN",
       "to": "RIV_MAIN_SKY",
       "weight": 1,
@@ -663,7 +660,7 @@
     },
     {
       "from": "EP_INTGATE",
-      "to": "EP_MAIN_MONO_EP",
+      "to": "EP_MAIN_EPMON",
       "weight": 25,
       "mode": "Walk",
       "bidirectional": true
@@ -676,7 +673,7 @@
       "bidirectional": true
     },
     {
-      "from": "EP_INTGATE_BOAT",
+      "from": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "to": "EP_INTGATE",
       "weight": 1,
       "mode": "Walk",
@@ -684,20 +681,20 @@
     },
     {
       "from": "EP_INTGATE",
-      "to": "EP_INTGATE_BOAT",
+      "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "HS_MAIN",
-      "to": "HS_MAIN_BOAT",
+      "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "HS_MAIN_BOAT",
+      "from": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "HS_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -705,13 +702,13 @@
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_BOAT_GREEN",
+      "to": "OKW_MAIN_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 10,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "OKW_MAIN_BOAT_GREEN",
+      "from": "OKW_MAIN_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "OKW_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -719,13 +716,13 @@
     },
     {
       "from": "DS_MARKET",
-      "to": "DS_MARKET_BOAT_YELLOW",
+      "to": "DS_MARKET_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_MARKET_BOAT_YELLOW",
+      "from": "DS_MARKET_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "DS_MARKET",
       "weight": 1,
       "mode": "Walk",
@@ -733,13 +730,13 @@
     },
     {
       "from": "DS_MARKET",
-      "to": "DS_MARKET_BOAT_PURPLE",
+      "to": "DS_MARKET_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_MARKET_BOAT_PURPLE",
+      "from": "DS_MARKET_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "DS_MARKET",
       "weight": 1,
       "mode": "Walk",
@@ -747,13 +744,13 @@
     },
     {
       "from": "DS_LANDING",
-      "to": "DS_LANDING_BOAT_BLUE",
+      "to": "DS_LANDING_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_LANDING_BOAT_BLUE",
+      "from": "DS_LANDING_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "DS_LANDING",
       "weight": 1,
       "mode": "Walk",
@@ -761,34 +758,27 @@
     },
     {
       "from": "DS_LANDING",
-      "to": "DS_LANDING_BOAT_GREEN",
+      "to": "DS_LANDING_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_LANDING_BOAT_GREEN",
+      "from": "DS_LANDING_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "DS_LANDING",
-      "weight": 1,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "OKW_MAIN_BOAT_GREEN",
-      "to": "OKW_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_BOAT_GREEN",
+      "to": "OKW_MAIN_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "SSR_MAIN_BOAT_BLUE",
+      "from": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "SSR_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -796,13 +786,13 @@
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_BOAT_BLUE",
+      "to": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "POR_MAIN_BOAT_YELLOW",
+      "from": "POR_MAIN_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "POR_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -810,13 +800,13 @@
     },
     {
       "from": "POR_MAIN",
-      "to": "POR_MAIN_BOAT_YELLOW",
+      "to": "POR_MAIN_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "POFQ_MAIN_BOAT_PURPLE",
+      "from": "POFQ_MAIN_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "POFQ_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -824,69 +814,69 @@
     },
     {
       "from": "POFQ_MAIN",
-      "to": "POFQ_MAIN_BOAT_PURPLE",
+      "to": "POFQ_MAIN_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_LANDING_BOAT_BLUE",
-      "to": "SSR_MAIN_BOAT_BLUE",
+      "from": "DS_LANDING_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 8,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_MARKET_BOAT_YELLOW",
-      "to": "POR_MAIN_BOAT_YELLOW",
+      "from": "DS_MARKET_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "POR_MAIN_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 8,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_MARKET_BOAT_PURPLE",
-      "to": "POFQ_MAIN_BOAT_PURPLE",
+      "from": "DS_MARKET_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
+      "to": "POFQ_MAIN_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 8,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "DS_LANDING",
-      "to": "DS_LANDING_BOAT_RED",
+      "to": "DS_LANDING_RED_FLAG_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "DS_WEST",
-      "to": "DS_WEST_BOAT_RED",
+      "to": "DS_WEST_RED_FLAG_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "DS_MARKET",
-      "to": "DS_MARKET_BOAT_RED",
+      "to": "DS_MARKET_RED_FLAG_FERRY_BOAT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_LANDING_BOAT_RED",
+      "from": "DS_LANDING_RED_FLAG_FERRY_BOAT",
       "to": "DS_LANDING",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_WEST_BOAT_RED",
+      "from": "DS_WEST_RED_FLAG_FERRY_BOAT",
       "to": "DS_WEST",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "DS_MARKET_BOAT_RED",
+      "from": "DS_MARKET_RED_FLAG_FERRY_BOAT",
       "to": "DS_MARKET",
       "weight": 1,
       "mode": "Walk",
@@ -915,27 +905,27 @@
     },
     {
       "from": "YBC_MAIN",
-      "to": "YBC_MAIN_BOAT",
+      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "YBC_MAIN",
-      "to": "YBC_MAIN_BOAT",
+      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BOAT",
+      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "to": "YBC_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BOAT",
+      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "YBC_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -943,27 +933,27 @@
     },
     {
       "from": "BWI_MAIN",
-      "to": "BWI_MAIN_BOAT",
+      "to": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "BWI_MAIN",
-      "to": "BWI_MAIN_BOAT",
+      "to": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "BWI_MAIN_BOAT",
+      "from": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "to": "BWI_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "BWI_MAIN_BOAT",
+      "from": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "BWI_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -971,27 +961,20 @@
     },
     {
       "from": "EP_INTGATE",
-      "to": "EP_INTGATE_BOAT",
+      "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "EP_INTGATE",
-      "to": "EP_INTGATE_BOAT",
+      "to": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "EP_INTGATE_BOAT",
-      "to": "EP_INTGATE",
-      "weight": 1,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "EP_INTGATE_BOAT",
+      "from": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "EP_INTGATE",
       "weight": 1,
       "mode": "Walk",
@@ -999,27 +982,20 @@
     },
     {
       "from": "HS_MAIN",
-      "to": "HS_MAIN_BOAT",
+      "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "HS_MAIN",
-      "to": "HS_MAIN_BOAT",
+      "to": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "HS_MAIN_BOAT",
-      "to": "HS_MAIN",
-      "weight": 1,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "HS_MAIN_BOAT",
+      "from": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "to": "HS_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -1027,27 +1003,27 @@
     },
     {
       "from": "SND_MAIN",
-      "to": "SND_MAIN_BOAT",
+      "to": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
       "from": "SND_MAIN",
-      "to": "SND_MAIN_BOAT",
+      "to": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "SND_MAIN_BOAT",
+      "from": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "to": "SND_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "SND_MAIN_BOAT",
+      "from": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "SND_MAIN",
       "weight": 1,
       "mode": "Walk",
@@ -1055,13 +1031,13 @@
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_BOAT_BLUE",
+      "to": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "SSR_MAIN_BOAT_BLUE",
+      "from": "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
       "to": "SSR_MAIN",
       "weight": 20,
       "mode": "Walk",
