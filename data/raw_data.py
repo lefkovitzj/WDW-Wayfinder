@@ -35,6 +35,7 @@ mapping = {
         "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
         "Disney's All-Star Movies Resort": "AS_MOVIE_MAIN",
         "Disney's All-Star Music Resort": "AS_MUSIC_MAIN",
+        "Disney's All-Star Sports Resort": "AS_SPORTS_MAIN",
         "Disney Springs": "DS_MAIN",
         "Disney Springs - Landing": "DS_LANDING",
         "Disney Springs - Marketplace": "DS_MARKET",
@@ -232,6 +233,7 @@ bus_sources = [
     "Disney's Animal Kingdom Lodge Resort",
     "Disney's All-Star Movies Resort",
     "Disney's All-Star Music Resort",
+    "Disney's All-Star Sports Resort",
     "Disney's Coronado Springs Resort",
 ]
 
@@ -239,6 +241,7 @@ bus_only = [
     "Disney's Animal Kingdom Lodge Resort",
     "Disney's All-Star Movies Resort",
     "Disney's All-Star Music Resort",
+    "Disney's All-Star Sports Resort",
     "Disney's Coronado Springs Resort",
 ]
 
