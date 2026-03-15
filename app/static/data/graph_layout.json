@@ -89,11 +89,11 @@
   },
   "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
     "x": 2275,
-    "y": 205
+    "y": 215
   },
-  "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
-    "x": 1924,
-    "y": 184
+  "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
+    "x": 1920,
+    "y": 248
   },
   "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
     "x": 1506,
@@ -104,16 +104,16 @@
     "y": 184
   },
   "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
-    "x": 2279,
-    "y": -193
+    "x": 2281,
+    "y": -205
   },
   "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
     "x": 2708,
     "y": -167
   },
-  "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
-    "x": 1905,
-    "y": -170
+  "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
+    "x": 1954,
+    "y": -241
   },
   "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
     "x": 1521,
@@ -267,13 +267,25 @@
     "x": 2337,
     "y": -913
   },
-  "YBC_MAIN": {
-    "x": 1915,
-    "y": 59
+  "YC_MAIN": {
+    "x": 2059,
+    "y": 39
+  },
+  "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK": {
+    "x": 1805,
+    "y": 11
+  },
+  "BC_MAIN": {
+    "x": 2062,
+    "y": -30
   },
   "BWI_MAIN": {
     "x": 1501,
     "y": 104
+  },
+  "EP_MAIN": {
+    "x": 737,
+    "y": -108
   },
   "SND_MAIN": {
     "x": 2269,
@@ -304,16 +316,12 @@
     "y": 762
   },
   "AS_SPORTS_MAIN": {
-    "x": -409,
-    "y": 771
+    "x": -426,
+    "y": 766
   },
   "CSR_MAIN": {
     "x": -731,
     "y": 772
-  },
-  "EP_MAIN": {
-    "x": 737,
-    "y": -108
   },
   "AK_MAIN": {
     "x": -1312,
@@ -363,13 +371,17 @@
     "x": 2381,
     "y": -65
   },
-  "YBC_MAIN_BUS": {
-    "x": 2045,
-    "y": -51
+  "YC_MAIN_BUS": {
+    "x": 2037,
+    "y": 180
+  },
+  "BC_MAIN_BUS": {
+    "x": 2069,
+    "y": -125
   },
   "BWI_MAIN_BUS": {
-    "x": 1624,
-    "y": -40
+    "x": 1546,
+    "y": -26
   },
   "POFQ_MAIN_BUS": {
     "x": 464,

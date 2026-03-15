@@ -23,12 +23,12 @@
     "Disney's Wilderness Lodge Resort - Blue Flag Launch": "WL_MAIN_BLUE_FLAG_LAUNCH",
     "Hollywood Studios - Crescent Lake Friendship Boat to Epcot": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
     "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Epcot": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
-    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Epcot": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Epcot": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
     "Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Epcot": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
     "Epcot International Gateway - Crescent Lake Friendship Boat to Epcot": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
     "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Hollywood Studios": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
     "Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios": "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
-    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Hollywood Studios": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+    "Disney's Yacht and Beach Club Resorts - Crescent Lake Friendship Boat to Hollywood Studios": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
     "Disney's Boardwalk Inn - Crescent Lake Friendship Boat to Hollywood Studios": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
     "Epcot International Gateway - Crescent Lake Friendship Boat to Hollywood Studios": "EP_INTGATE_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
     "Disney's Port Orleans French Quarter Resort - Purple Flag Sassagoula River Ferry Boat": "POFQ_MAIN_PURPLE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT",
@@ -69,7 +69,9 @@
     "Disney's Port Orleans French Quarter Resort": "POFQ_MAIN",
     "Disney Springs West Side": "DS_WEST",
     "Disney Springs": "DS_MAIN",
-    "Disney's Yacht and Beach Club Resorts": "YBC_MAIN",
+    "Disney's Yacht Club Resort": "YC_MAIN",
+    "Disney's Yacht and Beach Club Resorts Shared Dock": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
+    "Disney's Beach Club Resort": "BC_MAIN",
     "Disney's Boardwalk Inn": "BWI_MAIN",
     "Epcot": "EP_MAIN",
     "Swan and Dolphin Hotel": "SND_MAIN",
@@ -96,7 +98,8 @@
     "Disney's Caribbean Beach Resort - Bus Stop": "CBR_MAIN_BUS",
     "Disney Vacation Club Riviera Resort - Bus Stop": "RIV_MAIN_BUS",
     "Swan and Dolphin Hotel - Bus Stop": "SND_MAIN_BUS",
-    "Disney's Yacht and Beach Club Resorts - Bus Stop": "YBC_MAIN_BUS",
+    "Disney's Yacht Club Resort - Bus Stop": "YC_MAIN_BUS",
+    "Disney's Beach Club Resort - Bus Stop": "BC_MAIN_BUS",
     "Disney's Boardwalk Inn - Bus Stop": "BWI_MAIN_BUS",
     "Disney's Port Orleans French Quarter Resort - Bus Stop": "POFQ_MAIN_BUS",
     "Disney's Port Orleans Riverside Resort - Bus Stop": "POR_MAIN_BUS",
@@ -244,13 +247,13 @@
     },
     {
       "from": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
-      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Epcot",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "from": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "to": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Epcot",
@@ -271,7 +274,7 @@
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "from": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "to": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Hollywood Studios",
@@ -279,7 +282,7 @@
     },
     {
       "from": "BWI_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
-      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 8,
       "mode": "Crescent Lake Friendship Boat to Hollywood Studios",
       "bidirectional": false
@@ -894,29 +897,43 @@
       "bidirectional": true
     },
     {
-      "from": "YBC_MAIN",
-      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "from": "YC_MAIN",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN",
-      "to": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "from": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
       "weight": 20,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
-      "to": "YBC_MAIN",
+      "from": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
-      "to": "YBC_MAIN",
+      "from": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS",
+      "to": "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_SHARED_DOCK",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
@@ -1643,49 +1660,98 @@
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN",
-      "to": "YBC_MAIN_BUS",
+      "from": "YC_MAIN",
+      "to": "YC_MAIN_BUS",
       "weight": 20,
       "mode": "Walk & Wait",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BUS",
-      "to": "YBC_MAIN",
+      "from": "YC_MAIN_BUS",
+      "to": "YC_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BUS",
+      "from": "YC_MAIN_BUS",
       "to": "MK_MAIN_BUS",
       "weight": 20,
       "mode": "Bus",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BUS",
+      "from": "YC_MAIN_BUS",
       "to": "AK_MAIN_BUS",
       "weight": 20,
       "mode": "Bus",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BUS",
+      "from": "YC_MAIN_BUS",
       "to": "DS_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BUS",
+      "from": "YC_MAIN_BUS",
       "to": "BB_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
       "bidirectional": false
     },
     {
-      "from": "YBC_MAIN_BUS",
+      "from": "YC_MAIN_BUS",
+      "to": "TL_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "BC_MAIN_BUS",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN_BUS",
+      "to": "BC_MAIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN_BUS",
+      "to": "MK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN_BUS",
+      "to": "AK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN_BUS",
+      "to": "DS_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN_BUS",
+      "to": "BB_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BC_MAIN_BUS",
       "to": "TL_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
