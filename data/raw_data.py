@@ -140,6 +140,8 @@ walks = [
     ("Epcot International Gateway - Crescent Lake Friendship Boat to Epcot", "Epcot International Gateway", 1, "Walk", False),
     ("Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios", "Hollywood Studios", 1, "Walk", False),
     
+    ("Disney's Caribbean Beach Resort", "Disney's Riviera Resort", 10, "Walk", True),
+
     ("Disney Springs Marketplace", "Disney Springs Marketplace - Yellow Flag Sassagoula River Ferry Boat", 20, "Walk", False),
     ("Disney Springs Marketplace - Yellow Flag Sassagoula River Ferry Boat", "Disney Springs Marketplace", 1, "Walk", False),
     ("Disney Springs Marketplace", "Disney Springs Marketplace - Purple Flag Sassagoula River Ferry Boat", 20, "Walk", False),

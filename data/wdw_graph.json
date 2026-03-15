@@ -61,6 +61,7 @@
     "Disney Vacation Club Riviera Resort": "RIV_MAIN",
     "Epcot International Gateway": "EP_INTGATE",
     "Hollywood Studios": "HS_MAIN",
+    "Disney's Riviera Resort": "DISNEY'S_RIVIERA_RESORT",
     "Disney Springs Marketplace": "DS_MARKET",
     "Disney Springs Landing": "DS_LANDING",
     "Disney's Old Key West Resort": "OKW_MAIN",
@@ -692,6 +693,13 @@
       "weight": 1,
       "mode": "Walk",
       "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "DISNEY'S_RIVIERA_RESORT",
+      "weight": 10,
+      "mode": "Walk",
+      "bidirectional": true
     },
     {
       "from": "DS_MARKET",
