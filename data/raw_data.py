@@ -189,6 +189,7 @@ walks = [
     
     ("Hollywood Studios", "Hollywood Studios - Crescent Lake Friendship Boat to Epcot", 20, "Walk", False),
     ("Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios", "Hollywood Studios", 1, "Walk", False),
+    ("Hollywood Studios", "Hollywood Studios - Hollywood Studios Skyliner", 1, "Walk", True),
     
     ("Swan and Dolphin Hotel", "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Epcot", 20, "Walk", False),
     ("Swan and Dolphin Hotel", "Swan and Dolphin Hotel - Crescent Lake Friendship Boat to Hollywood Studios", 20, "Walk", False),

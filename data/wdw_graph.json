@@ -964,6 +964,13 @@
       "bidirectional": false
     },
     {
+      "from": "HS_MAIN",
+      "to": "HS_MAIN_SKY",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
       "from": "SND_MAIN",
       "to": "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT",
       "weight": 20,
