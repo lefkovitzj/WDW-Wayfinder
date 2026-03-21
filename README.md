@@ -53,7 +53,7 @@ Core implementation lives in:
 ### Development Workflow
 
 This project is one of my first attempts at partially using AI-assisted development while building an application.  
-AI tools such as GitHub copilot were used to help brainstorm, prototype, and refactor parts of the code - especially the frontend design and JavaScript, with final design and validation decisions made manually.
+AI tools such as GitHub Copilot were used to help brainstorm, prototype, and refactor parts of the code - especially the frontend design and JavaScript, with final design and validation decisions made manually.
 
 ---
 
@@ -89,7 +89,7 @@ AI tools such as GitHub copilot were used to help brainstorm, prototype, and ref
 
 4. Configure environment
    - Copy [.env.example](.env.example) to `.env`
-   - Ensure `GRAPH_DATA_PATH` points to your graph JSON (for example: `data/wdw_graph.json`)
+   - Ensure `GRAPH_DATA_PATH` points to your graph JSON (default: `data/wdw_graph.json`)
 
 5. (Optional) Regenerate graph data
    ```bash
@@ -142,29 +142,32 @@ Graph visualization:
 ## Project Structure
 
 ```text
-app/
-  core/
-    config.py
-    graph.py
-  static/js/
-    graph.js
-  templates/
-    base.html
-    graph.html
-    index.html
-    components/
-      itinerary.html
-      search_results.html
-  main.py
-  routes.py
-data/
-  wdw_graph.json
-data_converter.py
-database.py
-test_optimizer.py
+WDW_Transit_Optimizer/
+├── app/
+│   ├── core/
+│   │   ├── config.py              # Configuration & environment variables
+│   │   └── graph.py               # Graph construction, Dijkstra, Held-Karp TSP
+│   ├── static/
+│   │   └── js/
+│   │       └── graph.js           # Interactive vis-network graph rendering
+│   ├── templates/
+│   │   ├── base.html              # Base template with layout
+│   │   ├── index.html             # Main search & results interface
+│   │   ├── graph.html             # Graph visualization page
+│   │   └── components/
+│   │       ├── itinerary.html     # Rendered trip itinerary display
+│   │       └── search_results.html # Search result snippets
+│   ├── main.py                    # FastAPI app initialization
+│   └── routes.py                  # API endpoints & request handlers
+├── data/
+│   └── wdw_graph.json             # Preprocessed graph data (nodes & edges)
+├── data_converter.py              # Script to regenerate graph from source
+├── Dockerfile                     # Container image definition
+├── docker-compose.yml             # Multi-container orchestration
+├── requirements.txt               # Python dependencies
+├── .env.example                   # Environment variables template
+└── README.md                      # Project documentation
 ```
-
----
 
 ## Roadmap
 
