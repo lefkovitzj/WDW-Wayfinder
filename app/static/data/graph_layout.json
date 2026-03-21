@@ -87,9 +87,9 @@
     "x": 2674,
     "y": 174
   },
-  "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
-    "x": 2275,
-    "y": 215
+  "SWAN_AND_DOLPHIN_HOTELS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
+    "x": 2458,
+    "y": 250
   },
   "DISNEY'S_YACHT_AND_BEACH_CLUB_RESORTS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_EPCOT": {
     "x": 1920,
@@ -103,9 +103,9 @@
     "x": 1134,
     "y": 184
   },
-  "SND_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
-    "x": 2281,
-    "y": -205
+  "SWAN_AND_DOLPHIN_HOTELS_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
+    "x": 2547,
+    "y": -234
   },
   "HS_MAIN_CRESCENT_LAKE_FRIENDSHIP_BOAT_TO_HOLLYWOOD_STUDIOS": {
     "x": 2708,
@@ -251,9 +251,13 @@
     "x": 2059,
     "y": 39
   },
-  "SND_MAIN": {
-    "x": 2269,
-    "y": 41
+  "SWAN_MAIN": {
+    "x": 2307,
+    "y": -92
+  },
+  "DOLPHIN_MAIN": {
+    "x": 2672,
+    "y": -86
   },
   "AS_MUSIC_MAIN": {
     "x": -131,
@@ -267,33 +271,33 @@
     "x": 169,
     "y": 762
   },
-  "DS_MARKET": {
-    "x": 2101,
-    "y": -676
-  },
-  "DS_LANDING": {
-    "x": 2084,
-    "y": -1094
-  },
-  "OKW_MAIN": {
-    "x": 593,
-    "y": -1156
-  },
-  "SSR_MAIN": {
-    "x": 486,
-    "y": -991
+  "POFQ_MAIN": {
+    "x": 545,
+    "y": -434
   },
   "POR_MAIN": {
     "x": 557,
     "y": -609
   },
-  "POFQ_MAIN": {
-    "x": 545,
-    "y": -434
+  "SSR_MAIN": {
+    "x": 486,
+    "y": -991
+  },
+  "DS_MARKET": {
+    "x": 2101,
+    "y": -676
+  },
+  "OKW_MAIN": {
+    "x": 593,
+    "y": -1156
   },
   "DS_WEST": {
     "x": 2079,
     "y": -846
+  },
+  "DS_LANDING": {
+    "x": 2084,
+    "y": -1094
   },
   "DS_MAIN": {
     "x": 2337,
@@ -335,6 +339,14 @@
     "x": -84,
     "y": 203
   },
+  "SWAN_MAIN_BUS": {
+    "x": 2289,
+    "y": 95
+  },
+  "DOLPHIN_MAIN_BUS": {
+    "x": 2674,
+    "y": 101
+  },
   "POLY_MAIN_BUS": {
     "x": -506,
     "y": -943
@@ -370,10 +382,6 @@
   "RIV_MAIN_BUS": {
     "x": 615,
     "y": 175
-  },
-  "SND_MAIN_BUS": {
-    "x": 2381,
-    "y": -65
   },
   "YC_MAIN_BUS": {
     "x": 2037,
@@ -442,6 +450,10 @@
   "DS_MAIN_BUS": {
     "x": 2337,
     "y": -636
+  },
+  "TTC_MAIN_BUS": {
+    "x": 111,
+    "y": -159
   },
   "BB_MAIN_BUS": {
     "x": 205,

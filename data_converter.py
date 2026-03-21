@@ -17,6 +17,7 @@ from data.raw_data import (
     boats,
     skyliners,
     walks,
+    manual_busses,
     bus_sources,
     bus_destinations,
     bus_only,
@@ -85,30 +86,27 @@ def insert_bus_display_names(final_data):
         final_data["display_names"][f"{bus_source} - Bus Stop"] = bus_source_stop_id
 
     for bus_destination in bus_destinations:
-        if not bus_destinations[bus_destination]:
-            continue
         bus_destination_id = clean_id(bus_destination)
         bus_destination_stop_id = f"{bus_destination_id}_BUS"
         final_data["display_names"][bus_destination] = bus_destination_id
         final_data["display_names"][f"{bus_destination} - Bus Stop"] = bus_destination_stop_id
 
 
-def generate_busses(final_data):
+def generate_busses(final_data, manual_busses):
     """ Dynamically create bus routes based on existing data. """
     bus_connections = []
 
     # One-time creation of busses at hubs. 
     for hub, weight in bus_destinations.items():
-        # No Disney busses offered to/from TTC hub.
-        if weight:
-            hub_id = clean_id(hub)
-            hub_bus = hub_id+ "_BUS"
-            bus_connections.append({
-                "from": hub_bus, "to": hub_id, "weight": 5, "mode": "Walk", "bidirectional": False
-            })
-            bus_connections.append({
-                "from": hub_id, "to": hub_bus, "weight": 20, "mode": "Walk & Wait", "bidirectional": False
-            })
+        # No Disney busses offered to/from TTC hub, but create it anyway.
+        hub_id = clean_id(hub)
+        hub_bus = hub_id+ "_BUS"
+        bus_connections.append({
+            "from": hub_bus, "to": hub_id, "weight": 5, "mode": "Walk", "bidirectional": False
+        })
+        bus_connections.append({
+            "from": hub_id, "to": hub_bus, "weight": 20, "mode": "Walk & Wait", "bidirectional": False
+        })
 
     # Resort busses.
     for bus_source in bus_sources:
@@ -140,6 +138,36 @@ def generate_busses(final_data):
                     "from": bus_source_stop_id, "to": bus_destination_stop_id, "weight": weight, "mode": "Bus", "bidirectional": True
                 })
 
+    # Non-Disney resort busses. 
+    for bus_route in manual_busses:
+        bus_source, bus_destination, travel_weight, wait_weight, bidirectional = bus_route
+        bus_source_id = clean_id(bus_source)
+        bus_destination_id = clean_id(bus_destination)
+
+        if not has_premium_transit(bus_source_id,
+                                   bus_destination_id,
+                                   final_data["connections"],
+                                   no_bus_nodes=no_bus_nodes,
+                                   display_names=final_data["display_names"]):
+
+            bus_source_stop_id = f"{bus_source_id}_BUS"
+            bus_destination_stop_id = f"{bus_destination_id}_BUS"
+            
+            # Create and connect the bus stop.
+            if bus_source_stop_id not in final_data["display_names"].values():
+                final_data["display_names"][f"{bus_source} - Bus Stop"] = bus_source_stop_id
+                bus_connections.append({
+                    "from": bus_source_id, "to": bus_source_stop_id, "weight": wait_weight, "mode": "Walk & Wait", "bidirectional": False
+                })
+                bus_connections.append({
+                    "from": bus_source_stop_id, "to": bus_source_id, "weight": 1, "mode": "Walk", "bidirectional": False
+                })
+
+            # Connect source and destination with a bus edge.
+            bus_connections.append({
+                "from": bus_source_stop_id, "to": bus_destination_stop_id, "weight": travel_weight, "mode": "Bus", "bidirectional": bidirectional
+            })
+
     # Park hopper busses.
     parks = ["MK_MAIN", "EP_MAIN", "HS_MAIN", "AK_MAIN"]
     for i, park_a in enumerate(parks):
@@ -154,7 +182,7 @@ def generate_busses(final_data):
 
     return bus_connections
 
-def convert_to_json(all_raw_data, bus_only=[]):
+def convert_to_json(all_raw_data, manual_busses, bus_only=[]):
     """ Convert existing data and generate busses into one dictionary. """
     connections = []
     display_names = {}
@@ -180,7 +208,7 @@ def convert_to_json(all_raw_data, bus_only=[]):
         bus_id = clean_id(bus_only_u)
         display_names[bus_only_u] = bus_id
     all_transport = {"display_names": display_names, "connections": connections}
-    all_transport["connections"].extend(generate_busses(all_transport))
+    all_transport["connections"].extend(generate_busses(all_transport, manual_busses))
 
     seen = set()
     all_transport["connections"] = [
@@ -195,7 +223,7 @@ def convert_to_json(all_raw_data, bus_only=[]):
 
 if __name__ == "__main__":
     # Run the script
-    final_data = convert_to_json([monorails, boats, skyliners, walks], bus_only)
+    final_data = convert_to_json([monorails, boats, skyliners, walks], manual_busses, bus_only)
 
     # Output to file
     with open('data/wdw_graph.json', 'w') as f:
