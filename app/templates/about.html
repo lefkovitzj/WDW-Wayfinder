@@ -30,21 +30,6 @@
       </article>
 
       <article class="rounded-xl border border-slate-800 bg-slate-900 p-6 shadow-soft">
-        <h2 class="text-lg font-semibold text-slate-100">Algorithmic Efficiency</h2>
-        <p class="mt-3 text-sm leading-relaxed text-slate-300">
-          For multi-stop routing, the engine uses either 
-          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Dijkstra's Algorithm</span> for simple point-to-point navigation
-          or a modified 
-          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Held-Karp</span>
-          dynamic-programming approach to solve complex routing problems by representing them as a
-          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Traveling Salesperson Problem (TSP)</span>
-          Although this is an NP-hard problem, it can be solved efficiently at practical trip sizes. Under the hood, transit relationships are modeled as a
-          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Weighted Directed Multigraph</span>,
-          allowing asymmetric travel times and route-specific constraints to be represented accurately.
-        </p>
-      </article>
-
-      <article class="rounded-xl border border-slate-800 bg-slate-900 p-6 shadow-soft">
         <h2 class="text-lg font-semibold text-slate-100">Example Applications</h2>
         <div class="mt-4 grid gap-4 md:grid-cols-3">
           <div class="rounded-lg border border-slate-800 bg-slate-950 p-4">
@@ -70,6 +55,21 @@
             </p>
           </div>
         </div>
+      </article>
+
+      <article class="rounded-xl border border-slate-800 bg-slate-900 p-6 shadow-soft">
+        <h2 class="text-lg font-semibold text-slate-100">Algorithmic Efficiency</h2>
+        <p class="mt-3 text-sm leading-relaxed text-slate-300">
+          For multi-stop routing, the engine uses either 
+          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Dijkstra's Algorithm</span> for simple point-to-point navigation
+          or a modified 
+          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Held-Karp</span>
+          dynamic-programming approach to solve complex routing problems by representing them as a
+          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Traveling Salesperson Problem (TSP)</span>
+          Although this is an NP-hard problem, it can be solved efficiently at practical trip sizes. Under the hood, transit relationships are modeled as a
+          <span class="font-mono rounded bg-slate-950 px-1.5 py-0.5 text-wdw-teal">Weighted Directed Multigraph</span>,
+          allowing asymmetric travel times and route-specific constraints to be represented accurately.
+        </p>
       </article>
     </div>
   </div>
