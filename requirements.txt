@@ -3,3 +3,5 @@ uvicorn[standard]
 jinja2
 python-multipart
 pydantic-settings
+sqlmodel
+psycopg2-binary

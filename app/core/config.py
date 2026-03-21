@@ -13,9 +13,10 @@ class Settings(BaseSettings):
     """Configuration settings for the WDW Wayfinder web application."""
     app_name: str = "WDW Wayfinder"
     GRAPH_DATA_PATH: str = "data/wdw_master_graph.json"
-    DATABASE_URL: str = "sqlite:///./data/wdw_app.db"
     DEBUG: bool = False
     GA4_MEASUREMENT_ID: str = ""
+    DATABASE_URL: str = ""
+    ENABLE_ANALYTICS: bool = False
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
 settings = Settings()

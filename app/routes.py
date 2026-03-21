@@ -12,12 +12,15 @@ from pathlib import Path
 import json
 
 # Third-party imports.
-from fastapi import APIRouter, Request, Form, Depends, HTTPException
+from fastapi import APIRouter, Request, Form, Depends, HTTPException, BackgroundTasks
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
+from sqlmodel import Session
 
 # Local imports.
 from app.core.config import settings
+from app.database import engine
+from app.models import TransitAnalytics
 
 graph_router = APIRouter(tags=["graph"])
 
@@ -43,6 +46,20 @@ templates = Jinja2Templates(directory="app/templates")
 def get_graph(request: Request):
     """ Graph state dependency. """
     return request.app.state.graph
+
+def log_search(origin: str, dest: str, stops: List[str]):
+    """Background worker that uses a fresh session to write analytics."""
+    if not settings.ENABLE_ANALYTICS or engine is None:
+        return
+    with Session(engine) as session:
+        new_entry = TransitAnalytics(
+            origin_id=origin,
+            destination_id=dest,
+            intermediate_stops=stops,
+            total_steps=len(stops) + 2
+        )
+        session.add(new_entry)
+        session.commit()
 
 @router.get("/", response_class=HTMLResponse)
 async def home(request: Request):
@@ -70,6 +87,7 @@ async def search(request: Request, q: str = Form(""), graph=Depends(get_graph)):
 @router.post("/plan", response_class=HTMLResponse)
 async def plan_route(
     request: Request,
+    background_tasks: BackgroundTasks,
     start: str = Form(...),
     end: str = Form(...),
     stops: List[str] = Form([]),
@@ -81,6 +99,10 @@ async def plan_route(
 
     # Run the TSP/Dijkstra logic
     result = graph.plan_itinerary(start, end, valid_stops)
+
+    # Queue analytics write in the background
+    path_stops = result.get("path", valid_stops) if isinstance(result, dict) else valid_stops
+    background_tasks.add_task(log_search, start, end, path_stops)
 
     # Check if this is an HTMX request
     inverted_display_names = {v: k for k, v in graph.display_names.items()}
