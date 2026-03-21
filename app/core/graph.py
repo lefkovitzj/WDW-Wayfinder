@@ -1,5 +1,5 @@
 """
-Project Name: WDW-Transit-Optimizer
+Project Name: WDW-Wayfinder
 File Name: app/core/graph.py
 Description: Graph-related utilities for the WDW Wayfinder application.
 Author: Joseph Lefkovitz (github.com/lefkovitzj)

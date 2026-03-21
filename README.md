@@ -11,14 +11,14 @@
   <p align="center">
     A FastAPI web app that computes optimized Walt Disney World transit itineraries using Dijkstra + Held-Karp TSP.
     <br />
-    <a href="https://github.com/lefkovitzj/WDW_Transit_Optimizer"><strong>Explore the repo »</strong></a>
+    <a href="https://github.com/lefkovitzj/WDW-Wayfinder"><strong>Explore the repo »</strong></a>
     <br />
     <br />
     <a href="#usage">View Demo Flow</a>
     ·
-    <a href="https://github.com/lefkovitzj/WDW_Transit_Optimizer/issues">Report Bug</a>
+    <a href="https://github.com/lefkovitzj/WDW-Wayfinder/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lefkovitzj/WDW_Transit_Optimizer/issues">Request Feature</a>
+    <a href="https://github.com/lefkovitzj/WDW-Wayfinder/issues">Request Feature</a>
   </p>
 </div>
 
@@ -69,8 +69,8 @@ AI tools such as GitHub copilot were used to help brainstorm, prototype, and ref
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/lefkovitzj/WDW_Transit_Optimizer.git
-   cd WDW_Transit_Optimizer
+   git clone https://github.com/lefkovitzj/WDW-Wayfinder.git
+   cd WDW-Wayfinder
    ```
 
 2. Create and activate a virtual environment
@@ -191,7 +191,7 @@ Contributions are welcome.
 
 Joseph Lefkovitz  
 GitHub: [@lefkovitzj](https://github.com/lefkovitzj)  
-Project Link: https://github.com/lefkovitzj/WDW_Transit_Optimizer
+Project Link: https://github.com/lefkovitzj/WDW-Wayfinder
 
 ---
 

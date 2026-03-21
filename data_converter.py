@@ -1,5 +1,5 @@
 """
-Project Name: WDW-Transit-Optimizer
+Project Name: WDW-Wayfinder
 File Name: data_converter.py
 Description: Data JSON generation and conversion utility.
 Author: Joseph Lefkovitz (github.com/lefkovitzj)

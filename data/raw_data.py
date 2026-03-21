@@ -1,5 +1,5 @@
 """
-Project Name: WDW-Transit-Optimizer
+Project Name: WDW-Wayfinder
 File Name: data/raw_data.py
 Description: Raw data for use in the data_converter.py file.
 Author: Joseph Lefkovitz (github.com/lefkovitzj)

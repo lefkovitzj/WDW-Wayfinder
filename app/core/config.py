@@ -1,5 +1,5 @@
 """
-Project Name: WDW-Transit-Optimizer
+Project Name: WDW-Wayfinder
 File Name: app/core/config.py
 Description: Web app configuration and environment settings using Pydantic.
 Author: Joseph Lefkovitz (github.com/lefkovitzj)
