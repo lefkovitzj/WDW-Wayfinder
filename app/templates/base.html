@@ -36,7 +36,17 @@
     .wdw-brand-gradient { background: linear-gradient(135deg, #0B2545 0%, #13315C 55%, #2A9D8F 100%); }
   </style>
 
-  {% block head_extras %}{% endblock %}
+  {% block head_extras %}
+  {% endblock %}
+  {% if request.app.state.ga4_measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ request.app.state.ga4_measurement_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ request.app.state.ga4_measurement_id }}');
+    </script>
+  {% endif %}
 </head>
 <body class="bg-slate-950 text-slate-100">
   <!-- Top nav -->

@@ -19,6 +19,7 @@ from app.routes import router, graph_router
 async def lifespan(app: FastAPI):
     """ Application lifespan context manager. Initializes graph on startup. """
     app.state.graph = GraphManager()
+    app.state.ga4_measurement_id = settings.GA4_MEASUREMENT_ID
     print("Successfully loaded graph data.")
     yield
     print("Shutting down application.")

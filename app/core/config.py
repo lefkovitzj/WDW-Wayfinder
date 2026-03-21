@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     GRAPH_DATA_PATH: str = "data/wdw_master_graph.json"
     DATABASE_URL: str = "sqlite:///./data/wdw_app.db"
     DEBUG: bool = False
+    GA4_MEASUREMENT_ID: str = ""
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
 settings = Settings()
