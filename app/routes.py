@@ -70,6 +70,10 @@ async def home(request: Request):
         "settings": settings
     })
 
+@router.get("/ping")
+async def ping():
+    return {"status": "ok"}
+
 @router.post("/search-locations", response_class=HTMLResponse)
 async def search(request: Request, q: str = Form(""), graph=Depends(get_graph)):
     """ HTMX Endpoint: Search for locations matching the query. """
