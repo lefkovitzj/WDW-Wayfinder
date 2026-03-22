@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% block title %}WDW Wayfinder{% endblock %}</title>
 
+  <link rel="icon" type="image/png" href="/static/images/favicon.png">
+
+  {% set base_url = (request.app.state.production_url if request.app.state.production_url else (request.base_url|string).rstrip('/')) %}
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ base_url }}/">
+  <meta property="og:title" content="WDW Wayfinder | Disney World Transit Optimizer">
+  <meta property="og:description" content="Stop guessing the bus schedule. Find the most efficient path between resorts and parks with graph theory.">
+  <meta property="og:image" content="{{ base_url }}/static/images/social-preview.jpg">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ base_url }}/">
+  <meta property="twitter:title" content="WDW Wayfinder | Navigate the Magic, Faster">
+  <meta property="twitter:description" content="A specialized routing engine for Disney World logistics. Plan your journey across the entire transit network.">
+  <meta property="twitter:image" content="{{ base_url }}/static/images/social-preview.jpg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#113CCF">
+
   <!-- Flowbite + Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
@@ -59,8 +78,14 @@
             <span class="sr-only">Open sidebar</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20"><path clip-rule="evenodd" fill-rule="evenodd" d="M2 4a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 6a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm1 5a1 1 0 100 2h14a1 1 0 100-2H3z"/></svg>
           </button>
-          <a href="/" class="text-lg font-semibold text-wdw-teal hover:text-white focus:outline-none focus:ring-2 focus:ring-wdw-gold rounded">
-            WDW Wayfinder
+
+          <a href="/" class="inline-flex items-center gap-2 rounded focus:outline-none focus:ring-2 focus:ring-wdw-gold">
+            <img
+              src="/static/images/logo.png"
+              alt="WDW Wayfinder Logo"
+              class="h-8 w-8 rounded object-contain"
+            />
+            <span class="text-lg font-semibold text-wdw-teal hover:text-white">WDW Wayfinder</span>
           </a>
         </div>
 

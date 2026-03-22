@@ -52,6 +52,9 @@ app.include_router(graph_router)
 # Mount static files (CSS, JS, images).
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
+app.state.production_url = settings.PRODUCTION_URL
+app.state.ga4_measurement_id = settings.GA4_MEASUREMENT_ID
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app.main:app", host="127.0.0.1", port=8000, reload=True)
