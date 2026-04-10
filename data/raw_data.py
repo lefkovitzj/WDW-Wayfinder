@@ -324,3 +324,60 @@ no_bus_nodes = [
     ("Disney's Saratoga Springs Resort and Tree Houses", "Disney Springs"),
     ("Disney's Old Key West Resort", "Disney Springs"),
 ]
+
+internal_bus_loops = [
+    {
+        "resort": "Disney's Saratoga Springs Resort and Tree Houses", 
+        "stops": [
+            "Grandstand",
+            "Paddock",
+            "Carousel",
+            "Congress Park",
+            "The Springs"
+        ],
+        "avg_travel_time": 5, # Average travel time between stops in minutes.
+    },
+    {
+        "resort": "Disney's Coronado Springs Resort", 
+        "stops": [
+            "Casitas",
+            "Ranchos",
+            "Cabanas",
+            "Gran Destino Tower"
+        ],
+         "avg_travel_time": 5, # Average travel time between stops in minutes.
+    },
+    {
+        "resort": "Disney's Port Orleans Riverside Resort",
+        "stops": [
+            "West Depot",
+            "North Depot",
+            "East Depot",
+            "South Depot"
+        ],
+        "avg_travel_time": 5, # Average travel time between stops in minutes.
+    },
+    {
+        "resort": "Disney's Old Key West Resort",
+        "stops": [
+            "Peninsular Road",
+            "South Point",
+            "Old Turtle Pond Road",
+            "Miller's Road",
+            "Hospitality House"
+        ],
+        "avg_travel_time": 5, # Average travel time between stops in minutes.
+    },
+    {
+        "resort": "Disney's Caribbean Beach Resort",
+        "stops": [
+            "Martinique",
+            "Old Port Royale",
+            "Barbados",
+            "Trinidad",
+            "Jamaica",
+            "Aruba"
+        ],
+        "avg_travel_time": 5, # Average travel time between stops in minutes.
+    }
+]
