@@ -85,13 +85,85 @@
     "Disney's Winter Summerland Miniature Golf": "WS_MAIN",
     "Disney's Blizzard Beach Water Park": "BB_MAIN",
     "Disney's Fantasia Gardens & Fairways Miniature Golf": "FG_MAIN",
-    "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
     "Disney's Coronado Springs Resort": "CSR_MAIN",
+    "Disney's Coronado Springs Resort (Gran Destino Tower)": "CSR_MAIN_GRAN_DESTINO_TOWER",
+    "Disney's Coronado Springs Resort (Casitas)": "CSR_MAIN_CASITAS",
+    "Disney's Coronado Springs Resort (Ranchos)": "CSR_MAIN_RANCHOS",
+    "Disney's Coronado Springs Resort (Cabanas)": "CSR_MAIN_CABANAS",
+    "Disney's Saratoga Springs Resort and Tree Houses (The Springs)": "SSR_MAIN_THE_SPRINGS",
+    "Disney's Saratoga Springs Resort and Tree Houses (Grandstand)": "SSR_MAIN_GRANDSTAND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Paddock)": "SSR_MAIN_PADDOCK",
+    "Disney's Saratoga Springs Resort and Tree Houses (Carousel)": "SSR_MAIN_CAROUSEL",
+    "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)": "SSR_MAIN_CONGRESS_PARK",
+    "Disney's Old Key West Resort (Hospitality House)": "OKW_MAIN_HOSPITALITY_HOUSE",
+    "Disney's Old Key West Resort (Peninsular Road)": "OKW_MAIN_PENINSULAR_ROAD",
+    "Disney's Old Key West Resort (Old Turtle Pond Road)": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+    "Disney's Old Key West Resort (South Point)": "OKW_MAIN_SOUTH_POINT",
+    "Disney's Old Key West Resort (Miller's Road)": "OKW_MAIN_MILLER'S_ROAD",
+    "Disney's Port Orleans Riverside Resort (South Depot)": "POR_MAIN_SOUTH_DEPOT",
+    "Disney's Port Orleans Riverside Resort (East Depot)": "POR_MAIN_EAST_DEPOT",
+    "Disney's Port Orleans Riverside Resort (West Depot)": "POR_MAIN_WEST_DEPOT",
+    "Disney's Port Orleans Riverside Resort (North Depot)": "POR_MAIN_NORTH_DEPOT",
+    "Disney's Caribbean Beach Resort (Barbados)": "CBR_MAIN_BARBADOS",
+    "Disney's Caribbean Beach Resort (Martinique)": "CBR_MAIN_MARTINIQUE",
+    "Disney's Caribbean Beach Resort (Jamaica)": "CBR_MAIN_JAMAICA",
+    "Disney's Caribbean Beach Resort (Aruba)": "CBR_MAIN_ARUBA",
+    "Disney's Caribbean Beach Resort (Trinidad)": "CBR_MAIN_TRINIDAD",
+    "Disney's Caribbean Beach Resort (Old Port Royale)": "CBR_MAIN_OLD_PORT_ROYALE",
+    "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
     "Animal Kingdom": "AK_MAIN",
     "Disney Springs - Landing": "DS_LANDING",
     "Disney's Typhoon Lagoon Water Park": "TL_MAIN",
     "Walt Disney World Swan Hotel - Bus Stop": "SWAN_MAIN_BUS",
     "Walt Disney World Dolphin Hotel - Bus Stop": "DOLPHIN_MAIN_BUS",
+    "Disney's Saratoga Springs Resort and Tree Houses (Grandstand) Inbound Bus Stop": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Grandstand) Outbound Bus Stop": "SSR_MAIN_GRANDSTAND_BUS_OUTBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Paddock) Inbound Bus Stop": "SSR_MAIN_PADDOCK_BUS_INBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Paddock) Outbound Bus Stop": "SSR_MAIN_PADDOCK_BUS_OUTBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Carousel) Inbound Bus Stop": "SSR_MAIN_CAROUSEL_BUS_INBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Carousel) Outbound Bus Stop": "SSR_MAIN_CAROUSEL_BUS_OUTBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Congress Park) Inbound Bus Stop": "SSR_MAIN_CONGRESS_PARK_BUS_INBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (Congress Park) Outbound Bus Stop": "SSR_MAIN_CONGRESS_PARK_BUS_OUTBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (The Springs) Inbound Bus Stop": "SSR_MAIN_THE_SPRINGS_BUS_INBOUND",
+    "Disney's Saratoga Springs Resort and Tree Houses (The Springs) Outbound Bus Stop": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+    "Disney's Coronado Springs Resort (Casitas) Inbound Bus Stop": "CSR_MAIN_CASITAS_BUS_INBOUND",
+    "Disney's Coronado Springs Resort (Casitas) Outbound Bus Stop": "CSR_MAIN_CASITAS_BUS_OUTBOUND",
+    "Disney's Coronado Springs Resort (Ranchos) Inbound Bus Stop": "CSR_MAIN_RANCHOS_BUS_INBOUND",
+    "Disney's Coronado Springs Resort (Ranchos) Outbound Bus Stop": "CSR_MAIN_RANCHOS_BUS_OUTBOUND",
+    "Disney's Coronado Springs Resort (Cabanas) Inbound Bus Stop": "CSR_MAIN_CABANAS_BUS_INBOUND",
+    "Disney's Coronado Springs Resort (Cabanas) Outbound Bus Stop": "CSR_MAIN_CABANAS_BUS_OUTBOUND",
+    "Disney's Coronado Springs Resort (Gran Destino Tower) Inbound Bus Stop": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_INBOUND",
+    "Disney's Coronado Springs Resort (Gran Destino Tower) Outbound Bus Stop": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+    "Disney's Port Orleans Riverside Resort (West Depot) Inbound Bus Stop": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+    "Disney's Port Orleans Riverside Resort (West Depot) Outbound Bus Stop": "POR_MAIN_WEST_DEPOT_BUS_OUTBOUND",
+    "Disney's Port Orleans Riverside Resort (North Depot) Inbound Bus Stop": "POR_MAIN_NORTH_DEPOT_BUS_INBOUND",
+    "Disney's Port Orleans Riverside Resort (North Depot) Outbound Bus Stop": "POR_MAIN_NORTH_DEPOT_BUS_OUTBOUND",
+    "Disney's Port Orleans Riverside Resort (East Depot) Inbound Bus Stop": "POR_MAIN_EAST_DEPOT_BUS_INBOUND",
+    "Disney's Port Orleans Riverside Resort (East Depot) Outbound Bus Stop": "POR_MAIN_EAST_DEPOT_BUS_OUTBOUND",
+    "Disney's Port Orleans Riverside Resort (South Depot) Inbound Bus Stop": "POR_MAIN_SOUTH_DEPOT_BUS_INBOUND",
+    "Disney's Port Orleans Riverside Resort (South Depot) Outbound Bus Stop": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+    "Disney's Old Key West Resort (Peninsular Road) Inbound Bus Stop": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+    "Disney's Old Key West Resort (Peninsular Road) Outbound Bus Stop": "OKW_MAIN_PENINSULAR_ROAD_BUS_OUTBOUND",
+    "Disney's Old Key West Resort (South Point) Inbound Bus Stop": "OKW_MAIN_SOUTH_POINT_BUS_INBOUND",
+    "Disney's Old Key West Resort (South Point) Outbound Bus Stop": "OKW_MAIN_SOUTH_POINT_BUS_OUTBOUND",
+    "Disney's Old Key West Resort (Old Turtle Pond Road) Inbound Bus Stop": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_INBOUND",
+    "Disney's Old Key West Resort (Old Turtle Pond Road) Outbound Bus Stop": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_OUTBOUND",
+    "Disney's Old Key West Resort (Miller's Road) Inbound Bus Stop": "OKW_MAIN_MILLER'S_ROAD_BUS_INBOUND",
+    "Disney's Old Key West Resort (Miller's Road) Outbound Bus Stop": "OKW_MAIN_MILLER'S_ROAD_BUS_OUTBOUND",
+    "Disney's Old Key West Resort (Hospitality House) Inbound Bus Stop": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_INBOUND",
+    "Disney's Old Key West Resort (Hospitality House) Outbound Bus Stop": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+    "Disney's Caribbean Beach Resort (Martinique) Inbound Bus Stop": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+    "Disney's Caribbean Beach Resort (Martinique) Outbound Bus Stop": "CBR_MAIN_MARTINIQUE_BUS_OUTBOUND",
+    "Disney's Caribbean Beach Resort (Old Port Royale) Inbound Bus Stop": "CBR_MAIN_OLD_PORT_ROYALE_BUS_INBOUND",
+    "Disney's Caribbean Beach Resort (Old Port Royale) Outbound Bus Stop": "CBR_MAIN_OLD_PORT_ROYALE_BUS_OUTBOUND",
+    "Disney's Caribbean Beach Resort (Barbados) Inbound Bus Stop": "CBR_MAIN_BARBADOS_BUS_INBOUND",
+    "Disney's Caribbean Beach Resort (Barbados) Outbound Bus Stop": "CBR_MAIN_BARBADOS_BUS_OUTBOUND",
+    "Disney's Caribbean Beach Resort (Trinidad) Inbound Bus Stop": "CBR_MAIN_TRINIDAD_BUS_INBOUND",
+    "Disney's Caribbean Beach Resort (Trinidad) Outbound Bus Stop": "CBR_MAIN_TRINIDAD_BUS_OUTBOUND",
+    "Disney's Caribbean Beach Resort (Jamaica) Inbound Bus Stop": "CBR_MAIN_JAMAICA_BUS_INBOUND",
+    "Disney's Caribbean Beach Resort (Jamaica) Outbound Bus Stop": "CBR_MAIN_JAMAICA_BUS_OUTBOUND",
+    "Disney's Caribbean Beach Resort (Aruba) Inbound Bus Stop": "CBR_MAIN_ARUBA_BUS_INBOUND",
+    "Disney's Caribbean Beach Resort (Aruba) Outbound Bus Stop": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
     "Disney's Polynesian Village Resort - Bus Stop": "POLY_MAIN_BUS",
     "Disney's Grand Floridian Resort & Spa - Bus Stop": "GF_MAIN_BUS",
     "Disney's Contemporary Resort - Bus Stop": "CONT_MAIN_BUS",
@@ -99,20 +171,15 @@
     "Disney's Wilderness Lodge Resort - Bus Stop": "WL_MAIN_BUS",
     "Disney's Pop Century Resort - Bus Stop": "POP_MAIN_BUS",
     "Disney's Art of Animation Resort - Bus Stop": "AOA_MAIN_BUS",
-    "Disney's Caribbean Beach Resort - Bus Stop": "CBR_MAIN_BUS",
     "Disney Vacation Club Riviera Resort - Bus Stop": "RIV_MAIN_BUS",
     "Disney's Yacht Club Resort - Bus Stop": "YC_MAIN_BUS",
     "Disney's Beach Club Resort - Bus Stop": "BC_MAIN_BUS",
     "Disney's Boardwalk Inn - Bus Stop": "BWI_MAIN_BUS",
     "Disney's Port Orleans French Quarter Resort - Bus Stop": "POFQ_MAIN_BUS",
-    "Disney's Port Orleans Riverside Resort - Bus Stop": "POR_MAIN_BUS",
-    "Disney's Saratoga Springs Resort and Tree Houses - Bus Stop": "SSR_MAIN_BUS",
-    "Disney's Old Key West Resort - Bus Stop": "OKW_MAIN_BUS",
     "Disney's Animal Kingdom Lodge Resort - Bus Stop": "AKL_MAIN_BUS",
     "Disney's All-Star Movies Resort - Bus Stop": "AS_MOVIE_MAIN_BUS",
     "Disney's All-Star Music Resort - Bus Stop": "AS_MUSIC_MAIN_BUS",
     "Disney's All-Star Sports Resort - Bus Stop": "AS_SPORTS_MAIN_BUS",
-    "Disney's Coronado Springs Resort - Bus Stop": "CSR_MAIN_BUS",
     "Magic Kingdom - Bus Stop": "MK_MAIN_BUS",
     "Epcot - Bus Stop": "EP_MAIN_BUS",
     "Hollywood Studios - Bus Stop": "HS_MAIN_BUS",
@@ -1202,6 +1269,174 @@
       "bidirectional": true
     },
     {
+      "from": "CSR_MAIN",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "CSR_MAIN_CASITAS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "CSR_MAIN_RANCHOS",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "CSR_MAIN_CABANAS",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "SSR_MAIN_THE_SPRINGS",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "SSR_MAIN_GRANDSTAND",
+      "weight": 6,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "SSR_MAIN_PADDOCK",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "SSR_MAIN_CAROUSEL",
+      "weight": 10,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "SSR_MAIN_CONGRESS_PARK",
+      "weight": 7,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "OKW_MAIN_PENINSULAR_ROAD",
+      "weight": 4,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+      "weight": 10,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "OKW_MAIN_SOUTH_POINT",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "OKW_MAIN_MILLER'S_ROAD",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "POR_MAIN_SOUTH_DEPOT",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "POR_MAIN_EAST_DEPOT",
+      "weight": 7,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "POR_MAIN_WEST_DEPOT",
+      "weight": 6,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "POR_MAIN_NORTH_DEPOT",
+      "weight": 9,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "CBR_MAIN_BARBADOS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "CBR_MAIN_MARTINIQUE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "CBR_MAIN_JAMAICA",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "CBR_MAIN_ARUBA",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "CBR_MAIN_TRINIDAD",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE",
+      "weight": 1,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
       "from": "MK_MAIN_BUS",
       "to": "MK_MAIN",
       "weight": 5,
@@ -1671,55 +1906,6 @@
       "bidirectional": true
     },
     {
-      "from": "CBR_MAIN",
-      "to": "CBR_MAIN_BUS",
-      "weight": 20,
-      "mode": "Walk & Wait",
-      "bidirectional": false
-    },
-    {
-      "from": "CBR_MAIN_BUS",
-      "to": "CBR_MAIN",
-      "weight": 5,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "CBR_MAIN_BUS",
-      "to": "MK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CBR_MAIN_BUS",
-      "to": "AK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CBR_MAIN_BUS",
-      "to": "DS_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CBR_MAIN_BUS",
-      "to": "BB_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CBR_MAIN_BUS",
-      "to": "TL_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
       "from": "RIV_MAIN",
       "to": "RIV_MAIN_BUS",
       "weight": 20,
@@ -1966,174 +2152,6 @@
     },
     {
       "from": "POFQ_MAIN_BUS",
-      "to": "TL_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "POR_MAIN",
-      "to": "POR_MAIN_BUS",
-      "weight": 20,
-      "mode": "Walk & Wait",
-      "bidirectional": false
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "POR_MAIN",
-      "weight": 5,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "MK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "EP_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "HS_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "AK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "BB_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "POR_MAIN_BUS",
-      "to": "TL_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "SSR_MAIN",
-      "to": "SSR_MAIN_BUS",
-      "weight": 20,
-      "mode": "Walk & Wait",
-      "bidirectional": false
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "SSR_MAIN",
-      "weight": 5,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "MK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "EP_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "HS_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "AK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "BB_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "SSR_MAIN_BUS",
-      "to": "TL_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "OKW_MAIN",
-      "to": "OKW_MAIN_BUS",
-      "weight": 20,
-      "mode": "Walk & Wait",
-      "bidirectional": false
-    },
-    {
-      "from": "OKW_MAIN_BUS",
-      "to": "OKW_MAIN",
-      "weight": 5,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "OKW_MAIN_BUS",
-      "to": "MK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "OKW_MAIN_BUS",
-      "to": "EP_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "OKW_MAIN_BUS",
-      "to": "HS_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "OKW_MAIN_BUS",
-      "to": "AK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "OKW_MAIN_BUS",
-      "to": "BB_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "OKW_MAIN_BUS",
       "to": "TL_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
@@ -2392,69 +2410,6 @@
       "bidirectional": true
     },
     {
-      "from": "CSR_MAIN",
-      "to": "CSR_MAIN_BUS",
-      "weight": 20,
-      "mode": "Walk & Wait",
-      "bidirectional": false
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "CSR_MAIN",
-      "weight": 5,
-      "mode": "Walk",
-      "bidirectional": false
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "MK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "EP_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "HS_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "AK_MAIN_BUS",
-      "weight": 20,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "DS_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "BB_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
-      "from": "CSR_MAIN_BUS",
-      "to": "TL_MAIN_BUS",
-      "weight": 25,
-      "mode": "Bus",
-      "bidirectional": true
-    },
-    {
       "from": "SWAN_MAIN",
       "to": "SWAN_MAIN_BUS",
       "weight": 25,
@@ -2523,6 +2478,1168 @@
       "weight": 20,
       "mode": "Bus",
       "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "to": "SSR_MAIN_GRANDSTAND",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "MK_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "EP_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "HS_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "AK_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "DS_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TTC_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BB_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TL_MAIN_BUS",
+      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_PADDOCK",
+      "to": "SSR_MAIN_PADDOCK_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_PADDOCK_BUS_INBOUND",
+      "to": "SSR_MAIN_PADDOCK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND_BUS_OUTBOUND",
+      "to": "SSR_MAIN_PADDOCK_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
+      "to": "SSR_MAIN_PADDOCK_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CAROUSEL",
+      "to": "SSR_MAIN_CAROUSEL_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CAROUSEL_BUS_INBOUND",
+      "to": "SSR_MAIN_CAROUSEL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_PADDOCK_BUS_OUTBOUND",
+      "to": "SSR_MAIN_CAROUSEL_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_PADDOCK_BUS_INBOUND",
+      "to": "SSR_MAIN_CAROUSEL_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CONGRESS_PARK",
+      "to": "SSR_MAIN_CONGRESS_PARK_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CONGRESS_PARK_BUS_INBOUND",
+      "to": "SSR_MAIN_CONGRESS_PARK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CAROUSEL_BUS_OUTBOUND",
+      "to": "SSR_MAIN_CONGRESS_PARK_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CAROUSEL_BUS_INBOUND",
+      "to": "SSR_MAIN_CONGRESS_PARK_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS",
+      "to": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_INBOUND",
+      "to": "SSR_MAIN_THE_SPRINGS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CONGRESS_PARK_BUS_OUTBOUND",
+      "to": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_CONGRESS_PARK_BUS_INBOUND",
+      "to": "SSR_MAIN_THE_SPRINGS_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "MK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "EP_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "HS_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "AK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "DS_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "TTC_MAIN_BUS",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "BB_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
+      "to": "TL_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CASITAS",
+      "to": "CSR_MAIN_CASITAS_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "to": "CSR_MAIN_CASITAS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "MK_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "EP_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "HS_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "AK_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "DS_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TTC_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BB_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TL_MAIN_BUS",
+      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_RANCHOS",
+      "to": "CSR_MAIN_RANCHOS_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_RANCHOS_BUS_INBOUND",
+      "to": "CSR_MAIN_RANCHOS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CASITAS_BUS_OUTBOUND",
+      "to": "CSR_MAIN_RANCHOS_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CASITAS_BUS_INBOUND",
+      "to": "CSR_MAIN_RANCHOS_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CABANAS",
+      "to": "CSR_MAIN_CABANAS_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CABANAS_BUS_INBOUND",
+      "to": "CSR_MAIN_CABANAS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_RANCHOS_BUS_OUTBOUND",
+      "to": "CSR_MAIN_CABANAS_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_RANCHOS_BUS_INBOUND",
+      "to": "CSR_MAIN_CABANAS_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_INBOUND",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CABANAS_BUS_OUTBOUND",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_CABANAS_BUS_INBOUND",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "MK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "EP_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "HS_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "AK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "DS_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "TTC_MAIN_BUS",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "BB_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
+      "to": "TL_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_WEST_DEPOT",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_WEST_DEPOT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "MK_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "EP_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "HS_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "AK_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "DS_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TTC_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BB_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TL_MAIN_BUS",
+      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_NORTH_DEPOT",
+      "to": "POR_MAIN_NORTH_DEPOT_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_NORTH_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_NORTH_DEPOT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_WEST_DEPOT_BUS_OUTBOUND",
+      "to": "POR_MAIN_NORTH_DEPOT_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_NORTH_DEPOT_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_EAST_DEPOT",
+      "to": "POR_MAIN_EAST_DEPOT_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_EAST_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_EAST_DEPOT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_NORTH_DEPOT_BUS_OUTBOUND",
+      "to": "POR_MAIN_EAST_DEPOT_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_NORTH_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_EAST_DEPOT_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT",
+      "to": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_SOUTH_DEPOT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_EAST_DEPOT_BUS_OUTBOUND",
+      "to": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_EAST_DEPOT_BUS_INBOUND",
+      "to": "POR_MAIN_SOUTH_DEPOT_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "MK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "EP_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "HS_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "AK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "DS_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "TTC_MAIN_BUS",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "BB_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
+      "to": "TL_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "to": "OKW_MAIN_PENINSULAR_ROAD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "MK_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "EP_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "HS_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "AK_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "DS_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TTC_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BB_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TL_MAIN_BUS",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_SOUTH_POINT",
+      "to": "OKW_MAIN_SOUTH_POINT_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_SOUTH_POINT_BUS_INBOUND",
+      "to": "OKW_MAIN_SOUTH_POINT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD_BUS_OUTBOUND",
+      "to": "OKW_MAIN_SOUTH_POINT_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
+      "to": "OKW_MAIN_SOUTH_POINT_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_INBOUND",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_SOUTH_POINT_BUS_OUTBOUND",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_SOUTH_POINT_BUS_INBOUND",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_MILLER'S_ROAD",
+      "to": "OKW_MAIN_MILLER'S_ROAD_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_MILLER'S_ROAD_BUS_INBOUND",
+      "to": "OKW_MAIN_MILLER'S_ROAD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_OUTBOUND",
+      "to": "OKW_MAIN_MILLER'S_ROAD_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_INBOUND",
+      "to": "OKW_MAIN_MILLER'S_ROAD_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_INBOUND",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_MILLER'S_ROAD_BUS_OUTBOUND",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_MILLER'S_ROAD_BUS_INBOUND",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "MK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "EP_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "HS_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "AK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "DS_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "TTC_MAIN_BUS",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "BB_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
+      "to": "TL_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_MARTINIQUE",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "to": "CBR_MAIN_MARTINIQUE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "MK_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "EP_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "HS_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "AK_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "DS_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TTC_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "BB_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "TL_MAIN_BUS",
+      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_OLD_PORT_ROYALE",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_OLD_PORT_ROYALE_BUS_INBOUND",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_MARTINIQUE_BUS_OUTBOUND",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_BARBADOS",
+      "to": "CBR_MAIN_BARBADOS_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_BARBADOS_BUS_INBOUND",
+      "to": "CBR_MAIN_BARBADOS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_OLD_PORT_ROYALE_BUS_OUTBOUND",
+      "to": "CBR_MAIN_BARBADOS_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_OLD_PORT_ROYALE_BUS_INBOUND",
+      "to": "CBR_MAIN_BARBADOS_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_TRINIDAD",
+      "to": "CBR_MAIN_TRINIDAD_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_TRINIDAD_BUS_INBOUND",
+      "to": "CBR_MAIN_TRINIDAD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_BARBADOS_BUS_OUTBOUND",
+      "to": "CBR_MAIN_TRINIDAD_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_BARBADOS_BUS_INBOUND",
+      "to": "CBR_MAIN_TRINIDAD_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_JAMAICA",
+      "to": "CBR_MAIN_JAMAICA_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_JAMAICA_BUS_INBOUND",
+      "to": "CBR_MAIN_JAMAICA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_TRINIDAD_BUS_OUTBOUND",
+      "to": "CBR_MAIN_JAMAICA_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_TRINIDAD_BUS_INBOUND",
+      "to": "CBR_MAIN_JAMAICA_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA",
+      "to": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "weight": 20,
+      "mode": "Walk & Wait",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_INBOUND",
+      "to": "CBR_MAIN_ARUBA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_JAMAICA_BUS_OUTBOUND",
+      "to": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_JAMAICA_BUS_INBOUND",
+      "to": "CBR_MAIN_ARUBA_BUS_INBOUND",
+      "weight": 3,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "MK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "EP_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "HS_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "AK_MAIN_BUS",
+      "weight": 20,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "DS_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "TTC_MAIN_BUS",
+      "weight": null,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "BB_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
+    },
+    {
+      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+      "to": "TL_MAIN_BUS",
+      "weight": 25,
+      "mode": "Bus",
+      "bidirectional": false
     },
     {
       "from": "MK_MAIN_BUS",
