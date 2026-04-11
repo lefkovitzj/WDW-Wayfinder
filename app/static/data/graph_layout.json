@@ -132,15 +132,15 @@
     "y": -440
   },
   "POR_MAIN_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT": {
-    "x": 1077,
-    "y": -540
+    "x": 986,
+    "y": -576
   },
   "DS_MARKET_YELLOW_FLAG_SASSAGOULA_RIVER_FERRY_BOAT": {
     "x": 1524,
     "y": -556
   },
   "SSR_MAIN_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT": {
-    "x": 924,
+    "x": 995,
     "y": -1000
   },
   "DS_LANDING_BLUE_FLAG_SASSAGOULA_RIVER_FERRY_BOAT": {
@@ -148,12 +148,12 @@
     "y": -1002
   },
   "OKW_MAIN_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT": {
-    "x": 1035,
-    "y": -1166
+    "x": 2088,
+    "y": -1358
   },
   "DS_LANDING_GREEN_FLAG_SASSAGOULA_RIVER_FERRY_BOAT": {
-    "x": 1524,
-    "y": -1170
+    "x": 2085,
+    "y": -1250
   },
   "DS_LANDING_RED_FLAG_FERRY_BOAT": {
     "x": 1523,
@@ -220,8 +220,8 @@
     "y": 760
   },
   "CBR_MAIN": {
-    "x": 506,
-    "y": 532
+    "x": -102,
+    "y": 1040
   },
   "RIV_MAIN": {
     "x": 698,
@@ -276,20 +276,20 @@
     "y": -434
   },
   "POR_MAIN": {
-    "x": 557,
-    "y": -609
+    "x": -84,
+    "y": -1652
   },
   "SSR_MAIN": {
-    "x": 486,
-    "y": -991
+    "x": -1704,
+    "y": -1623
   },
   "DS_MARKET": {
     "x": 2101,
     "y": -676
   },
   "OKW_MAIN": {
-    "x": 593,
-    "y": -1156
+    "x": 1520,
+    "y": -1353
   },
   "DS_WEST": {
     "x": 2079,
@@ -323,12 +323,108 @@
     "x": 1218,
     "y": 107
   },
+  "CSR_MAIN": {
+    "x": -2439,
+    "y": 744
+  },
+  "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN": {
+    "x": -2439,
+    "y": 897
+  },
+  "CSR_MAIN_CASITAS_MAIN": {
+    "x": -2063,
+    "y": 738
+  },
+  "CSR_MAIN_RANCHOS_MAIN": {
+    "x": -2445,
+    "y": 433
+  },
+  "CSR_MAIN_CABANAS_MAIN": {
+    "x": -2852,
+    "y": 731
+  },
+  "SSR_MAIN_THE_SPRINGS_MAIN": {
+    "x": -1961,
+    "y": -1527
+  },
+  "SSR_MAIN_GRANDSTAND_MAIN": {
+    "x": -1703,
+    "y": -1389
+  },
+  "SSR_MAIN_PADDOCK_MAIN": {
+    "x": -1470,
+    "y": -1523
+  },
+  "SSR_MAIN_CAROUSEL_MAIN": {
+    "x": -1440,
+    "y": -1830
+  },
+  "SSR_MAIN_CONGRESS_PARK_MAIN": {
+    "x": -1966,
+    "y": -1826
+  },
+  "OKW_MAIN_HOSPITALITY_HOUSE_MAIN": {
+    "x": 1200,
+    "y": -1769
+  },
+  "OKW_MAIN_PENINSULAR_ROAD_MAIN": {
+    "x": 2638,
+    "y": -1763
+  },
+  "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN": {
+    "x": 1906,
+    "y": -1764
+  },
+  "OKW_MAIN_SOUTH_POINT_MAIN": {
+    "x": 2277,
+    "y": -1766
+  },
+  "OKW_MAIN_MILLER'S_ROAD_MAIN": {
+    "x": 1538,
+    "y": -1766
+  },
+  "POR_MAIN_SOUTH_DEPOT_MAIN": {
+    "x": -78,
+    "y": -1485
+  },
+  "POR_MAIN_EAST_DEPOT_MAIN": {
+    "x": 250,
+    "y": -1650
+  },
+  "POR_MAIN_WEST_DEPOT_MAIN": {
+    "x": -422,
+    "y": -1648
+  },
+  "POR_MAIN_NORTH_DEPOT_MAIN": {
+    "x": -76,
+    "y": -1859
+  },
+  "CBR_MAIN_BARBADOS_MAIN": {
+    "x": -306,
+    "y": 1195
+  },
+  "CBR_MAIN_MARTINIQUE_MAIN": {
+    "x": -1198,
+    "y": 1179
+  },
+  "CBR_MAIN_JAMAICA_MAIN": {
+    "x": 563,
+    "y": 1201
+  },
+  "CBR_MAIN_ARUBA_MAIN": {
+    "x": 983,
+    "y": 1203
+  },
+  "CBR_MAIN_TRINIDAD_MAIN": {
+    "x": 126,
+    "y": 1194
+  },
+  "CBR_MAIN_OLD_PORT_ROYALE_MAIN": {
+    "x": -751,
+    "y": 1218
+  },
   "AKL_MAIN": {
     "x": -1052,
-    "y": 765
-  },
-  "CSR_MAIN": {
-    "x": -731,
     "y": 765
   },
   "AK_MAIN": {
@@ -336,8 +432,8 @@
     "y": 642
   },
   "TL_MAIN": {
-    "x": -84,
-    "y": 203
+    "x": -67,
+    "y": 201
   },
   "SWAN_MAIN_BUS": {
     "x": 2289,
@@ -346,6 +442,198 @@
   "DOLPHIN_MAIN_BUS": {
     "x": 2674,
     "y": 101
+  },
+  "SSR_MAIN_GRANDSTAND_BUS_INBOUND": {
+    "x": -1466,
+    "y": -1251
+  },
+  "SSR_MAIN_GRANDSTAND_BUS_OUTBOUND": {
+    "x": -2041,
+    "y": -1248
+  },
+  "SSR_MAIN_PADDOCK_BUS_INBOUND": {
+    "x": -1216,
+    "y": -1592
+  },
+  "SSR_MAIN_PADDOCK_BUS_OUTBOUND": {
+    "x": -1398,
+    "y": -1435
+  },
+  "SSR_MAIN_CAROUSEL_BUS_INBOUND": {
+    "x": -1445,
+    "y": -1954
+  },
+  "SSR_MAIN_CAROUSEL_BUS_OUTBOUND": {
+    "x": -1347,
+    "y": -1725
+  },
+  "SSR_MAIN_CONGRESS_PARK_BUS_INBOUND": {
+    "x": -2142,
+    "y": -1731
+  },
+  "SSR_MAIN_CONGRESS_PARK_BUS_OUTBOUND": {
+    "x": -2029,
+    "y": -1921
+  },
+  "SSR_MAIN_THE_SPRINGS_BUS_INBOUND": {
+    "x": -2068,
+    "y": -1447
+  },
+  "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND": {
+    "x": -2196,
+    "y": -1602
+  },
+  "CSR_MAIN_CASITAS_BUS_INBOUND": {
+    "x": -1856,
+    "y": 616
+  },
+  "CSR_MAIN_CASITAS_BUS_OUTBOUND": {
+    "x": -1829,
+    "y": 825
+  },
+  "CSR_MAIN_RANCHOS_BUS_INBOUND": {
+    "x": -2652,
+    "y": 271
+  },
+  "CSR_MAIN_RANCHOS_BUS_OUTBOUND": {
+    "x": -2208,
+    "y": 275
+  },
+  "CSR_MAIN_CABANAS_BUS_INBOUND": {
+    "x": -3082,
+    "y": 851
+  },
+  "CSR_MAIN_CABANAS_BUS_OUTBOUND": {
+    "x": -3045,
+    "y": 619
+  },
+  "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_INBOUND": {
+    "x": -2121,
+    "y": 1093
+  },
+  "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND": {
+    "x": -2714,
+    "y": 1096
+  },
+  "POR_MAIN_WEST_DEPOT_BUS_INBOUND": {
+    "x": -619,
+    "y": -1560
+  },
+  "POR_MAIN_WEST_DEPOT_BUS_OUTBOUND": {
+    "x": -658,
+    "y": -1779
+  },
+  "POR_MAIN_NORTH_DEPOT_BUS_INBOUND": {
+    "x": -315,
+    "y": -2014
+  },
+  "POR_MAIN_NORTH_DEPOT_BUS_OUTBOUND": {
+    "x": 188,
+    "y": -2018
+  },
+  "POR_MAIN_EAST_DEPOT_BUS_INBOUND": {
+    "x": 479,
+    "y": -1800
+  },
+  "POR_MAIN_EAST_DEPOT_BUS_OUTBOUND": {
+    "x": 480,
+    "y": -1551
+  },
+  "POR_MAIN_SOUTH_DEPOT_BUS_INBOUND": {
+    "x": 205,
+    "y": -1353
+  },
+  "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND": {
+    "x": -312,
+    "y": -1354
+  },
+  "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND": {
+    "x": 2745,
+    "y": -1543
+  },
+  "OKW_MAIN_PENINSULAR_ROAD_BUS_OUTBOUND": {
+    "x": 2554,
+    "y": -1448
+  },
+  "OKW_MAIN_SOUTH_POINT_BUS_INBOUND": {
+    "x": 2312,
+    "y": -1543
+  },
+  "OKW_MAIN_SOUTH_POINT_BUS_OUTBOUND": {
+    "x": 2101,
+    "y": -1447
+  },
+  "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_INBOUND": {
+    "x": 1871,
+    "y": -1542
+  },
+  "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_OUTBOUND": {
+    "x": 1644,
+    "y": -1446
+  },
+  "OKW_MAIN_MILLER'S_ROAD_BUS_INBOUND": {
+    "x": 1431,
+    "y": -1543
+  },
+  "OKW_MAIN_MILLER'S_ROAD_BUS_OUTBOUND": {
+    "x": 1186,
+    "y": -1446
+  },
+  "OKW_MAIN_HOSPITALITY_HOUSE_BUS_INBOUND": {
+    "x": 992,
+    "y": -1542
+  },
+  "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND": {
+    "x": 719,
+    "y": -1450
+  },
+  "CBR_MAIN_MARTINIQUE_BUS_INBOUND": {
+    "x": -1199,
+    "y": 1323
+  },
+  "CBR_MAIN_MARTINIQUE_BUS_OUTBOUND": {
+    "x": -1138,
+    "y": 1427
+  },
+  "CBR_MAIN_OLD_PORT_ROYALE_BUS_INBOUND": {
+    "x": -749,
+    "y": 1328
+  },
+  "CBR_MAIN_OLD_PORT_ROYALE_BUS_OUTBOUND": {
+    "x": -662,
+    "y": 1430
+  },
+  "CBR_MAIN_BARBADOS_BUS_INBOUND": {
+    "x": -307,
+    "y": 1330
+  },
+  "CBR_MAIN_BARBADOS_BUS_OUTBOUND": {
+    "x": -192,
+    "y": 1432
+  },
+  "CBR_MAIN_TRINIDAD_BUS_INBOUND": {
+    "x": 132,
+    "y": 1331
+  },
+  "CBR_MAIN_TRINIDAD_BUS_OUTBOUND": {
+    "x": 257,
+    "y": 1430
+  },
+  "CBR_MAIN_JAMAICA_BUS_INBOUND": {
+    "x": 560,
+    "y": 1332
+  },
+  "CBR_MAIN_JAMAICA_BUS_OUTBOUND": {
+    "x": 694,
+    "y": 1425
+  },
+  "CBR_MAIN_ARUBA_BUS_INBOUND": {
+    "x": 982,
+    "y": 1329
+  },
+  "CBR_MAIN_ARUBA_BUS_OUTBOUND": {
+    "x": 1144,
+    "y": 1426
   },
   "POLY_MAIN_BUS": {
     "x": -506,
@@ -375,10 +663,6 @@
     "x": 481,
     "y": 706
   },
-  "CBR_MAIN_BUS": {
-    "x": 508,
-    "y": 625
-  },
   "RIV_MAIN_BUS": {
     "x": 615,
     "y": 175
@@ -399,18 +683,6 @@
     "x": 464,
     "y": -527
   },
-  "POR_MAIN_BUS": {
-    "x": 462,
-    "y": -696
-  },
-  "SSR_MAIN_BUS": {
-    "x": 437,
-    "y": -895
-  },
-  "OKW_MAIN_BUS": {
-    "x": 478,
-    "y": -1218
-  },
   "AKL_MAIN_BUS": {
     "x": -1053,
     "y": 635
@@ -425,10 +697,6 @@
   },
   "AS_SPORTS_MAIN_BUS": {
     "x": -423,
-    "y": 634
-  },
-  "CSR_MAIN_BUS": {
-    "x": -733,
     "y": 634
   },
   "MK_MAIN_BUS": {
