@@ -86,30 +86,30 @@
     "Disney's Blizzard Beach Water Park": "BB_MAIN",
     "Disney's Fantasia Gardens & Fairways Miniature Golf": "FG_MAIN",
     "Disney's Coronado Springs Resort": "CSR_MAIN",
-    "Disney's Coronado Springs Resort (Gran Destino Tower)": "CSR_MAIN_GRAN_DESTINO_TOWER",
-    "Disney's Coronado Springs Resort (Casitas)": "CSR_MAIN_CASITAS",
-    "Disney's Coronado Springs Resort (Ranchos)": "CSR_MAIN_RANCHOS",
-    "Disney's Coronado Springs Resort (Cabanas)": "CSR_MAIN_CABANAS",
-    "Disney's Saratoga Springs Resort and Tree Houses (The Springs)": "SSR_MAIN_THE_SPRINGS",
-    "Disney's Saratoga Springs Resort and Tree Houses (Grandstand)": "SSR_MAIN_GRANDSTAND",
-    "Disney's Saratoga Springs Resort and Tree Houses (Paddock)": "SSR_MAIN_PADDOCK",
-    "Disney's Saratoga Springs Resort and Tree Houses (Carousel)": "SSR_MAIN_CAROUSEL",
-    "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)": "SSR_MAIN_CONGRESS_PARK",
-    "Disney's Old Key West Resort (Hospitality House)": "OKW_MAIN_HOSPITALITY_HOUSE",
-    "Disney's Old Key West Resort (Peninsular Road)": "OKW_MAIN_PENINSULAR_ROAD",
-    "Disney's Old Key West Resort (Old Turtle Pond Road)": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
-    "Disney's Old Key West Resort (South Point)": "OKW_MAIN_SOUTH_POINT",
-    "Disney's Old Key West Resort (Miller's Road)": "OKW_MAIN_MILLER'S_ROAD",
-    "Disney's Port Orleans Riverside Resort (South Depot)": "POR_MAIN_SOUTH_DEPOT",
-    "Disney's Port Orleans Riverside Resort (East Depot)": "POR_MAIN_EAST_DEPOT",
-    "Disney's Port Orleans Riverside Resort (West Depot)": "POR_MAIN_WEST_DEPOT",
-    "Disney's Port Orleans Riverside Resort (North Depot)": "POR_MAIN_NORTH_DEPOT",
-    "Disney's Caribbean Beach Resort (Barbados)": "CBR_MAIN_BARBADOS",
-    "Disney's Caribbean Beach Resort (Martinique)": "CBR_MAIN_MARTINIQUE",
-    "Disney's Caribbean Beach Resort (Jamaica)": "CBR_MAIN_JAMAICA",
-    "Disney's Caribbean Beach Resort (Aruba)": "CBR_MAIN_ARUBA",
-    "Disney's Caribbean Beach Resort (Trinidad)": "CBR_MAIN_TRINIDAD",
-    "Disney's Caribbean Beach Resort (Old Port Royale)": "CBR_MAIN_OLD_PORT_ROYALE",
+    "Disney's Coronado Springs Resort (Gran Destino Tower)": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
+    "Disney's Coronado Springs Resort (Casitas)": "CSR_MAIN_CASITAS_MAIN",
+    "Disney's Coronado Springs Resort (Ranchos)": "CSR_MAIN_RANCHOS_MAIN",
+    "Disney's Coronado Springs Resort (Cabanas)": "CSR_MAIN_CABANAS_MAIN",
+    "Disney's Saratoga Springs Resort and Tree Houses (The Springs)": "SSR_MAIN_THE_SPRINGS_MAIN",
+    "Disney's Saratoga Springs Resort and Tree Houses (Grandstand)": "SSR_MAIN_GRANDSTAND_MAIN",
+    "Disney's Saratoga Springs Resort and Tree Houses (Paddock)": "SSR_MAIN_PADDOCK_MAIN",
+    "Disney's Saratoga Springs Resort and Tree Houses (Carousel)": "SSR_MAIN_CAROUSEL_MAIN",
+    "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)": "SSR_MAIN_CONGRESS_PARK_MAIN",
+    "Disney's Old Key West Resort (Hospitality House)": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
+    "Disney's Old Key West Resort (Peninsular Road)": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
+    "Disney's Old Key West Resort (Old Turtle Pond Road)": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
+    "Disney's Old Key West Resort (South Point)": "OKW_MAIN_SOUTH_POINT_MAIN",
+    "Disney's Old Key West Resort (Miller's Road)": "OKW_MAIN_MILLER'S_ROAD_MAIN",
+    "Disney's Port Orleans Riverside Resort (South Depot)": "POR_MAIN_SOUTH_DEPOT_MAIN",
+    "Disney's Port Orleans Riverside Resort (East Depot)": "POR_MAIN_EAST_DEPOT_MAIN",
+    "Disney's Port Orleans Riverside Resort (West Depot)": "POR_MAIN_WEST_DEPOT_MAIN",
+    "Disney's Port Orleans Riverside Resort (North Depot)": "POR_MAIN_NORTH_DEPOT_MAIN",
+    "Disney's Caribbean Beach Resort (Barbados)": "CBR_MAIN_BARBADOS_MAIN",
+    "Disney's Caribbean Beach Resort (Martinique)": "CBR_MAIN_MARTINIQUE_MAIN",
+    "Disney's Caribbean Beach Resort (Jamaica)": "CBR_MAIN_JAMAICA_MAIN",
+    "Disney's Caribbean Beach Resort (Aruba)": "CBR_MAIN_ARUBA_MAIN",
+    "Disney's Caribbean Beach Resort (Trinidad)": "CBR_MAIN_TRINIDAD_MAIN",
+    "Disney's Caribbean Beach Resort (Old Port Royale)": "CBR_MAIN_OLD_PORT_ROYALE_MAIN",
     "Disney's Animal Kingdom Lodge Resort": "AKL_MAIN",
     "Animal Kingdom": "AK_MAIN",
     "Disney Springs - Landing": "DS_LANDING",
@@ -1270,168 +1270,168 @@
     },
     {
       "from": "CSR_MAIN",
-      "to": "CSR_MAIN_GRAN_DESTINO_TOWER",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CSR_MAIN",
-      "to": "CSR_MAIN_CASITAS",
+      "to": "CSR_MAIN_CASITAS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CSR_MAIN",
-      "to": "CSR_MAIN_RANCHOS",
+      "to": "CSR_MAIN_RANCHOS_MAIN",
       "weight": 12,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CSR_MAIN",
-      "to": "CSR_MAIN_CABANAS",
+      "to": "CSR_MAIN_CABANAS_MAIN",
       "weight": 8,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_THE_SPRINGS",
+      "to": "SSR_MAIN_THE_SPRINGS_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_GRANDSTAND",
+      "to": "SSR_MAIN_GRANDSTAND_MAIN",
       "weight": 6,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_PADDOCK",
+      "to": "SSR_MAIN_PADDOCK_MAIN",
       "weight": 8,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_CAROUSEL",
+      "to": "SSR_MAIN_CAROUSEL_MAIN",
       "weight": 10,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "SSR_MAIN",
-      "to": "SSR_MAIN_CONGRESS_PARK",
+      "to": "SSR_MAIN_CONGRESS_PARK_MAIN",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_HOSPITALITY_HOUSE",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_PENINSULAR_ROAD",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
       "weight": 4,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
       "weight": 10,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_SOUTH_POINT",
+      "to": "OKW_MAIN_SOUTH_POINT_MAIN",
       "weight": 12,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "OKW_MAIN",
-      "to": "OKW_MAIN_MILLER'S_ROAD",
+      "to": "OKW_MAIN_MILLER'S_ROAD_MAIN",
       "weight": 8,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "POR_MAIN",
-      "to": "POR_MAIN_SOUTH_DEPOT",
+      "to": "POR_MAIN_SOUTH_DEPOT_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "POR_MAIN",
-      "to": "POR_MAIN_EAST_DEPOT",
+      "to": "POR_MAIN_EAST_DEPOT_MAIN",
       "weight": 7,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "POR_MAIN",
-      "to": "POR_MAIN_WEST_DEPOT",
+      "to": "POR_MAIN_WEST_DEPOT_MAIN",
       "weight": 6,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "POR_MAIN",
-      "to": "POR_MAIN_NORTH_DEPOT",
+      "to": "POR_MAIN_NORTH_DEPOT_MAIN",
       "weight": 9,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CBR_MAIN",
-      "to": "CBR_MAIN_BARBADOS",
+      "to": "CBR_MAIN_BARBADOS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CBR_MAIN",
-      "to": "CBR_MAIN_MARTINIQUE",
+      "to": "CBR_MAIN_MARTINIQUE_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CBR_MAIN",
-      "to": "CBR_MAIN_JAMAICA",
+      "to": "CBR_MAIN_JAMAICA_MAIN",
       "weight": 12,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CBR_MAIN",
-      "to": "CBR_MAIN_ARUBA",
+      "to": "CBR_MAIN_ARUBA_MAIN",
       "weight": 12,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CBR_MAIN",
-      "to": "CBR_MAIN_TRINIDAD",
+      "to": "CBR_MAIN_TRINIDAD_MAIN",
       "weight": 15,
       "mode": "Walk",
       "bidirectional": true
     },
     {
       "from": "CBR_MAIN",
-      "to": "CBR_MAIN_OLD_PORT_ROYALE",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE_MAIN",
       "weight": 1,
       "mode": "Walk",
       "bidirectional": true
@@ -2480,7 +2480,7 @@
       "bidirectional": true
     },
     {
-      "from": "SSR_MAIN_GRANDSTAND",
+      "from": "SSR_MAIN_GRANDSTAND_MAIN",
       "to": "SSR_MAIN_GRANDSTAND_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2488,7 +2488,7 @@
     },
     {
       "from": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
-      "to": "SSR_MAIN_GRANDSTAND",
+      "to": "SSR_MAIN_GRANDSTAND_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2529,13 +2529,6 @@
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_BUS",
-      "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
       "from": "BB_MAIN_BUS",
       "to": "SSR_MAIN_GRANDSTAND_BUS_INBOUND",
       "weight": 25,
@@ -2550,7 +2543,7 @@
       "bidirectional": false
     },
     {
-      "from": "SSR_MAIN_PADDOCK",
+      "from": "SSR_MAIN_PADDOCK_MAIN",
       "to": "SSR_MAIN_PADDOCK_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2558,7 +2551,7 @@
     },
     {
       "from": "SSR_MAIN_PADDOCK_BUS_INBOUND",
-      "to": "SSR_MAIN_PADDOCK",
+      "to": "SSR_MAIN_PADDOCK_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2578,7 +2571,7 @@
       "bidirectional": false
     },
     {
-      "from": "SSR_MAIN_CAROUSEL",
+      "from": "SSR_MAIN_CAROUSEL_MAIN",
       "to": "SSR_MAIN_CAROUSEL_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2586,7 +2579,7 @@
     },
     {
       "from": "SSR_MAIN_CAROUSEL_BUS_INBOUND",
-      "to": "SSR_MAIN_CAROUSEL",
+      "to": "SSR_MAIN_CAROUSEL_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2606,7 +2599,7 @@
       "bidirectional": false
     },
     {
-      "from": "SSR_MAIN_CONGRESS_PARK",
+      "from": "SSR_MAIN_CONGRESS_PARK_MAIN",
       "to": "SSR_MAIN_CONGRESS_PARK_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2614,7 +2607,7 @@
     },
     {
       "from": "SSR_MAIN_CONGRESS_PARK_BUS_INBOUND",
-      "to": "SSR_MAIN_CONGRESS_PARK",
+      "to": "SSR_MAIN_CONGRESS_PARK_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2634,7 +2627,7 @@
       "bidirectional": false
     },
     {
-      "from": "SSR_MAIN_THE_SPRINGS",
+      "from": "SSR_MAIN_THE_SPRINGS_MAIN",
       "to": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2642,7 +2635,7 @@
     },
     {
       "from": "SSR_MAIN_THE_SPRINGS_BUS_INBOUND",
-      "to": "SSR_MAIN_THE_SPRINGS",
+      "to": "SSR_MAIN_THE_SPRINGS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2698,13 +2691,6 @@
     },
     {
       "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
-      "to": "TTC_MAIN_BUS",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
-      "from": "SSR_MAIN_THE_SPRINGS_BUS_OUTBOUND",
       "to": "BB_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
@@ -2718,7 +2704,7 @@
       "bidirectional": false
     },
     {
-      "from": "CSR_MAIN_CASITAS",
+      "from": "CSR_MAIN_CASITAS_MAIN",
       "to": "CSR_MAIN_CASITAS_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2726,7 +2712,7 @@
     },
     {
       "from": "CSR_MAIN_CASITAS_BUS_INBOUND",
-      "to": "CSR_MAIN_CASITAS",
+      "to": "CSR_MAIN_CASITAS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2767,13 +2753,6 @@
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_BUS",
-      "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
       "from": "BB_MAIN_BUS",
       "to": "CSR_MAIN_CASITAS_BUS_INBOUND",
       "weight": 25,
@@ -2788,7 +2767,7 @@
       "bidirectional": false
     },
     {
-      "from": "CSR_MAIN_RANCHOS",
+      "from": "CSR_MAIN_RANCHOS_MAIN",
       "to": "CSR_MAIN_RANCHOS_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2796,7 +2775,7 @@
     },
     {
       "from": "CSR_MAIN_RANCHOS_BUS_INBOUND",
-      "to": "CSR_MAIN_RANCHOS",
+      "to": "CSR_MAIN_RANCHOS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2816,7 +2795,7 @@
       "bidirectional": false
     },
     {
-      "from": "CSR_MAIN_CABANAS",
+      "from": "CSR_MAIN_CABANAS_MAIN",
       "to": "CSR_MAIN_CABANAS_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2824,7 +2803,7 @@
     },
     {
       "from": "CSR_MAIN_CABANAS_BUS_INBOUND",
-      "to": "CSR_MAIN_CABANAS",
+      "to": "CSR_MAIN_CABANAS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2844,7 +2823,7 @@
       "bidirectional": false
     },
     {
-      "from": "CSR_MAIN_GRAN_DESTINO_TOWER",
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
       "to": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2852,7 +2831,7 @@
     },
     {
       "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_INBOUND",
-      "to": "CSR_MAIN_GRAN_DESTINO_TOWER",
+      "to": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2908,13 +2887,6 @@
     },
     {
       "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
-      "to": "TTC_MAIN_BUS",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
-      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_BUS_OUTBOUND",
       "to": "BB_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
@@ -2928,7 +2900,7 @@
       "bidirectional": false
     },
     {
-      "from": "POR_MAIN_WEST_DEPOT",
+      "from": "POR_MAIN_WEST_DEPOT_MAIN",
       "to": "POR_MAIN_WEST_DEPOT_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -2936,7 +2908,7 @@
     },
     {
       "from": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
-      "to": "POR_MAIN_WEST_DEPOT",
+      "to": "POR_MAIN_WEST_DEPOT_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -2977,13 +2949,6 @@
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_BUS",
-      "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
       "from": "BB_MAIN_BUS",
       "to": "POR_MAIN_WEST_DEPOT_BUS_INBOUND",
       "weight": 25,
@@ -2998,7 +2963,7 @@
       "bidirectional": false
     },
     {
-      "from": "POR_MAIN_NORTH_DEPOT",
+      "from": "POR_MAIN_NORTH_DEPOT_MAIN",
       "to": "POR_MAIN_NORTH_DEPOT_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3006,7 +2971,7 @@
     },
     {
       "from": "POR_MAIN_NORTH_DEPOT_BUS_INBOUND",
-      "to": "POR_MAIN_NORTH_DEPOT",
+      "to": "POR_MAIN_NORTH_DEPOT_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3026,7 +2991,7 @@
       "bidirectional": false
     },
     {
-      "from": "POR_MAIN_EAST_DEPOT",
+      "from": "POR_MAIN_EAST_DEPOT_MAIN",
       "to": "POR_MAIN_EAST_DEPOT_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3034,7 +2999,7 @@
     },
     {
       "from": "POR_MAIN_EAST_DEPOT_BUS_INBOUND",
-      "to": "POR_MAIN_EAST_DEPOT",
+      "to": "POR_MAIN_EAST_DEPOT_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3054,7 +3019,7 @@
       "bidirectional": false
     },
     {
-      "from": "POR_MAIN_SOUTH_DEPOT",
+      "from": "POR_MAIN_SOUTH_DEPOT_MAIN",
       "to": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3062,7 +3027,7 @@
     },
     {
       "from": "POR_MAIN_SOUTH_DEPOT_BUS_INBOUND",
-      "to": "POR_MAIN_SOUTH_DEPOT",
+      "to": "POR_MAIN_SOUTH_DEPOT_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3118,13 +3083,6 @@
     },
     {
       "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
-      "to": "TTC_MAIN_BUS",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
-      "from": "POR_MAIN_SOUTH_DEPOT_BUS_OUTBOUND",
       "to": "BB_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
@@ -3138,7 +3096,7 @@
       "bidirectional": false
     },
     {
-      "from": "OKW_MAIN_PENINSULAR_ROAD",
+      "from": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
       "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3146,7 +3104,7 @@
     },
     {
       "from": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
-      "to": "OKW_MAIN_PENINSULAR_ROAD",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3187,13 +3145,6 @@
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_BUS",
-      "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
       "from": "BB_MAIN_BUS",
       "to": "OKW_MAIN_PENINSULAR_ROAD_BUS_INBOUND",
       "weight": 25,
@@ -3208,7 +3159,7 @@
       "bidirectional": false
     },
     {
-      "from": "OKW_MAIN_SOUTH_POINT",
+      "from": "OKW_MAIN_SOUTH_POINT_MAIN",
       "to": "OKW_MAIN_SOUTH_POINT_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3216,7 +3167,7 @@
     },
     {
       "from": "OKW_MAIN_SOUTH_POINT_BUS_INBOUND",
-      "to": "OKW_MAIN_SOUTH_POINT",
+      "to": "OKW_MAIN_SOUTH_POINT_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3236,7 +3187,7 @@
       "bidirectional": false
     },
     {
-      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
       "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3244,7 +3195,7 @@
     },
     {
       "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_BUS_INBOUND",
-      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3264,7 +3215,7 @@
       "bidirectional": false
     },
     {
-      "from": "OKW_MAIN_MILLER'S_ROAD",
+      "from": "OKW_MAIN_MILLER'S_ROAD_MAIN",
       "to": "OKW_MAIN_MILLER'S_ROAD_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3272,7 +3223,7 @@
     },
     {
       "from": "OKW_MAIN_MILLER'S_ROAD_BUS_INBOUND",
-      "to": "OKW_MAIN_MILLER'S_ROAD",
+      "to": "OKW_MAIN_MILLER'S_ROAD_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3292,7 +3243,7 @@
       "bidirectional": false
     },
     {
-      "from": "OKW_MAIN_HOSPITALITY_HOUSE",
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
       "to": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3300,7 +3251,7 @@
     },
     {
       "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_INBOUND",
-      "to": "OKW_MAIN_HOSPITALITY_HOUSE",
+      "to": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3356,13 +3307,6 @@
     },
     {
       "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
-      "to": "TTC_MAIN_BUS",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
-      "from": "OKW_MAIN_HOSPITALITY_HOUSE_BUS_OUTBOUND",
       "to": "BB_MAIN_BUS",
       "weight": 25,
       "mode": "Bus",
@@ -3376,7 +3320,7 @@
       "bidirectional": false
     },
     {
-      "from": "CBR_MAIN_MARTINIQUE",
+      "from": "CBR_MAIN_MARTINIQUE_MAIN",
       "to": "CBR_MAIN_MARTINIQUE_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3384,7 +3328,7 @@
     },
     {
       "from": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
-      "to": "CBR_MAIN_MARTINIQUE",
+      "to": "CBR_MAIN_MARTINIQUE_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3425,13 +3369,6 @@
       "bidirectional": false
     },
     {
-      "from": "TTC_MAIN_BUS",
-      "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
-      "weight": null,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
       "from": "BB_MAIN_BUS",
       "to": "CBR_MAIN_MARTINIQUE_BUS_INBOUND",
       "weight": 25,
@@ -3446,7 +3383,7 @@
       "bidirectional": false
     },
     {
-      "from": "CBR_MAIN_OLD_PORT_ROYALE",
+      "from": "CBR_MAIN_OLD_PORT_ROYALE_MAIN",
       "to": "CBR_MAIN_OLD_PORT_ROYALE_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3454,7 +3391,7 @@
     },
     {
       "from": "CBR_MAIN_OLD_PORT_ROYALE_BUS_INBOUND",
-      "to": "CBR_MAIN_OLD_PORT_ROYALE",
+      "to": "CBR_MAIN_OLD_PORT_ROYALE_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3474,7 +3411,7 @@
       "bidirectional": false
     },
     {
-      "from": "CBR_MAIN_BARBADOS",
+      "from": "CBR_MAIN_BARBADOS_MAIN",
       "to": "CBR_MAIN_BARBADOS_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3482,7 +3419,7 @@
     },
     {
       "from": "CBR_MAIN_BARBADOS_BUS_INBOUND",
-      "to": "CBR_MAIN_BARBADOS",
+      "to": "CBR_MAIN_BARBADOS_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3502,7 +3439,7 @@
       "bidirectional": false
     },
     {
-      "from": "CBR_MAIN_TRINIDAD",
+      "from": "CBR_MAIN_TRINIDAD_MAIN",
       "to": "CBR_MAIN_TRINIDAD_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3510,7 +3447,7 @@
     },
     {
       "from": "CBR_MAIN_TRINIDAD_BUS_INBOUND",
-      "to": "CBR_MAIN_TRINIDAD",
+      "to": "CBR_MAIN_TRINIDAD_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3530,7 +3467,7 @@
       "bidirectional": false
     },
     {
-      "from": "CBR_MAIN_JAMAICA",
+      "from": "CBR_MAIN_JAMAICA_MAIN",
       "to": "CBR_MAIN_JAMAICA_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3538,7 +3475,7 @@
     },
     {
       "from": "CBR_MAIN_JAMAICA_BUS_INBOUND",
-      "to": "CBR_MAIN_JAMAICA",
+      "to": "CBR_MAIN_JAMAICA_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3558,7 +3495,7 @@
       "bidirectional": false
     },
     {
-      "from": "CBR_MAIN_ARUBA",
+      "from": "CBR_MAIN_ARUBA_MAIN",
       "to": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
       "weight": 20,
       "mode": "Walk & Wait",
@@ -3566,7 +3503,7 @@
     },
     {
       "from": "CBR_MAIN_ARUBA_BUS_INBOUND",
-      "to": "CBR_MAIN_ARUBA",
+      "to": "CBR_MAIN_ARUBA_MAIN",
       "weight": 5,
       "mode": "Walk",
       "bidirectional": false
@@ -3617,13 +3554,6 @@
       "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
       "to": "DS_MAIN_BUS",
       "weight": 25,
-      "mode": "Bus",
-      "bidirectional": false
-    },
-    {
-      "from": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
-      "to": "TTC_MAIN_BUS",
-      "weight": null,
       "mode": "Bus",
       "bidirectional": false
     },

@@ -51,8 +51,7 @@ def clean_id(name, mapping=mapping):
         if resort_part in mapping:
                 resort_id = mapping[resort_part]
                 stop_id = stop_part.replace(" ", "_").upper()
-                print(f"Mapped internal bus loop stop: {name} -> {resort_id}_{stop_id}")
-                return f"{resort_id}_{stop_id}"
+                return f"{resort_id}_{stop_id}_MAIN"
 
     # Process suffixes for transit sub-nodes
     parts = name.split(" - ", 1)
@@ -192,7 +191,7 @@ def generate_busses(final_data, manual_busses, internal_bus_loops):
         prior_stop = None
         for stop in stops:
             stop_id = clean_id(stop)
-            resort_stop_id = f"{resort_id}_{stop_id}"
+            resort_stop_id = f"{resort_id}_{stop_id}_MAIN"
             resort_bus_stop_id = f"{resort_id}_{stop_id}_BUS"
 
             # Conditionally create the bus display name.
@@ -218,6 +217,8 @@ def generate_busses(final_data, manual_busses, internal_bus_loops):
             else:
                 # Connect from a central hub if this is the first stop in the loop.
                 for hub, weight in bus_destinations.items():
+                    if not weight:
+                        continue
                     hub_id = clean_id(hub)
                     bus_connections.append({
                         "from": hub_id + "_BUS", "to": resort_bus_stop_id + "_INBOUND", "weight": weight, "mode": "Bus", "bidirectional": False
@@ -225,6 +226,8 @@ def generate_busses(final_data, manual_busses, internal_bus_loops):
             prior_stop = resort_bus_stop_id
         # Connect to a central hub at the end of the loop.
         for hub, weight in bus_destinations.items():
+            if not weight:
+                continue
             hub_id = clean_id(hub)
             if prior_stop:
                 bus_connections.append({

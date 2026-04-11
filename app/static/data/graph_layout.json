@@ -327,99 +327,99 @@
     "x": -2439,
     "y": 744
   },
-  "CSR_MAIN_GRAN_DESTINO_TOWER": {
+  "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN": {
     "x": -2439,
     "y": 897
   },
-  "CSR_MAIN_CASITAS": {
+  "CSR_MAIN_CASITAS_MAIN": {
     "x": -2063,
     "y": 738
   },
-  "CSR_MAIN_RANCHOS": {
+  "CSR_MAIN_RANCHOS_MAIN": {
     "x": -2445,
     "y": 433
   },
-  "CSR_MAIN_CABANAS": {
+  "CSR_MAIN_CABANAS_MAIN": {
     "x": -2852,
     "y": 731
   },
-  "SSR_MAIN_THE_SPRINGS": {
+  "SSR_MAIN_THE_SPRINGS_MAIN": {
     "x": -1961,
     "y": -1527
   },
-  "SSR_MAIN_GRANDSTAND": {
+  "SSR_MAIN_GRANDSTAND_MAIN": {
     "x": -1703,
     "y": -1389
   },
-  "SSR_MAIN_PADDOCK": {
+  "SSR_MAIN_PADDOCK_MAIN": {
     "x": -1470,
     "y": -1523
   },
-  "SSR_MAIN_CAROUSEL": {
+  "SSR_MAIN_CAROUSEL_MAIN": {
     "x": -1440,
     "y": -1830
   },
-  "SSR_MAIN_CONGRESS_PARK": {
+  "SSR_MAIN_CONGRESS_PARK_MAIN": {
     "x": -1966,
     "y": -1826
   },
-  "OKW_MAIN_HOSPITALITY_HOUSE": {
+  "OKW_MAIN_HOSPITALITY_HOUSE_MAIN": {
     "x": 1200,
     "y": -1769
   },
-  "OKW_MAIN_PENINSULAR_ROAD": {
+  "OKW_MAIN_PENINSULAR_ROAD_MAIN": {
     "x": 2638,
     "y": -1763
   },
-  "OKW_MAIN_OLD_TURTLE_POND_ROAD": {
+  "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN": {
     "x": 1906,
     "y": -1764
   },
-  "OKW_MAIN_SOUTH_POINT": {
+  "OKW_MAIN_SOUTH_POINT_MAIN": {
     "x": 2277,
     "y": -1766
   },
-  "OKW_MAIN_MILLER'S_ROAD": {
+  "OKW_MAIN_MILLER'S_ROAD_MAIN": {
     "x": 1538,
     "y": -1766
   },
-  "POR_MAIN_SOUTH_DEPOT": {
+  "POR_MAIN_SOUTH_DEPOT_MAIN": {
     "x": -78,
     "y": -1485
   },
-  "POR_MAIN_EAST_DEPOT": {
+  "POR_MAIN_EAST_DEPOT_MAIN": {
     "x": 250,
     "y": -1650
   },
-  "POR_MAIN_WEST_DEPOT": {
+  "POR_MAIN_WEST_DEPOT_MAIN": {
     "x": -422,
     "y": -1648
   },
-  "POR_MAIN_NORTH_DEPOT": {
+  "POR_MAIN_NORTH_DEPOT_MAIN": {
     "x": -76,
     "y": -1859
   },
-  "CBR_MAIN_BARBADOS": {
+  "CBR_MAIN_BARBADOS_MAIN": {
     "x": -306,
     "y": 1195
   },
-  "CBR_MAIN_MARTINIQUE": {
+  "CBR_MAIN_MARTINIQUE_MAIN": {
     "x": -1198,
     "y": 1179
   },
-  "CBR_MAIN_JAMAICA": {
+  "CBR_MAIN_JAMAICA_MAIN": {
     "x": 563,
     "y": 1201
   },
-  "CBR_MAIN_ARUBA": {
+  "CBR_MAIN_ARUBA_MAIN": {
     "x": 983,
     "y": 1203
   },
-  "CBR_MAIN_TRINIDAD": {
+  "CBR_MAIN_TRINIDAD_MAIN": {
     "x": 126,
     "y": 1194
   },
-  "CBR_MAIN_OLD_PORT_ROYALE": {
+  "CBR_MAIN_OLD_PORT_ROYALE_MAIN": {
     "x": -751,
     "y": 1218
   },
