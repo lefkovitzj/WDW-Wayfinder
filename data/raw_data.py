@@ -231,6 +231,32 @@ walks = [
 
     ("Disney's Winter Summerland Miniature Golf", "Disney's Blizzard Beach Water Park", 5, "Walk", True),
     ("Disney's Fantasia Gardens & Fairways Miniature Golf", "Disney's Boardwalk Inn", 15, "Walk", True),
+
+    # Internal bus stop walks for resorts with internal bus loops.
+    ("Disney's Coronado Springs Resort", "Disney's Coronado Springs Resort (Gran Destino Tower)", 1, "Walk", True),
+    ("Disney's Coronado Springs Resort", "Disney's Coronado Springs Resort (Casitas)", 5, "Walk", True),
+    ("Disney's Coronado Springs Resort", "Disney's Coronado Springs Resort (Ranchos)", 12, "Walk", True),
+    ("Disney's Coronado Springs Resort", "Disney's Coronado Springs Resort (Cabanas)", 8, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses (The Springs)", 1, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses (Grandstand)", 6, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses (Paddock)", 8, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses (Carousel)", 10, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses", "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)", 7, "Walk", True),
+    ("Disney's Old Key West Resort", "Disney's Old Key West Resort (Hospitality House)", 1, "Walk", True),
+    ("Disney's Old Key West Resort", "Disney's Old Key West Resort (Peninsular Road)", 4, "Walk", True),
+    ("Disney's Old Key West Resort", "Disney's Old Key West Resort (Old Turtle Pond Road)", 10, "Walk", True),
+    ("Disney's Old Key West Resort", "Disney's Old Key West Resort (South Point)", 12, "Walk", True),
+    ("Disney's Old Key West Resort", "Disney's Old Key West Resort (Miller's Road)", 8, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (South Depot)", 1, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (East Depot)", 7, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (West Depot)", 6, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (North Depot)", 9, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Barbados)", 5, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Martinique)", 5, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Jamaica)", 12, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Aruba)", 12, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Trinidad)", 15, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Old Port Royale)", 1, "Walk", True),
 ]
 
 # Use Manual Bussing for non-Disney resorts.
@@ -263,20 +289,15 @@ bus_sources = [
     "Disney's Wilderness Lodge Resort",
     "Disney's Pop Century Resort",
     "Disney's Art of Animation Resort",
-    "Disney's Caribbean Beach Resort",
     "Disney Vacation Club Riviera Resort",
     "Disney's Yacht Club Resort",
     "Disney's Beach Club Resort",
     "Disney's Boardwalk Inn",
     "Disney's Port Orleans French Quarter Resort",
-    "Disney's Port Orleans Riverside Resort",
-    "Disney's Saratoga Springs Resort and Tree Houses",
-    "Disney's Old Key West Resort",
     "Disney's Animal Kingdom Lodge Resort",
     "Disney's All-Star Movies Resort",
     "Disney's All-Star Music Resort",
     "Disney's All-Star Sports Resort",
-    "Disney's Coronado Springs Resort",
 ]
 
 bus_only = [
