@@ -37,7 +37,10 @@ def get_graph_data():
 
 @graph_router.get("/graph")
 def graph_page(request: Request):
-    return TEMPLATES.TemplateResponse("graph.html", {"request": request})
+    return TEMPLATES.TemplateResponse(
+        request=request,
+        name="graph.html", 
+        context={"request": request})
 
 
 router = APIRouter()
