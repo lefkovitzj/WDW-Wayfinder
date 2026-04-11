@@ -21,7 +21,8 @@ from data.raw_data import (
     bus_sources,
     bus_destinations,
     bus_only,
-    no_bus_nodes
+    no_bus_nodes,
+    internal_bus_loops
 )
 
 def lookup_id(id, mapping=mapping):
@@ -43,9 +44,19 @@ def clean_id(name, mapping=mapping):
     if name in mapping:
         return mapping[name]
 
+    # Handle internal bus loop stops: "Resort Name (Stop Name)"
+    if "(" in name and ")" in name:
+        resort_part = name.split("(", 1)[0].strip()
+        stop_part = name.split("(", 1)[1].split(")", 1)[0].strip()
+        if resort_part in mapping:
+                resort_id = mapping[resort_part]
+                stop_id = stop_part.replace(" ", "_").upper()
+                print(f"Mapped internal bus loop stop: {name} -> {resort_id}_{stop_id}")
+                return f"{resort_id}_{stop_id}"
+
     # Process suffixes for transit sub-nodes
     parts = name.split(" - ", 1)
-    base = parts[0]
+    base = parts[0].replace("(", "").replace(")", "").strip()
     suffix = parts[1] if len(parts) > 1 else ""
     base_id = mapping.get(base, base.replace(" ", "_").upper())
 
@@ -92,12 +103,17 @@ def insert_bus_display_names(final_data):
         final_data["display_names"][f"{bus_destination} - Bus Stop"] = bus_destination_stop_id
 
 
-def generate_busses(final_data, manual_busses):
+def generate_busses(final_data, manual_busses, internal_bus_loops):
     """ Dynamically create bus routes based on existing data. """
     bus_connections = []
 
     # One-time creation of busses at hubs. 
+    internal_stops = []
+    for bus_route in internal_bus_loops:
+        internal_stops.append(bus_route["resort"])
     for hub, weight in bus_destinations.items():
+        if hub in internal_stops:
+            continue
         # No Disney busses offered to/from TTC hub, but create it anyway.
         hub_id = clean_id(hub)
         hub_bus = hub_id+ "_BUS"
@@ -168,6 +184,53 @@ def generate_busses(final_data, manual_busses):
                 "from": bus_source_stop_id, "to": bus_destination_stop_id, "weight": travel_weight, "mode": "Bus", "bidirectional": bidirectional
             })
 
+    # Internal resort bus loops.
+    for bus_route in internal_bus_loops:
+        resort = bus_route["resort"]
+        stops = bus_route["stops"]
+        resort_id = clean_id(resort)
+        prior_stop = None
+        for stop in stops:
+            stop_id = clean_id(stop)
+            resort_stop_id = f"{resort_id}_{stop_id}"
+            resort_bus_stop_id = f"{resort_id}_{stop_id}_BUS"
+
+            # Conditionally create the bus display name.
+            if resort_bus_stop_id not in final_data["display_names"].values():
+                final_data["display_names"][f"{resort} ({stop})"] = resort_stop_id
+                final_data["display_names"][f"{resort} ({stop}) Inbound Bus Stop"] = resort_bus_stop_id + "_INBOUND"
+                final_data["display_names"][f"{resort} ({stop}) Outbound Bus Stop"] = resort_bus_stop_id + "_OUTBOUND"
+
+            # Connect the resort stop to the bus.
+            bus_connections.append({
+                "from": resort_stop_id, "to": resort_bus_stop_id + "_OUTBOUND", "weight": 20, "mode": "Walk & Wait", "bidirectional": False}
+            )
+            bus_connections.append({
+                "from": resort_bus_stop_id + "_INBOUND", "to": resort_stop_id, "weight": 5, "mode": "Walk", "bidirectional": False}
+            )
+            if prior_stop:
+                bus_connections.append(
+                    {"from": prior_stop + "_OUTBOUND", "to": resort_bus_stop_id + "_OUTBOUND", "weight": 3, "mode": "Bus", "bidirectional": False}
+                )
+                bus_connections.append(
+                    {"from": prior_stop + "_INBOUND", "to": resort_bus_stop_id + "_INBOUND", "weight": 3, "mode": "Bus", "bidirectional": False}
+                )
+            else:
+                # Connect from a central hub if this is the first stop in the loop.
+                for hub, weight in bus_destinations.items():
+                    hub_id = clean_id(hub)
+                    bus_connections.append({
+                        "from": hub_id + "_BUS", "to": resort_bus_stop_id + "_INBOUND", "weight": weight, "mode": "Bus", "bidirectional": False
+                    })
+            prior_stop = resort_bus_stop_id
+        # Connect to a central hub at the end of the loop.
+        for hub, weight in bus_destinations.items():
+            hub_id = clean_id(hub)
+            if prior_stop:
+                bus_connections.append({
+                    "from": prior_stop + "_OUTBOUND", "to": hub_id + "_BUS", "weight": weight, "mode": "Bus", "bidirectional": False
+                })
+
     # Park hopper busses.
     parks = ["MK_MAIN", "EP_MAIN", "HS_MAIN", "AK_MAIN"]
     for i, park_a in enumerate(parks):
@@ -182,7 +245,7 @@ def generate_busses(final_data, manual_busses):
 
     return bus_connections
 
-def convert_to_json(all_raw_data, manual_busses, bus_only=[]):
+def convert_to_json(all_raw_data, manual_busses, bus_only=[], internal_bus_loops=[]):
     """ Convert existing data and generate busses into one dictionary. """
     connections = []
     display_names = {}
@@ -208,7 +271,7 @@ def convert_to_json(all_raw_data, manual_busses, bus_only=[]):
         bus_id = clean_id(bus_only_u)
         display_names[bus_only_u] = bus_id
     all_transport = {"display_names": display_names, "connections": connections}
-    all_transport["connections"].extend(generate_busses(all_transport, manual_busses))
+    all_transport["connections"].extend(generate_busses(all_transport, manual_busses, internal_bus_loops))
 
     seen = set()
     all_transport["connections"] = [
@@ -223,7 +286,7 @@ def convert_to_json(all_raw_data, manual_busses, bus_only=[]):
 
 if __name__ == "__main__":
     # Run the script
-    final_data = convert_to_json([monorails, boats, skyliners, walks], manual_busses, bus_only)
+    final_data = convert_to_json([monorails, boats, skyliners, walks], manual_busses, bus_only, internal_bus_loops)
 
     # Output to file
     with open('data/wdw_graph.json', 'w') as f:
