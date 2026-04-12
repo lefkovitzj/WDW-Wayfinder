@@ -282,6 +282,13 @@ walks = [
     ("Disney's Caribbean Beach Resort (Aruba)", "Disney's Caribbean Beach Resort (Old Port Royale)", 7, "Walk", True),
     ("Disney's Caribbean Beach Resort (Aruba)", "Disney's Caribbean Beach Resort (Trinidad)", 13, "Walk", True),
     ("Disney's Caribbean Beach Resort (Trinidad)", "Disney's Caribbean Beach Resort (Old Port Royale)", 10, "Walk", True),
+
+    ("Disney's Port Orleans Riverside Resort (North Depot)", "Disney's Port Orleans Riverside Resort (West Depot)", 5, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort (North Depot)", "Disney's Port Orleans Riverside Resort (South Depot)", 9, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort (North Depot)", "Disney's Port Orleans Riverside Resort (East Depot)", 8, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort (East Depot)", "Disney's Port Orleans Riverside Resort (South Depot)", 10, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort (East Depot)", "Disney's Port Orleans Riverside Resort (West Depot)", 12, "Walk", True),
+    ("Disney's Port Orleans Riverside Resort (South Depot)", "Disney's Port Orleans Riverside Resort (West Depot)", 10, "Walk", True),
 ]
 
 # Use Manual Bussing for non-Disney resorts.

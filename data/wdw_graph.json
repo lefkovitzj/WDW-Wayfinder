@@ -1584,6 +1584,48 @@
       "bidirectional": true
     },
     {
+      "from": "POR_MAIN_NORTH_DEPOT_MAIN",
+      "to": "POR_MAIN_WEST_DEPOT_MAIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN_NORTH_DEPOT_MAIN",
+      "to": "POR_MAIN_SOUTH_DEPOT_MAIN",
+      "weight": 9,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN_NORTH_DEPOT_MAIN",
+      "to": "POR_MAIN_EAST_DEPOT_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN_EAST_DEPOT_MAIN",
+      "to": "POR_MAIN_SOUTH_DEPOT_MAIN",
+      "weight": 10,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN_EAST_DEPOT_MAIN",
+      "to": "POR_MAIN_WEST_DEPOT_MAIN",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN_SOUTH_DEPOT_MAIN",
+      "to": "POR_MAIN_WEST_DEPOT_MAIN",
+      "weight": 10,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
       "from": "MK_MAIN_BUS",
       "to": "MK_MAIN",
       "weight": 5,
