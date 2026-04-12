@@ -1437,6 +1437,48 @@
       "bidirectional": true
     },
     {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
+      "to": "CSR_MAIN_CASITAS_MAIN",
+      "weight": 7,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
+      "to": "CSR_MAIN_RANCHOS_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN",
+      "to": "CSR_MAIN_CABANAS_MAIN",
+      "weight": 4,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN_CASITAS_MAIN",
+      "to": "CSR_MAIN_RANCHOS_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN_CASITAS_MAIN",
+      "to": "CSR_MAIN_CABANAS_MAIN",
+      "weight": 10,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN_RANCHOS_MAIN",
+      "to": "CSR_MAIN_CABANAS_MAIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
       "from": "MK_MAIN_BUS",
       "to": "MK_MAIN",
       "weight": 5,

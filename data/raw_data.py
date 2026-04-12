@@ -251,12 +251,21 @@ walks = [
     ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (East Depot)", 7, "Walk", True),
     ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (West Depot)", 6, "Walk", True),
     ("Disney's Port Orleans Riverside Resort", "Disney's Port Orleans Riverside Resort (North Depot)", 9, "Walk", True),
+    
+    # Connect stops with internal bus loops to each other with walks.
     ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Barbados)", 5, "Walk", True),
     ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Martinique)", 5, "Walk", True),
     ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Jamaica)", 12, "Walk", True),
     ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Aruba)", 12, "Walk", True),
     ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Trinidad)", 15, "Walk", True),
     ("Disney's Caribbean Beach Resort", "Disney's Caribbean Beach Resort (Old Port Royale)", 1, "Walk", True),
+
+    ("Disney's Coronado Springs Resort (Gran Destino Tower)", "Disney's Coronado Springs Resort (Casitas)", 7, "Walk", True),
+    ("Disney's Coronado Springs Resort (Gran Destino Tower)", "Disney's Coronado Springs Resort (Ranchos)", 8, "Walk", True),
+    ("Disney's Coronado Springs Resort (Gran Destino Tower)", "Disney's Coronado Springs Resort (Cabanas)", 4, "Walk", True),
+    ("Disney's Coronado Springs Resort (Casitas)", "Disney's Coronado Springs Resort (Ranchos)", 8, "Walk", True),
+    ("Disney's Coronado Springs Resort (Casitas)", "Disney's Coronado Springs Resort (Cabanas)", 10, "Walk", True),
+    ("Disney's Coronado Springs Resort (Ranchos)", "Disney's Coronado Springs Resort (Cabanas)", 5, "Walk", True),
 ]
 
 # Use Manual Bussing for non-Disney resorts.
