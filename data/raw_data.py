@@ -266,6 +266,22 @@ walks = [
     ("Disney's Coronado Springs Resort (Casitas)", "Disney's Coronado Springs Resort (Ranchos)", 8, "Walk", True),
     ("Disney's Coronado Springs Resort (Casitas)", "Disney's Coronado Springs Resort (Cabanas)", 10, "Walk", True),
     ("Disney's Coronado Springs Resort (Ranchos)", "Disney's Coronado Springs Resort (Cabanas)", 5, "Walk", True),
+
+    ("Disney's Caribbean Beach Resort (Martinique)", "Disney's Caribbean Beach Resort (Barbados)", 8, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Martinique)", "Disney's Caribbean Beach Resort (Trinidad)", 13, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Martinique)", "Disney's Caribbean Beach Resort (Jamaica)", 9, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Martinique)", "Disney's Caribbean Beach Resort (Aruba)", 9, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Martinique)", "Disney's Caribbean Beach Resort (Old Port Royale)", 4, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Barbados)", "Disney's Caribbean Beach Resort (Old Port Royale)", 5, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Barbados)", "Disney's Caribbean Beach Resort (Trinidad)", 7, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Barbados)", "Disney's Caribbean Beach Resort (Jamaica)", 8, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Barbados)", "Disney's Caribbean Beach Resort (Aruba)", 10, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Jamaica)", "Disney's Caribbean Beach Resort (Old Port Royale)", 7, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Jamaica)", "Disney's Caribbean Beach Resort (Trinidad)", 9, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Jamaica)", "Disney's Caribbean Beach Resort (Aruba)", 6, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Aruba)", "Disney's Caribbean Beach Resort (Old Port Royale)", 7, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Aruba)", "Disney's Caribbean Beach Resort (Trinidad)", 13, "Walk", True),
+    ("Disney's Caribbean Beach Resort (Trinidad)", "Disney's Caribbean Beach Resort (Old Port Royale)", 10, "Walk", True),
 ]
 
 # Use Manual Bussing for non-Disney resorts.
