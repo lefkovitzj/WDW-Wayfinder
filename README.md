@@ -9,11 +9,12 @@
   <h3 align="center">WDW Wayfinder</h3>
 
   <p align="center">
-   <a href="https://wdw-wayfinder.lefkovitzj.com/"><strong>Live Demo »</strong></a>
+   <a href="https://wdw-wayfinder.lefkovitzj.com/"><strong>Live Demo »</strong>
     <br />
     <br />
    <img src="app/static/images/social-preview.png" alt="WDW Wayfinder Demo" width="600"/>
    <br><br>
+   </a>
     A FastAPI web app that computes optimized Walt Disney World transit itineraries using Dijkstra + Held-Karp TSP.
     <br />
     <a href="https://github.com/lefkovitzj/WDW-Wayfinder"><strong>Explore the repo »</strong></a>
@@ -43,6 +44,11 @@ Core implementation lives in:
 - [app/core/graph.py](app/core/graph.py)
 - [app/routes.py](app/routes.py)
 - [app/main.py](app/main.py)
+- [data_converter.py](data_converter.py)
+
+Core dataset lives in:
+- [data/raw_data.py](data/raw_data.py) (source data)
+- [data/wdw_graph.json](data/wdw_graph.json) (preprocessed graph)
 
 ---
 
@@ -53,7 +59,7 @@ Core implementation lives in:
 - [HTMX](https://htmx.org/)
 - [vis-network](https://visjs.github.io/vis-network/docs/network/)
 - [Docker](https://www.docker.com/)
-- Python 3.11
+- [Python 3.14](https://www.python.org/downloads/)
 
 ### Development Workflow
 
@@ -66,7 +72,7 @@ AI tools such as GitHub Copilot were used to help brainstorm, prototype, and ref
 
 ### Prerequisites
 
-- Python 3.11+
+- Python 3.14+
 - pip
 - (Optional) Docker Desktop
 
@@ -176,10 +182,11 @@ WDW_Transit_Optimizer/
 
 ## Roadmap
 
-- [ ] Add automated tests for route-planning endpoints
-- [ ] Add graph validation checks in CI
-- [ ] Add transit-time profiles by day/time
-- [ ] Improve disconnected-node diagnostics in graph view
+- [ ] Improve dataset weights (ongoing research & validation)
+- [ ] Clean up codebase - improve comments
+- [ ] Clean up codebase - improve `data_converter.py` logic and design
+- [ ] Improve interactive graph visualization (e.g. better styling, theme matching)
+- [ ] Implement mapping (either on the graph visualization or the itinerary page) to show nodes on a map
 
 ---
 
