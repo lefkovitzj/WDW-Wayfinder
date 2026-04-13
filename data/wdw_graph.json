@@ -1626,6 +1626,76 @@
       "bidirectional": true
     },
     {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
+      "to": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
+      "weight": 4,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
+      "to": "OKW_MAIN_SOUTH_POINT_MAIN",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_HOSPITALITY_HOUSE_MAIN",
+      "to": "OKW_MAIN_MILLER'S_ROAD_MAIN",
+      "weight": 6,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
+      "to": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
+      "to": "OKW_MAIN_SOUTH_POINT_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_PENINSULAR_ROAD_MAIN",
+      "to": "OKW_MAIN_MILLER'S_ROAD_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
+      "to": "OKW_MAIN_SOUTH_POINT_MAIN",
+      "weight": 7,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN",
+      "to": "OKW_MAIN_MILLER'S_ROAD_MAIN",
+      "weight": 16,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN_SOUTH_POINT_MAIN",
+      "to": "OKW_MAIN_MILLER'S_ROAD_MAIN",
+      "weight": 16,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
       "from": "MK_MAIN_BUS",
       "to": "MK_MAIN",
       "weight": 5,

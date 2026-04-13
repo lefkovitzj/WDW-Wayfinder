@@ -289,6 +289,17 @@ walks = [
     ("Disney's Port Orleans Riverside Resort (East Depot)", "Disney's Port Orleans Riverside Resort (South Depot)", 10, "Walk", True),
     ("Disney's Port Orleans Riverside Resort (East Depot)", "Disney's Port Orleans Riverside Resort (West Depot)", 12, "Walk", True),
     ("Disney's Port Orleans Riverside Resort (South Depot)", "Disney's Port Orleans Riverside Resort (West Depot)", 10, "Walk", True),
+
+    ("Disney's Old Key West Resort (Hospitality House)", "Disney's Old Key West Resort (Peninsular Road)", 4, "Walk", True),
+    ("Disney's Old Key West Resort (Hospitality House)", "Disney's Old Key West Resort (Old Turtle Pond Road)", 12, "Walk", True),
+    ("Disney's Old Key West Resort (Hospitality House)", "Disney's Old Key West Resort (South Point)", 12, "Walk", True),
+    ("Disney's Old Key West Resort (Hospitality House)", "Disney's Old Key West Resort (Miller's Road)", 6, "Walk", True),
+    ("Disney's Old Key West Resort (Peninsular Road)", "Disney's Old Key West Resort (Old Turtle Pond Road)", 8, "Walk", True),
+    ("Disney's Old Key West Resort (Peninsular Road)", "Disney's Old Key West Resort (South Point)", 8, "Walk", True),
+    ("Disney's Old Key West Resort (Peninsular Road)", "Disney's Old Key West Resort (Miller's Road)", 8, "Walk", True),
+    ("Disney's Old Key West Resort (Old Turtle Pond Road)", "Disney's Old Key West Resort (South Point)", 7, "Walk", True),
+    ("Disney's Old Key West Resort (Old Turtle Pond Road)", "Disney's Old Key West Resort (Miller's Road)", 16, "Walk", True),
+    ("Disney's Old Key West Resort (South Point)", "Disney's Old Key West Resort (Miller's Road)", 16, "Walk", True),
 ]
 
 # Use Manual Bussing for non-Disney resorts.
