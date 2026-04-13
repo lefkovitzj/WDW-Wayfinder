@@ -276,8 +276,8 @@
     "y": -434
   },
   "POR_MAIN": {
-    "x": -84,
-    "y": -1652
+    "x": -22,
+    "y": -1623
   },
   "SSR_MAIN": {
     "x": -1704,
@@ -324,8 +324,8 @@
     "y": 107
   },
   "CSR_MAIN": {
-    "x": -2439,
-    "y": 744
+    "x": -2500,
+    "y": 670
   },
   "CSR_MAIN_GRAN_DESTINO_TOWER_MAIN": {
     "x": -2439,
@@ -372,16 +372,16 @@
     "y": -1763
   },
   "OKW_MAIN_OLD_TURTLE_POND_ROAD_MAIN": {
-    "x": 1906,
-    "y": -1764
+    "x": 1916,
+    "y": -2017
   },
   "OKW_MAIN_SOUTH_POINT_MAIN": {
-    "x": 2277,
-    "y": -1766
+    "x": 2282,
+    "y": -1852
   },
   "OKW_MAIN_MILLER'S_ROAD_MAIN": {
-    "x": 1538,
-    "y": -1766
+    "x": 1553,
+    "y": -1854
   },
   "POR_MAIN_SOUTH_DEPOT_MAIN": {
     "x": -78,
@@ -401,27 +401,27 @@
   },
   "CBR_MAIN_BARBADOS_MAIN": {
     "x": -306,
-    "y": 1195
+    "y": 1107
   },
   "CBR_MAIN_MARTINIQUE_MAIN": {
     "x": -1198,
     "y": 1179
   },
   "CBR_MAIN_JAMAICA_MAIN": {
-    "x": 563,
-    "y": 1201
+    "x": 561,
+    "y": 1253
   },
   "CBR_MAIN_ARUBA_MAIN": {
     "x": 983,
     "y": 1203
   },
   "CBR_MAIN_TRINIDAD_MAIN": {
-    "x": 126,
-    "y": 1194
+    "x": 130,
+    "y": 1117
   },
   "CBR_MAIN_OLD_PORT_ROYALE_MAIN": {
-    "x": -751,
-    "y": 1218
+    "x": -749,
+    "y": 1240
   },
   "AKL_MAIN": {
     "x": -1052,
