@@ -300,6 +300,17 @@ walks = [
     ("Disney's Old Key West Resort (Old Turtle Pond Road)", "Disney's Old Key West Resort (South Point)", 7, "Walk", True),
     ("Disney's Old Key West Resort (Old Turtle Pond Road)", "Disney's Old Key West Resort (Miller's Road)", 16, "Walk", True),
     ("Disney's Old Key West Resort (South Point)", "Disney's Old Key West Resort (Miller's Road)", 16, "Walk", True),
+
+    ("Disney's Saratoga Springs Resort and Tree Houses (The Springs)", "Disney's Saratoga Springs Resort and Tree Houses (Grandstand)", 7, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (The Springs)", "Disney's Saratoga Springs Resort and Tree Houses (Paddock)", 6, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (The Springs)", "Disney's Saratoga Springs Resort and Tree Houses (Carousel)", 6, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (The Springs)", "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)", 5, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (Grandstand)", "Disney's Saratoga Springs Resort and Tree Houses (Paddock)", 12, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (Grandstand)", "Disney's Saratoga Springs Resort and Tree Houses (Carousel)", 9, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (Grandstand)", "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)", 13, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (Paddock)", "Disney's Saratoga Springs Resort and Tree Houses (Carousel)", 3, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (Paddock)", "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)", 8, "Walk", True),
+    ("Disney's Saratoga Springs Resort and Tree Houses (Carousel)", "Disney's Saratoga Springs Resort and Tree Houses (Congress Park)", 11, "Walk", True),
 ]
 
 # Use Manual Bussing for non-Disney resorts.

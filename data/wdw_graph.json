@@ -1696,6 +1696,76 @@
       "bidirectional": true
     },
     {
+      "from": "SSR_MAIN_THE_SPRINGS_MAIN",
+      "to": "SSR_MAIN_GRANDSTAND_MAIN",
+      "weight": 7,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_MAIN",
+      "to": "SSR_MAIN_PADDOCK_MAIN",
+      "weight": 6,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_MAIN",
+      "to": "SSR_MAIN_CAROUSEL_MAIN",
+      "weight": 6,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_THE_SPRINGS_MAIN",
+      "to": "SSR_MAIN_CONGRESS_PARK_MAIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND_MAIN",
+      "to": "SSR_MAIN_PADDOCK_MAIN",
+      "weight": 12,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND_MAIN",
+      "to": "SSR_MAIN_CAROUSEL_MAIN",
+      "weight": 9,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_GRANDSTAND_MAIN",
+      "to": "SSR_MAIN_CONGRESS_PARK_MAIN",
+      "weight": 13,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_PADDOCK_MAIN",
+      "to": "SSR_MAIN_CAROUSEL_MAIN",
+      "weight": 3,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_PADDOCK_MAIN",
+      "to": "SSR_MAIN_CONGRESS_PARK_MAIN",
+      "weight": 8,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN_CAROUSEL_MAIN",
+      "to": "SSR_MAIN_CONGRESS_PARK_MAIN",
+      "weight": 11,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
       "from": "MK_MAIN_BUS",
       "to": "MK_MAIN",
       "weight": 5,
