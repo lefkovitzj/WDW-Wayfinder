@@ -22,6 +22,7 @@
                 {% if not loop.first %}<hr class="bg-primary"/>{% endif %}
                 <div class="timeline-end mb-10 ml-4">
                     <time class="font-mono italic text-sm opacity-50">Step {{ loop.index }}</time>
+                    <p>{{result.ordered_times[loop.index - 1]}} min</p>
                     <div class="text-xl font-black">
                         {# Look up the pretty name, fall back to the ID if not found #}
                         {{ display_names.get(node, node) }}
