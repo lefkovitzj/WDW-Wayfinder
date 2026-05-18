@@ -168,12 +168,13 @@ class GraphManager:
     def _stitch_itinerary(self, optimized_order, all_parents):
         """
         Reconstructs the final itinerary including the mode of transport.
-        Returns a list of tuples: (node, mode_to_reach_node)
+        Returns a tuple: (list of (node, mode_to_reach_node), list of edge weights for each step)
         """
         if not optimized_order:
-            return []
+            return [], []
 
         full_itinerary = []
+        ordered_times = []
 
         for i in range(len(optimized_order) - 1):
             start_node = optimized_order[i]
@@ -183,30 +184,43 @@ class GraphManager:
             segment = []
             curr = end_node
 
+            # Reconstruct path from start_node to end_node
             while curr is not None:
                 prev_node, mode = parents.get(curr, (None, None))
-                # We store the node and the mode used to arrive AT this node
-                segment.append((curr, mode))
+                segment.append((curr, mode, prev_node))
                 curr = prev_node
 
             segment.reverse()
 
+            # For the first segment, include all nodes; for subsequent, skip the first to avoid duplicates
             if i == 0:
-                full_itinerary.extend(segment)
+                full_segment = segment
             else:
-                # Skip the first element to avoid doubling up on the resort node
-                full_itinerary.extend(segment[1:])
+                full_segment = segment[1:]
 
-        return full_itinerary
+            for idx, (node, mode, prev_node) in enumerate(full_segment):
+                # Don't add the first node (start) to itinerary, only steps after the start
+                if i == 0 and idx == 0:
+                    continue
+                # Get edge weight from prev_node to node
+                if prev_node is not None:
+                    weight = self.graph.get(prev_node, {}).get(node, {}).get('weight', None)
+                else:
+                    weight = None
+                full_itinerary.append((node, mode))
+                ordered_times.append(weight)
+
+        return full_itinerary, ordered_times
 
     def plan_itinerary(self, start: str, end: str, stops: List[str]):
         """ Create a planned itinerary given start, end, and must-visit stops. """
         interested = [start, end] + stops
         matrix, all_parents = self._get_minimal_dist_matrix(interested)
         optimized_order, total_time = self._tsp_solver(matrix, start, end, stops)
-        full_itinerary = self._stitch_itinerary(optimized_order, all_parents)
+        full_itinerary, ordered_times = self._stitch_itinerary(optimized_order, all_parents)
         return {
             "itinerary": full_itinerary,
             "total_time": total_time,
-            "optimized_order": optimized_order
+            "optimized_order": optimized_order,
+            "ordered_times": ordered_times
         }

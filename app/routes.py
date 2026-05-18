@@ -119,7 +119,6 @@ async def plan_route(
     # Check if this is an HTMX request
     inverted_display_names = {v: k for k, v in graph.display_names.items()}
     if request.headers.get("HX-Request"):
-        print(inverted_display_names)
         return templates.TemplateResponse(
             request=request,
             name="components/itinerary.html",
