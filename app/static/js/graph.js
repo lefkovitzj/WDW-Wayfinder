@@ -1,3 +1,5 @@
+excludeDining = false; // Set to true to hide dining nodes from the graph visualization.
+
 (async () => {
   try {
     if (!window.vis || !window.vis.Network || !window.vis.DataSet) {
@@ -16,7 +18,17 @@
     );
 
     const ids = new Set(Object.values(display));
+    // Remove dining from ids.
+    for (const id of ids) {
+      if (excludeDining && String(id).startsWith("DIN_"))
+         ids.delete(id);
+    }
+
     for (const c of connections) {
+      // Skip DIN_... nodes which are purely for dining and shouldn't be shown on the graph.
+      if (excludeDining && (String(c.from || "").startsWith("DIN_") || String(c.to || "").startsWith("DIN_"))) {
+        continue;
+      }
       if (c?.from) ids.add(c.from);
       if (c?.to) ids.add(c.to);
     }
@@ -32,6 +44,10 @@
     }
 
     for (const c of connections) {
+      // Skip DIN_... nodes which are purely for dining and shouldn't be shown on the graph.
+      if (excludeDining && (String(c.from || "").startsWith("DIN_") || String(c.to || "").startsWith("DIN_"))) {
+        continue;
+      }
       const from = c.from;
       const to = c.to;
       if (!ids.has(from) || !ids.has(to)) continue;
@@ -267,9 +283,17 @@
       return li;
     };
 
+    numEdges = connections.filter((c) => {
+      // Skip DIN_... nodes which are purely for dining and shouldn't be shown on the graph.
+      if (excludeDining && (String(c.from || "").startsWith("DIN_") || String(c.to || "").startsWith("DIN_"))) {
+        return false;
+      }
+      return true;
+    }).length;
+
     if (statsEl) {
       statsEl.textContent =
-        `Nodes: ${ids.size} | Edges: ${connections.length} | Components: ${components.length}`;
+        `Nodes: ${ids.size} | Edges: ${numEdges} | Components: ${components.length}`;
     }
 
     if (isolatedListEl) {
