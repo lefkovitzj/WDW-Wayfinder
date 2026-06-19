@@ -38,6 +38,17 @@
     ul { margin: 8px 0 16px; padding-left: 20px; }
     code { font-size: 12px; }
     .muted { color: #666; font-size: 12px; }
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 8px 0 12px;
+      user-select: none;
+    }
+    .toggle-row input {
+      width: 16px;
+      height: 16px;
+    }
   </style>
 </head>
 <body>
@@ -45,6 +56,10 @@
     <div id="graph"></div>
     <aside id="panel">
     <h3>Layout</h3>
+      <label class="toggle-row" for="toggleDining">
+        <input id="toggleDining" type="checkbox" />
+        <span>Show dining nodes</span>
+      </label>
       <button id="btn-download-layout">⬇ Download Layout</button>
       <button id="btn-upload-layout">⬆ Upload Layout</button>
     <h3>Connectivity</h3>

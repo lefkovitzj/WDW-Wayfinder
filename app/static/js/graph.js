@@ -1,4 +1,11 @@
-excludeDining = false; // Set to true to hide dining nodes from the graph visualization.
+const DINING_VISIBILITY_KEY = "wdw_graph_exclude_dining_v1";
+const excludeDining = (() => {
+  try {
+    return localStorage.getItem(DINING_VISIBILITY_KEY) === "true";
+  } catch {
+    return false;
+  }
+})();
 
 (async () => {
   try {
@@ -238,6 +245,19 @@ excludeDining = false; // Set to true to hide dining nodes from the graph visual
 
     const container = document.getElementById("graph");
     if (!container) throw new Error("Missing #graph element in graph.html");
+
+    const diningToggle = document.getElementById("toggleDining");
+    if (diningToggle) {
+      diningToggle.checked = !excludeDining;
+      diningToggle.addEventListener("change", () => {
+        try {
+          localStorage.setItem(DINING_VISIBILITY_KEY, String(!diningToggle.checked));
+        } catch {
+          // Ignore storage failures and still reload the page.
+        }
+        window.location.reload();
+      });
+    }
 
     // ---------- Load layout + create network ----------
     const savedPositions = await loadLayout();
