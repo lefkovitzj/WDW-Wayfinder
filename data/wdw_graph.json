@@ -163,6 +163,386 @@
     "Disney's Caribbean Beach Resort (Jamaica) Outbound Bus Stop": "CBR_MAIN_JAMAICA_BUS_OUTBOUND",
     "Disney's Caribbean Beach Resort (Aruba) Inbound Bus Stop": "CBR_MAIN_ARUBA_BUS_INBOUND",
     "Disney's Caribbean Beach Resort (Aruba) Outbound Bus Stop": "CBR_MAIN_ARUBA_BUS_OUTBOUND",
+    "Silver Screen Spirits Pool Bar (Dining)": "DIN_SILVER_SCREEN_SPIRITS",
+    "World Premiere Food Court (Dining)": "DIN_WORLD_PREMIERE_FOOD",
+    "Intermission Food Court (Dining)": "DIN_INTERMISSION_FOOD",
+    "Singing Spirits Pool Bar (Dining)": "DIN_SINGING_SPIRITS",
+    "End Zone Food Court (Dining)": "DIN_END_ZONE_FOOD",
+    "Grandstand Spirits Pool Bar (Dining)": "DIN_GRANDSTAND_SPIRITS",
+    "Animal Kingdom Lodge In-Room Dining (Dining)": "DIN_AKL_IN_ROOM",
+    "Boma - Flavors of Africa (Dining)": "DIN_BOMA",
+    "Jiko - The Cooking Place (Dining)": "DIN_JIKO",
+    "Mara (Dining)": "DIN_MARA",
+    "Uzima Springs Watering Hole (Dining)": "DIN_UZIMA_SPRINGS",
+    "Victoria Falls (Dining)": "DIN_VICTORIA_FALLS",
+    "Maji Pool Bar (Dining)": "DIN_MAJI_POOL_BAR",
+    "Sanaa (Dining)": "DIN_SANAA",
+    "Drop Off Bar (Dining)": "DIN_DROP_OFF_BAR",
+    "Landscape of Flavors (Dining)": "DIN_LANDSCAPE_FLAVORS",
+    "Beach Club Marketplace (Dining)": "DIN_BEACH_CLUB_MARKET",
+    "Beaches and Cream Soda Shop (Dining)": "DIN_BEACHES_CREAM",
+    "Cape May Cafe (Dining)": "DIN_CAPE_MAY_CAFE",
+    "Hurricane Hanna's Waterside Bar (Dining)": "DIN_HURRICANE_HANNAS",
+    "Martha's Vineyard (Dining)": "DIN_MARTHAS_VINEYARD",
+    "Yacht and Beach Club In-Room Dining (Dining)": "DIN_YACHT_BEACH_IN_ROOM",
+    "AbracadaBar (Dining)": "DIN_ABRACADABAR",
+    "Belle Vue Lounge (Dining)": "DIN_BELLE_VUE",
+    "Blue Ribbon Corn Dogs (Dining)": "DIN_BLUE_RIBBON_DOGS",
+    "BoardWalk Ice Cream (Dining)": "DIN_BOARDWALK_ICE_CREAM",
+    "Boardwalk Joe's (Dining)": "DIN_BOARDWALK_JOES",
+    "Boardwalk Pizza Window (Dining)": "DIN_BOARDWALK_PIZZA",
+    "Boardwalk Resort In-Room Dining (Dining)": "DIN_BOARDWALK_IN_ROOM",
+    "Boardwalk Snacks (Dining)": "DIN_BOARDWALK_SNACKS",
+    "Carousel Coffee (Dining)": "DIN_CAROUSEL_COFFEE",
+    "Flying Fish (Dining)": "DIN_FLYING_FISH",
+    "Leaping Horse Libations (Dining)": "DIN_LEAPING_HORSE",
+    "The BoardWalk Deli (Dining)": "DIN_BOARDWALK_DELI",
+    "The Cake Bake Shop by Gwendolyn Rogers (Dining)": "DIN_CAKE_BAKE_SHOP",
+    "Trattoria al Forno (Dining)": "DIN_TRATTORIA_AL_FORNO",
+    "Banana Cabana (Dining)": "DIN_BANANA_CABANA",
+    "Caribbean Skyliner Joffrey's Coffee and Tea Company (Dining)": "DIN_CBR_SKYLINER_JOFFREYS",
+    "Centertown Market (Dining)": "DIN_CENTERTOWN_MARKET",
+    "Sebastian's Bistro (Dining)": "DIN_SEBASTIANS_BISTRO",
+    "Spyglass Grill (Dining)": "DIN_SPYGLASS_GRILL",
+    "California Grill (Dining)": "DIN_CALIFORNIA_GRILL",
+    "California Grill Lounge (Dining)": "DIN_CALIFORNIA_GRILL_LOUNGE",
+    "Chef Mickey's (Dining)": "DIN_CHEF_MICKEYS",
+    "Contempo Cafe (Dining)": "DIN_CONTEMPO_CAFE",
+    "Contemporary Grounds Joffrey's Coffee and Tea Company (Dining)": "DIN_CONTEMP_GROUNDS_JOFFREYS",
+    "Contemporary Resort In-Room Dining (Dining)": "DIN_CONTEMP_IN_ROOM",
+    "Outer Rim (Dining)": "DIN_OUTER_RIM",
+    "Sand Bar (Dining)": "DIN_SAND_BAR",
+    "Steakhouse 71 (Dining)": "DIN_STEAKHOUSE_71",
+    "Steakhouse 71 Lounge (Dining)": "DIN_STEAKHOUSE_71_LOUNGE",
+    "Cove Pool Bar (Dining)": "DIN_COVE_POOL_BAR",
+    "Top of The World Lounge - A Villains Lair (Dining)": "DIN_TOP_OF_WORLD_LOUNGE",
+    "Barcelona Lounge (Dining)": "DIN_BARCELONA_LOUNGE",
+    "Cafe Rix (Dining)": "DIN_CAFE_RIX",
+    "Coronado Springs In-Room Dining (Dining)": "DIN_CSR_IN_ROOM",
+    "Dahlia Lounge (Dining)": "DIN_DAHLIA_LOUNGE",
+    "El Mercado de Coronado (Dining)": "DIN_EL_MERCADO",
+    "Gran Destino Tower In-Room Dining (Dining)": "DIN_GRAN_DESTINO_IN_ROOM",
+    "Laguna Bar (Dining)": "DIN_LAGUNA_BAR",
+    "Maya Grill (Dining)": "DIN_MAYA_GRILL",
+    "Rix Sports Bar & Grill (Dining)": "DIN_RIX_SPORTS_BAR",
+    "Siesta's Cantina (Dining)": "DIN_SIESTAS_CANTINA",
+    "Three Bridges Bar and Grill (Dining)": "DIN_THREE_BRIDGES",
+    "Toledo -- Tapas, Steak, & Seafood (Dining)": "DIN_TOLEDO",
+    "Bar Riva (Dining)": "DIN_BAR_RIVA",
+    "Le Petit Cafe (Dining)": "DIN_LE_PETIT_CAFE",
+    "Primo Piatto (Dining)": "DIN_PRIMO_PIATTO",
+    "Topolino's Terrace -- Flavors of the Riviera (Dining)": "DIN_TOPOLINOS_TERRACE",
+    "Vivoli il Gelato Riviera Cart (Dining)": "DIN_VIVOLI_RIVIERA_CART",
+    "Bourbon Steak (Dining)": "DIN_BOURBON_STEAK",
+    "Cabana Bar and Beach Club (Dining)": "DIN_CABANA_BAR",
+    "Fountain (Dining)": "DIN_FOUNTAIN",
+    "Fuel (Dining)": "DIN_FUEL",
+    "Lagoon (Dining)": "DIN_LAGOON",
+    "Phins (Dining)": "DIN_PHINS",
+    "Rosa Mexicano (Dining)": "DIN_ROSA_MEXICANO",
+    "Shula's Steak House (Dining)": "DIN_SHULAS_STEAK",
+    "Todd English' bluezoo Lounge (Dining)": "DIN_BLUEZOO_LOUNGE",
+    "Todd English's bluezoo (Dining)": "DIN_BLUEZOO",
+    "Walt Disney World Swan and Dolphin In-Room Dining (Dining)": "DIN_SWAN_DOLPHIN_IN_ROOM",
+    "Chuck Wagon Fresh Fixins Food Truck (Dining)": "DIN_CHUCK_WAGON",
+    "Crockett's Tavern (Dining)": "DIN_CROCKETTS_TAVERN",
+    "Meadow Snack Bar (Dining)": "DIN_MEADOW_SNACK_BAR",
+    "Pioneer Hall: Hoop Dee Doo Musical Revue (Dining)": "DIN_HOOP_DEE_DOO",
+    "Trail's End Quick Service Restaurant (Dining)": "DIN_TRAILS_END",
+    "1900 Park Fare (Dining)": "DIN_1900_PARK_FARE",
+    "Beaches Pool Bar and Grill (Dining)": "DIN_BEACHES_POOL_BAR",
+    "Citricos (Dining)": "DIN_CITRICOS",
+    "Courtyard Pool Bar (Dining)": "DIN_COURTYARD_POOL_BAR",
+    "Enchanted Rose (Dining)": "DIN_ENCHANTED_ROSE",
+    "Garden View Tea Room (Dining)": "DIN_GARDEN_VIEW_TEA",
+    "Gasparilla Island Grill (Dining)": "DIN_GASPARILLA_GRILL",
+    "Grand Floridian Cafe (Dining)": "DIN_GF_CAFE",
+    "Narcoossee's (Dining)": "DIN_NARCOOSSEES",
+    "The Perch (Dining)": "DIN_THE_PERCH",
+    "Victoria and Albert's (Dining)": "DIN_VICTORIA_ALBERTS",
+    "Good's Food to Go (Dining)": "DIN_GOODS_FOOD_TO_GO",
+    "Gurgling Suitcase (Dining)": "DIN_GURGLING_SUITCASE",
+    "Olivia's Cafe (Dining)": "DIN_OLIVIAS_CAFE",
+    "Turtle Shack (Dining)": "DIN_TURTLE_SHACK",
+    "'Ohana (Dining)": "DIN_OHANA",
+    "Barefoot Pool Bar (Dining)": "DIN_BAREFOOT_POOL_BAR",
+    "Capt. Cook's (Dining)": "DIN_CAPT_COOKS",
+    "Kona Cafe (Dining)": "DIN_KONA_CAFE",
+    "Kona Island (Dining)": "DIN_KONA_ISLAND",
+    "Oasis Bar and Grill (Dining)": "DIN_OASIS_BAR_GRILL",
+    "Pineapple Lanai (Dining)": "DIN_PINEAPPLE_LANAI",
+    "Polynesian Resort In-Room Dining (Dining)": "DIN_POLY_IN_ROOM",
+    "Tambu Lounge (Dining)": "DIN_TAMBU_LOUNGE",
+    "Trader Sam's Grog Grotto (Dining)": "DIN_TRADER_SAMS",
+    "Wailulu Bar and Grill (Dining)": "DIN_WAILULU_BAR_GRILL",
+    "Everything POP Shopping and Dining (Dining)": "DIN_EVERYTHING_POP",
+    "Petals Pool Bar (Dining)": "DIN_PETALS_POOL_BAR",
+    "Mardi Grogs (Dining)": "DIN_MARDI_GROGS",
+    "Sassagoula Floatworks and Food Factory (Dining)": "DIN_SASSAGOULA_FLOATWORKS",
+    "Scat Cat's Club Cafe (Dining)": "DIN_SCAT_CATS_CAFE",
+    "Scat Cat's Club Lounge (Dining)": "DIN_SCAT_CATS_LOUNGE",
+    "Boatwright's Dining Hall (Dining)": "DIN_BOATWRIGHTS",
+    "Muddy Rivers (Dining)": "DIN_MUDDY_RIVERS",
+    "River Roost Lounge (Dining)": "DIN_RIVER_ROOST",
+    "Riverside Mill Food Court (Dining)": "DIN_RIVERSIDE_MILL",
+    "Artist's Palette (Dining)": "DIN_ARTISTS_PALETTE",
+    "Backstretch Pool Bar (Dining)": "DIN_BACKSTRETCH_POOL",
+    "Chip 'n' Dale's Cafe at Lake Buena Vista Golf Course (Dining)": "DIN_CHIP_N_DALE_LBV",
+    "Golf Course Beverage Cart at Lake Buena Vista Golf Course (Dining)": "DIN_GOLF_CART_LBV",
+    "On The Rocks Pool Bar (Dining)": "DIN_ON_THE_ROCKS",
+    "Paddock Grill (Dining)": "DIN_PADDOCK_GRILL",
+    "Turf Club Bar and Grill (Dining)": "DIN_TURF_CLUB",
+    "Turf Club Lounge (Dining)": "DIN_TURF_CLUB_LOUNGE",
+    "Amare (Dining)": "DIN_AMARE",
+    "Grounds (Dining)": "DIN_GROUNDS",
+    "Stir (Dining)": "DIN_STIR",
+    "Tangerine (Dining)": "DIN_TANGERINE",
+    "Chill (Dining)": "DIN_CHILL",
+    "Garden Grove Cafe (Dining)": "DIN_GARDEN_GROVE",
+    "Il Mulino New York Trattoria (Dining)": "DIN_IL_MULINO",
+    "Java Bar (Dining)": "DIN_JAVA_BAR",
+    "Kimonos (Dining)": "DIN_KIMONOS",
+    "Splash Pool Bar and Grill (Dining)": "DIN_SPLASH_POOL_BAR",
+    "Artist Point (Dining)": "DIN_ARTIST_POINT",
+    "Geyser Point Bar and Grill (Dining)": "DIN_GEYSER_POINT",
+    "Roaring Fork (Dining)": "DIN_ROARING_FORK",
+    "Territory Lounge (Dining)": "DIN_TERRITORY_LOUNGE",
+    "Whispering Canyon Cafe (Dining)": "DIN_WHISPERING_CANYON",
+    "Wilderness Lodge In-Room Dining (Dining)": "DIN_WL_IN_ROOM",
+    "Ale and Compass Lounge (Dining)": "DIN_ALE_COMPASS_LOUNGE",
+    "Ale and Compass Restaurant (Dining)": "DIN_ALE_COMPASS_REST",
+    "Crew's Cup Lounge (Dining)": "DIN_CREWS_CUP",
+    "The Market at Ale and Compass (Dining)": "DIN_MARKET_ALE_COMPASS",
+    "Yachtsman Steakhouse (Dining)": "DIN_YACHTSMAN_STEAKHOUSE",
+    "Cookes of Dublin (Dining)": "DIN_COOKES_OF_DUBLIN",
+    "Enzo's Hideaway Tunnel Bar (Dining)": "DIN_ENZOS_HIDEAWAY",
+    "Erin Mckenna's Bakery NYC (Dining)": "DIN_ERIN_MCKENNAS",
+    "Gideon's Bakehouse (Dining)": "DIN_GIDEONS_BAKEHOUSE",
+    "Homecomin' (Dining)": "DIN_HOMECOMIN",
+    "Jock Lindsey's Hangar Bar (Dining)": "DIN_JOCK_LINDSEYS",
+    "Maria and Enzo's Ristorante (Dining)": "DIN_MARIA_ENZOS",
+    "Morimoto Asia (Dining)": "DIN_MORIMOTO_ASIA",
+    "Morimoto Street Food (Dining)": "DIN_MORIMOTO_STREET_FOOD",
+    "Paddlefish (Dining)": "DIN_PADDLEFISH",
+    "Paddy's Bar (Dining)": "DIN_PADDYS_BAR",
+    "Paradiso 37, Taste of the Americas (Dining)": "DIN_PARADISO_37",
+    "Pizza Ponte (Dining)": "DIN_PIZZA_PONTE",
+    "Raglan Road (Dining)": "DIN_RAGLAN_ROAD",
+    "Shine Bar & Social (Dining)": "DIN_SHINE_BAR",
+    "STK Orlando Updated (Dining)": "DIN_STK_ORLANDO",
+    "Terralina Crafted Italian (Dining)": "DIN_TERRALINA",
+    "The Basket at Wine Bar George (Dining)": "DIN_THE_BASKET_WINE_BAR",
+    "The BOATHOUSE (Dining)": "DIN_THE_BOATHOUSE",
+    "The Edison (Dining)": "DIN_THE_EDISON",
+    "The Landing Joffrey's Coffee and Tea Company (Dining)": "DIN_LANDING_JOFFREYS",
+    "Vivoli Gelateria Updated (Dining)": "DIN_VIVOLI_GELATERIA",
+    "Wine Bar George (Dining)": "DIN_WINE_BAR_GEORGE",
+    "B.B. Wolf's Sausage Co. (Dining)": "DIN_BB_WOLFS",
+    "Dockside Margaritas (Dining)": "DIN_DOCKSIDE_MARGARITAS",
+    "Earl of Sandwich (Dining)": "DIN_EARL_OF_SANDWICH",
+    "EET by Maneet Chauhan (Dining)": "DIN_EET_MANEET",
+    "Ghirardelli Soda Fountain and Chocolate Shop (Dining)": "DIN_GHIRARDELLI",
+    "Marketplace Joffrey's Handcrafted Smoothies (Dining)": "DIN_MARKET_JOFFREYS_SMOOTHIES",
+    "Marketplace Snacks (Dining)": "DIN_MARKETPLACE_SNACKS",
+    "Rainforest Cafe (Dining)": "DIN_RAINFOREST_CAFE",
+    "Starbucks - Marketplace (Dining)": "DIN_STARBUCKS_MARKETPLACE",
+    "Sunshine Churros Cart (Dining)": "DIN_SUNSHINE_CHURROS",
+    "Swirls on the Water (Dining)": "DIN_SWIRLS_ON_WATER",
+    "T-Rex (Dining)": "DIN_TREX",
+    "Wetzel's Pretzels (Dining)": "DIN_WETZELS_PRETZELS",
+    "AMC Fork and Screen Theatres (Dining)": "DIN_AMC_THEATRES",
+    "Cilantro Urban Eatery (Dining)": "DIN_CILANTRO_URBAN_EATERY",
+    "City Works Eatery and Pour House (Dining)": "DIN_CITY_WORKS",
+    "Cookie Bar (Dining)": "DIN_COOKIE_BAR",
+    "Everglazed Updated (Dining)": "DIN_EVERGLAZED",
+    "Haagen-Dazs (Dining)": "DIN_HAAGEN_DAZS",
+    "House of Blues Restaurant and Bar (Dining)": "DIN_HOUSE_OF_BLUES",
+    "Jaleo (Dining)": "DIN_JALEO",
+    "Pepe (Dining)": "DIN_PEPE",
+    "Salt & Straw (Dining)": "DIN_SALT_STRAW",
+    "Splitsville Luxury Lanes (Dining)": "DIN_SPLITSVILLE",
+    "Starbucks - West Side (Dining)": "DIN_STARBUCKS_WEST_SIDE",
+    "Summer House on the Lake (Dining)": "DIN_SUMMER_HOUSE",
+    "The Smokehouse (Dining)": "DIN_THE_SMOKEHOUSE",
+    "YeSake (Dining)": "DIN_YESAKE",
+    "Amorette's Patisserie (Dining)": "DIN_AMORETTES",
+    "Blaze Fast-Fire'd Pizza (Dining)": "DIN_BLAZE_PIZZA",
+    "Chicken Guy (Dining)": "DIN_CHICKEN_GUY",
+    "Coca-Cola Store Rooftop Beverage Bar (Dining)": "DIN_COCA_COLA_ROOFTOP",
+    "CrazyShakes by Black Tap (Dining)": "DIN_CRAZYSHAKES",
+    "D-Luxe Burger (Dining)": "DIN_DLUXE_BURGER",
+    "Frontera Cocina (Dining)": "DIN_FRONTERA_COCINA",
+    "Planet Hollywood Observatory (Dining)": "DIN_PLANET_HOLLYWOOD",
+    "Polite Pig (Dining)": "DIN_POLITE_PIG",
+    "The Daily Poutine Gourmet Frites (Dining)": "DIN_DAILY_POUTINE",
+    "Wolfgang Puck Bar & Grill (Dining)": "DIN_WOLFGANG_PUCK",
+    "Ice Cream/Treat Carts (Dining)": "DIN_ICE_CREAM_CARTS",
+    "Aloha Isle (Dining)": "DIN_ALOHA_ISLE",
+    "Egg Roll Wagon (Dining)": "DIN_EGG_ROLL_WAGON",
+    "Jungle Navigation Co., Ltd. Skipper Canteen (Dining)": "DIN_SKIPPER_CANTEEN",
+    "Sunshine Tree Terrace (Dining)": "DIN_SUNSHINE_TREE",
+    "The Beak and Barrel (Dining)": "DIN_BEAK_BARREL",
+    "Tortuga Tavern (Dining)": "DIN_TORTUGA_TAVERN",
+    "Be Our Guest (Dining)": "DIN_BE_OUR_GUEST",
+    "Cheshire Cafe (Dining)": "DIN_CHESHIRE_CAFE",
+    "Cinderella's Royal Table (Dining)": "DIN_CINDERELLAS_ROYAL_TABLE",
+    "Friar's Nook (Dining)": "DIN_FRIARS_NOOK",
+    "Gaston's Tavern (Dining)": "DIN_GASTONS_TAVERN",
+    "Pinocchio Village Haus (Dining)": "DIN_PINOCCHIO_HAUS",
+    "Prince Eric Village Market (Dining)": "DIN_PRINCE_ERIC_MARKET",
+    "Storybook Treats (Dining)": "DIN_STORYBOOK_TREATS",
+    "Diamond Horseshoe (Dining)": "DIN_DIAMOND_HORSESHOE",
+    "Frontierland Churro Cart (Dining)": "DIN_FRONTIER_CHURRO_CART",
+    "Golden Oak Outpost (Dining)": "DIN_GOLDEN_OAK",
+    "Pecos Bill Tall Tale Inn and Cafe (Dining)": "DIN_PECOS_BILLS",
+    "Westward Ho Refreshments (Dining)": "DIN_WESTWARD_HO",
+    "Columbia Harbour House (Dining)": "DIN_COLUMBIA_HARBOUR",
+    "Liberty Square Market (Dining)": "DIN_LIBERTY_SQ_MARKET",
+    "Liberty Tree Tavern (Dining)": "DIN_LIBERTY_TREE",
+    "Sleepy Hollow (Dining)": "DIN_SLEEPY_HOLLOW",
+    "Casey's Corner (Dining)": "DIN_CASEYS_CORNER",
+    "Crystal Palace (Dining)": "DIN_CRYSTAL_PALACE",
+    "Main Street Bakery - Starbucks (Dining)": "DIN_MAIN_ST_BAKERY",
+    "Plaza Ice Cream Parlor (Dining)": "DIN_PLAZA_ICE_CREAM",
+    "Plaza Restaurant (Dining)": "DIN_PLAZA_RESTAURANT",
+    "Tony's Town Square (Dining)": "DIN_TONYS_TOWN_SQ",
+    "AstroFizz (Dining)": "DIN_ASTROFIZZ",
+    "Auntie Gravity's Galactic Goodies (Dining)": "DIN_AUNTIE_GRAVITY",
+    "Cosmic Ray's Starlight Cafe (Dining)": "DIN_COSMIC_RAYS",
+    "Energy Bytes Updated (Dining)": "DIN_ENERGY_BYTES",
+    "Lunching Pad (Dining)": "DIN_LUNCHING_PAD",
+    "Tomorrowland Terrace (Dining)": "DIN_TOMORROWLAND_TERRACE",
+    "Africa Refreshment Outpost (Dining)": "DIN_AFRICA_OUTPOST",
+    "American Adventure Joffrey's Coffee and Tea Company (Dining)": "DIN_AMER_ADV_JOFFREYS",
+    "Block & Hans (Dining)": "DIN_BLOCK_HANS",
+    "Fife and Drum Tavern (Dining)": "DIN_FIFE_DRUM",
+    "Funnel Cakes (Dining)": "DIN_FUNNEL_CAKES",
+    "Regal Eagle Smokehouse Outdoor Bar (Dining)": "DIN_REGAL_EAGLE_BAR",
+    "Regal Eagle Smokehouse: Crafts Drafts & Barbecue (Dining)": "DIN_REGAL_EAGLE",
+    "Canada Joffrey's Coffee and Tea Company (Dining)": "DIN_CANADA_JOFFREYS",
+    "Le Cellier (Dining)": "DIN_LE_CELLIER",
+    "Joy of Tea (Dining)": "DIN_JOY_OF_TEA",
+    "Lotus Blossom Cafe (Dining)": "DIN_LOTUS_BLOSSOM",
+    "Nine Dragons Restaurant (Dining)": "DIN_NINE_DRAGONS",
+    "Boulangerie Patisserie les Halles (Dining)": "DIN_LES_HALLES",
+    "Chefs de France (Dining)": "DIN_CHEFS_DE_FRANCE",
+    "Crepes A Emporter (Dining)": "DIN_CREPES_A_EMPORTER",
+    "L'Artisan des Glaces (Dining)": "DIN_LARTISAN_DES_GLACES",
+    "La Creperie de Paris (Dining)": "DIN_CREPERIE_DE_PARIS",
+    "Les Vins de Chefs de France (Dining)": "DIN_LES_VINS_CHEFS",
+    "Monsieur Paul (Dining)": "DIN_MONSIEUR_PAUL",
+    "Biergarten Restaurant (Dining)": "DIN_BIERGARTEN",
+    "Sommerfest (Dining)": "DIN_SOMMERFEST",
+    "Gelateria Toscana (Dining)": "DIN_GELATERIA_TOSCANA",
+    "Italy Donkey (Dining)": "DIN_ITALY_DONKEY",
+    "Pizza al Taglio - Via Napoli Pizza Window (Dining)": "DIN_VIA_NAPOLI_WINDOW",
+    "Tutto Gusto Wine Cellar (Dining)": "DIN_TUTTO_GUSTO",
+    "Tutto Italia Ristorante (Dining)": "DIN_TUTTO_ITALIA",
+    "Via Napoli Ristorante e Pizzeria (Dining)": "DIN_VIA_NAPOLI",
+    "Garden House (Dining)": "DIN_GARDEN_HOUSE",
+    "Kabuki Cafe (Dining)": "DIN_KABUKI_CAFE",
+    "Katsura Grill (Dining)": "DIN_KATSURA_GRILL",
+    "Shiki-Sai: Sushi Izakaya (Dining)": "DIN_SHIKI_SAI",
+    "Takumi-Tei (Dining)": "DIN_TAKUMI_TEI",
+    "Teppan Edo (Dining)": "DIN_TEPPAN_EDO",
+    "Choza de Margarita (Dining)": "DIN_CHOZA_MARGARITA",
+    "La Cantina de San Angel (Dining)": "DIN_LA_CANTINA",
+    "La Cava del Tequila (Dining)": "DIN_LA_CAVA",
+    "La Hacienda de San Angel (Dining)": "DIN_LA_HACIENDA",
+    "San Angel Inn Restaurante (Dining)": "DIN_SAN_ANGEL_INN",
+    "Restaurant Marrakesh (Dining)": "DIN_MARRAKESH",
+    "Spice Road Table (Dining)": "DIN_SPICE_ROAD",
+    "Tangierine Cafe (Dining)": "DIN_TANGIERINE_CAFE",
+    "Akershus Royal Banquet Hall (Dining)": "DIN_AKERSHUS",
+    "Kringla Bakeri Og Kafe (Dining)": "DIN_KRINGLA_BAKERI",
+    "La Poutinerie New (Dining)": "DIN_LA_POUTINERIE",
+    "Promenade Refreshments (Dining)": "DIN_PROMENADE_REFRESH",
+    "Refreshment Port (Dining)": "DIN_REFRESHMENT_PORT",
+    "Showcase Plaza Joffrey's Coffee and Tea Company (Dining)": "DIN_SHOWCASE_JOFFREYS",
+    "Swirled Showcase (Dining)": "DIN_SWIRLED_SHOWCASE",
+    "Rose and Crown Beer Garden (Dining)": "DIN_ROSE_CROWN_GARDEN",
+    "Rose and Crown Dining Room (Dining)": "DIN_ROSE_CROWN_DINING",
+    "Rose and Crown Pub (Dining)": "DIN_ROSE_CROWN_PUB",
+    "Yorkshire County Fish Shop (Dining)": "DIN_YORKSHIRE_FISH",
+    "CommuniCore Hall (Dining)": "DIN_COMMUNICORE_HALL",
+    "Connections Cafe (Dining)": "DIN_CONNECTIONS_CAFE",
+    "Connections Eatery (Dining)": "DIN_CONNECTIONS_EATERY",
+    "Epcot Entrance Joffrey's Coffee and Tea Company (Dining)": "DIN_EPCOT_ENT_JOFFREYS",
+    "Festival Favorites (Dining)": "DIN_FESTIVAL_FAVORITES",
+    "GEO-82 (Dining)": "DIN_GEO_82",
+    "Refreshment Station (Dining)": "DIN_REFRESHMENT_STATION",
+    "Space 220 (Dining)": "DIN_SPACE_220",
+    "Space 220 Lounge (Dining)": "DIN_SPACE_220_LOUNGE",
+    "The Odyssey (Dining)": "DIN_THE_ODYSSEY",
+    "World Discovery Joffrey's Coffee and Tea Company (Dining)": "DIN_WORLD_DISC_JOFFREYS",
+    "Coral Reef Restaurant (Dining)": "DIN_CORAL_REEF",
+    "Garden Grill (Dining)": "DIN_GARDEN_GRILL",
+    "Sunshine Seasons (Dining)": "DIN_SUNSHINE_SEASONS",
+    "Dawa Bar (Dining)": "DIN_DAWA_BAR",
+    "Harambe Fruit Market (Dining)": "DIN_HARAMBE_FRUIT",
+    "Harambe Market (Dining)": "DIN_HARAMBE_MARKET",
+    "Kusafiri Coffee Shop and Bakery (Dining)": "DIN_KUSAFIRI_BAKERY",
+    "Mahindi (Dining)": "DIN_MAHINDI",
+    "Tamu Tamu Refreshments (Dining)": "DIN_TAMU_TAMU",
+    "Tusker House Restaurant (Dining)": "DIN_TUSKER_HOUSE",
+    "Anandapur Ice Cream Truck (Dining)": "DIN_ANANDAPUR_TRUCK",
+    "Caravan Road (Dining)": "DIN_CARAVAN_ROAD",
+    "Drinkwallah (Dining)": "DIN_DRINKWALLAH",
+    "Mr. Kamal's (Dining)": "DIN_MR_KAMALS",
+    "Quality Beverages (Dining)": "DIN_QUALITY_BEVERAGES",
+    "Royal Anandapur Joffrey's Coffee and Tea Company (Dining)": "DIN_ANANDAPUR_JOFFREYS",
+    "Thirsty River Bar and Trek Snacks (Dining)": "DIN_THIRSTY_RIVER",
+    "Warung Outpost (Dining)": "DIN_WARUNG_OUTPOST",
+    "Yak and Yeti Local Food Cafes (Dining)": "DIN_YAK_YETI_QUICK",
+    "Yak and Yeti Restaurant (Dining)": "DIN_YAK_YETI_TABLE",
+    "Creature Comforts - Starbucks (Dining)": "DIN_CREATURE_COMFORTS",
+    "Eight Spoon Cafe (Dining)": "DIN_EIGHT_SPOON",
+    "Flame Tree BBQ (Dining)": "DIN_FLAME_TREE_BBQ",
+    "Isle of Java (Dining)": "DIN_ISLE_OF_JAVA",
+    "Nomad Lounge (Dining)": "DIN_NOMAD_LOUNGE",
+    "Pizzafari (Dining)": "DIN_PIZZAFARI",
+    "Smiling Crocodile (Dining)": "DIN_SMILING_CROCODILE",
+    "Terra Treats (Dining)": "DIN_TERRA_TREATS",
+    "Tiffins (Dining)": "DIN_TIFFINS",
+    "Pongu Pongu (Dining)": "DIN_PONGU_PONGU",
+    "Satu'li Canteen (Dining)": "DIN_SATULI_CANTEEN",
+    "Animal Kingdom Entrance Joffrey's Coffee and Tea Company (Dining)": "DIN_AK_ENT_JOFFREYS",
+    "ABC Commissary (Dining)": "DIN_ABC_COMMISSARY",
+    "Sci Fi Dine-In Theater (Dining)": "DIN_SCI_FI_THEATER",
+    "'50s Prime Time Cafe (Dining)": "DIN_50S_PRIME_TIME",
+    "Backlot Express (Dining)": "DIN_BACKLOT_EXPRESS",
+    "Dinosaur Gertie's Ice Cream of Extinction (Dining)": "DIN_DINOSAUR_GERTIES",
+    "Dockside Diner (Dining)": "DIN_DOCKSIDE_DINER",
+    "Epic Eats Updated (Dining)": "DIN_EPIC_EATS",
+    "Hollywood and Vine (Dining)": "DIN_HOLLYWOOD_VINE",
+    "Oasis Canteen (Dining)": "DIN_OASIS_CANTEEN",
+    "Peevy's Polar Pipeline (Dining)": "DIN_PEEVYS_PIPELINE",
+    "BaseLine Tap House (Dining)": "DIN_BASELINE_TAP",
+    "Ice Cold Hydraulics (Dining)": "DIN_ICE_COLD_HYDRAULICS",
+    "Hollywood Brown Derby (Dining)": "DIN_BROWN_DERBY",
+    "Hollywood Brown Derby Lounge (Dining)": "DIN_BROWN_DERBY_LOUNGE",
+    "The Trolley Car Cafe - Starbucks Updated (Dining)": "DIN_TROLLEY_CAR_CAFE",
+    "Ice Cold Snack Stand (Dining)": "DIN_ICE_COLD_SNACKS",
+    "Neighborhood Bakery (Dining)": "DIN_NEIGHBORHOOD_BAKERY",
+    "Pixar Place Joffrey's Coffee and Tea Company (Dining)": "DIN_PIXAR_JOFFREYS",
+    "The Market (Dining)": "DIN_THE_MARKET",
+    "Docking Bay 7 Food and Cargo WDW (Dining)": "DIN_DOCKING_BAY_7",
+    "Kat Saka's Kettle (Dining)": "DIN_KAT_SAKAS",
+    "Milk Stand (Dining)": "DIN_MILK_STAND",
+    "Oga's Cantina (Dining)": "DIN_OGAS_CANTINA",
+    "Ronto Roasters (Dining)": "DIN_RONTO_ROASTERS",
+    "Anaheim Produce (Dining)": "DIN_ANAHEIM_PRODUCE",
+    "Catalina Eddie's (Dining)": "DIN_CATALINA_EDDIES",
+    "Fairfax Fare (Dining)": "DIN_FAIRFAX_FARE",
+    "F\u00d8\u00d8D by Swedish Chef (Dining)": "DIN_FOOD_SWEDISH_CHEF",
+    "Hollywood Scoops (Dining)": "DIN_HOLLYWOOD_SCOOPS",
+    "Pretzel Palooza (Dining)": "DIN_PRETZEL_PALOOZA",
+    "Rosie's All-American Cafe Updated (Dining)": "DIN_ROSIES_CAFE",
+    "Sunshine Day Bar (Dining)": "DIN_SUNSHINE_DAY_BAR",
+    "Tower of Terror Joffrey's Coffee and Tea Company (Dining)": "DIN_TOT_JOFFREYS",
+    "Popcorn and Snacks (Dining)": "DIN_POPCORN_SNACKS",
+    "Roundup Rodeo BBQ (Dining)": "DIN_ROUNDUP_RODEO",
+    "Woody's Lunch Box (Dining)": "DIN_WOODYS_LUNCH_BOX",
     "Disney's Polynesian Village Resort - Bus Stop": "POLY_MAIN_BUS",
     "Disney's Grand Floridian Resort & Spa - Bus Stop": "GF_MAIN_BUS",
     "Disney's Contemporary Resort - Bus Stop": "CONT_MAIN_BUS",
@@ -3939,6 +4319,2708 @@
       "to": "AK_MAIN_BUS",
       "weight": 15,
       "mode": "Bus",
+      "bidirectional": true
+    },
+    {
+      "from": "AS_MOVIE_MAIN",
+      "to": "DIN_SILVER_SCREEN_SPIRITS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AS_MOVIE_MAIN",
+      "to": "DIN_WORLD_PREMIERE_FOOD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AS_MUSIC_MAIN",
+      "to": "DIN_INTERMISSION_FOOD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AS_MUSIC_MAIN",
+      "to": "DIN_SINGING_SPIRITS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AS_SPORTS_MAIN",
+      "to": "DIN_END_ZONE_FOOD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AS_SPORTS_MAIN",
+      "to": "DIN_GRANDSTAND_SPIRITS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_AKL_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_BOMA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_JIKO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_MARA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_UZIMA_SPRINGS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_VICTORIA_FALLS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_MAJI_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AKL_MAIN",
+      "to": "DIN_SANAA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AOA_MAIN",
+      "to": "DIN_DROP_OFF_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AOA_MAIN",
+      "to": "DIN_LANDSCAPE_FLAVORS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DIN_BEACH_CLUB_MARKET",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DIN_BEACHES_CREAM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DIN_CAPE_MAY_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DIN_HURRICANE_HANNAS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DIN_MARTHAS_VINEYARD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BC_MAIN",
+      "to": "DIN_YACHT_BEACH_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_ABRACADABAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BELLE_VUE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BLUE_RIBBON_DOGS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BOARDWALK_ICE_CREAM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BOARDWALK_JOES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BOARDWALK_PIZZA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BOARDWALK_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BOARDWALK_SNACKS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_CAROUSEL_COFFEE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_FLYING_FISH",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_LEAPING_HORSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_BOARDWALK_DELI",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_CAKE_BAKE_SHOP",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "BWI_MAIN",
+      "to": "DIN_TRATTORIA_AL_FORNO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "DIN_BANANA_CABANA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "DIN_CBR_SKYLINER_JOFFREYS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "DIN_CENTERTOWN_MARKET",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "DIN_SEBASTIANS_BISTRO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CBR_MAIN",
+      "to": "DIN_SPYGLASS_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_CALIFORNIA_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_CALIFORNIA_GRILL_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_CHEF_MICKEYS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_CONTEMPO_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_CONTEMP_GROUNDS_JOFFREYS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_CONTEMP_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_OUTER_RIM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_SAND_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_STEAKHOUSE_71",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_STEAKHOUSE_71_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_COVE_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CONT_MAIN",
+      "to": "DIN_TOP_OF_WORLD_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_BARCELONA_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_CAFE_RIX",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_CSR_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_DAHLIA_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_EL_MERCADO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_GRAN_DESTINO_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_LAGUNA_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_MAYA_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_RIX_SPORTS_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_SIESTAS_CANTINA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_THREE_BRIDGES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "CSR_MAIN",
+      "to": "DIN_TOLEDO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "RIV_MAIN",
+      "to": "DIN_BAR_RIVA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "RIV_MAIN",
+      "to": "DIN_LE_PETIT_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "RIV_MAIN",
+      "to": "DIN_PRIMO_PIATTO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "RIV_MAIN",
+      "to": "DIN_TOPOLINOS_TERRACE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "RIV_MAIN",
+      "to": "DIN_VIVOLI_RIVIERA_CART",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_BOURBON_STEAK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_CABANA_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_FOUNTAIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_FUEL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_LAGOON",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_PHINS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_ROSA_MEXICANO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_SHULAS_STEAK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_BLUEZOO_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_BLUEZOO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DOLPHIN_MAIN",
+      "to": "DIN_SWAN_DOLPHIN_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "FTW_MAIN",
+      "to": "DIN_CHUCK_WAGON",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "FTW_MAIN",
+      "to": "DIN_CROCKETTS_TAVERN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "FTW_MAIN",
+      "to": "DIN_MEADOW_SNACK_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "FTW_MAIN",
+      "to": "DIN_HOOP_DEE_DOO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "FTW_MAIN",
+      "to": "DIN_TRAILS_END",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_1900_PARK_FARE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_BEACHES_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_CITRICOS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_COURTYARD_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_ENCHANTED_ROSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_GARDEN_VIEW_TEA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_GASPARILLA_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_GF_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_NARCOOSSEES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_THE_PERCH",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "GF_MAIN",
+      "to": "DIN_VICTORIA_ALBERTS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "DIN_GOODS_FOOD_TO_GO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "DIN_GURGLING_SUITCASE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "DIN_OLIVIAS_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "OKW_MAIN",
+      "to": "DIN_TURTLE_SHACK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_OHANA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_BAREFOOT_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_CAPT_COOKS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_KONA_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_KONA_ISLAND",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_OASIS_BAR_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_PINEAPPLE_LANAI",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_POLY_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_TAMBU_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_TRADER_SAMS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POLY_MAIN",
+      "to": "DIN_WAILULU_BAR_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POP_MAIN",
+      "to": "DIN_EVERYTHING_POP",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POP_MAIN",
+      "to": "DIN_PETALS_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POFQ_MAIN",
+      "to": "DIN_MARDI_GROGS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POFQ_MAIN",
+      "to": "DIN_SASSAGOULA_FLOATWORKS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POFQ_MAIN",
+      "to": "DIN_SCAT_CATS_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POFQ_MAIN",
+      "to": "DIN_SCAT_CATS_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "DIN_BOATWRIGHTS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "DIN_MUDDY_RIVERS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "DIN_RIVER_ROOST",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "POR_MAIN",
+      "to": "DIN_RIVERSIDE_MILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_ARTISTS_PALETTE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_BACKSTRETCH_POOL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_CHIP_N_DALE_LBV",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_GOLF_CART_LBV",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_ON_THE_ROCKS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_PADDOCK_GRILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_TURF_CLUB",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SSR_MAIN",
+      "to": "DIN_TURF_CLUB_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_AMARE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_GROUNDS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_STIR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_TANGERINE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_CHILL",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_GARDEN_GROVE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_IL_MULINO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_JAVA_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_KIMONOS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "SWAN_MAIN",
+      "to": "DIN_SPLASH_POOL_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "WL_MAIN",
+      "to": "DIN_ARTIST_POINT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "WL_MAIN",
+      "to": "DIN_GEYSER_POINT",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "WL_MAIN",
+      "to": "DIN_ROARING_FORK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "WL_MAIN",
+      "to": "DIN_TERRITORY_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "WL_MAIN",
+      "to": "DIN_WHISPERING_CANYON",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "WL_MAIN",
+      "to": "DIN_WL_IN_ROOM",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "YC_MAIN",
+      "to": "DIN_ALE_COMPASS_LOUNGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "YC_MAIN",
+      "to": "DIN_ALE_COMPASS_REST",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "YC_MAIN",
+      "to": "DIN_CREWS_CUP",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "YC_MAIN",
+      "to": "DIN_MARKET_ALE_COMPASS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "YC_MAIN",
+      "to": "DIN_YACHTSMAN_STEAKHOUSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_COOKES_OF_DUBLIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_ENZOS_HIDEAWAY",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_ERIN_MCKENNAS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_GIDEONS_BAKEHOUSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_HOMECOMIN",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_JOCK_LINDSEYS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_MARIA_ENZOS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_MORIMOTO_ASIA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_MORIMOTO_STREET_FOOD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_PADDLEFISH",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_PADDYS_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_PARADISO_37",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_PIZZA_PONTE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_RAGLAN_ROAD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_SHINE_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_STK_ORLANDO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_TERRALINA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_THE_BASKET_WINE_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_THE_BOATHOUSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_THE_EDISON",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_LANDING_JOFFREYS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_VIVOLI_GELATERIA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_LANDING",
+      "to": "DIN_WINE_BAR_GEORGE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_BB_WOLFS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_DOCKSIDE_MARGARITAS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_EARL_OF_SANDWICH",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_EET_MANEET",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_GHIRARDELLI",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_MARKET_JOFFREYS_SMOOTHIES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_MARKETPLACE_SNACKS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_RAINFOREST_CAFE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_STARBUCKS_MARKETPLACE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_SUNSHINE_CHURROS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_SWIRLS_ON_WATER",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_TREX",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MARKET",
+      "to": "DIN_WETZELS_PRETZELS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_AMC_THEATRES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_CILANTRO_URBAN_EATERY",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_CITY_WORKS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_COOKIE_BAR",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_EVERGLAZED",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_HAAGEN_DAZS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_HOUSE_OF_BLUES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_JALEO",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_PEPE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_SALT_STRAW",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_SPLITSVILLE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_STARBUCKS_WEST_SIDE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_SUMMER_HOUSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_SUNSHINE_CHURROS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_THE_SMOKEHOUSE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_WETZELS_PRETZELS",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_WEST",
+      "to": "DIN_YESAKE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_AMORETTES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_BLAZE_PIZZA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_CHICKEN_GUY",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_COCA_COLA_ROOFTOP",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_CRAZYSHAKES",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_DLUXE_BURGER",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_FRONTERA_COCINA",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_PLANET_HOLLYWOOD",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_POLITE_PIG",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_DAILY_POUTINE",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "DS_MAIN",
+      "to": "DIN_WOLFGANG_PUCK",
+      "weight": 5,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_ICE_CREAM_CARTS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_ALOHA_ISLE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_EGG_ROLL_WAGON",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_SKIPPER_CANTEEN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_SUNSHINE_TREE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_BEAK_BARREL",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_TORTUGA_TAVERN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_BE_OUR_GUEST",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_CHESHIRE_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_CINDERELLAS_ROYAL_TABLE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_FRIARS_NOOK",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_GASTONS_TAVERN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_PINOCCHIO_HAUS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_PRINCE_ERIC_MARKET",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_STORYBOOK_TREATS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_DIAMOND_HORSESHOE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_FRONTIER_CHURRO_CART",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_GOLDEN_OAK",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_PECOS_BILLS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_WESTWARD_HO",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_COLUMBIA_HARBOUR",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_LIBERTY_SQ_MARKET",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_LIBERTY_TREE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_SLEEPY_HOLLOW",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_CASEYS_CORNER",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_CRYSTAL_PALACE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_MAIN_ST_BAKERY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_PLAZA_ICE_CREAM",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_PLAZA_RESTAURANT",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_TONYS_TOWN_SQ",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_ASTROFIZZ",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_AUNTIE_GRAVITY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_COSMIC_RAYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_ENERGY_BYTES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_LUNCHING_PAD",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "MK_MAIN",
+      "to": "DIN_TOMORROWLAND_TERRACE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_ICE_CREAM_CARTS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_AFRICA_OUTPOST",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_AMER_ADV_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_BLOCK_HANS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_FIFE_DRUM",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_FUNNEL_CAKES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_REGAL_EAGLE_BAR",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_REGAL_EAGLE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CANADA_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LE_CELLIER",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_JOY_OF_TEA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LOTUS_BLOSSOM",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_NINE_DRAGONS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LES_HALLES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CHEFS_DE_FRANCE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CREPES_A_EMPORTER",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LARTISAN_DES_GLACES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CREPERIE_DE_PARIS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LES_VINS_CHEFS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_MONSIEUR_PAUL",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_BIERGARTEN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SOMMERFEST",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_GELATERIA_TOSCANA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_ITALY_DONKEY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_VIA_NAPOLI_WINDOW",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_TUTTO_GUSTO",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_TUTTO_ITALIA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_VIA_NAPOLI",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_GARDEN_HOUSE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_KABUKI_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_KATSURA_GRILL",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SHIKI_SAI",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_TAKUMI_TEI",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_TEPPAN_EDO",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CHOZA_MARGARITA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LA_CANTINA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LA_CAVA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LA_HACIENDA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SAN_ANGEL_INN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_MARRAKESH",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SPICE_ROAD",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_TANGIERINE_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_AKERSHUS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_KRINGLA_BAKERI",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_LA_POUTINERIE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_PROMENADE_REFRESH",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_REFRESHMENT_PORT",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SHOWCASE_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SWIRLED_SHOWCASE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_ROSE_CROWN_GARDEN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_ROSE_CROWN_DINING",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_ROSE_CROWN_PUB",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_YORKSHIRE_FISH",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_COMMUNICORE_HALL",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CONNECTIONS_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CONNECTIONS_EATERY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_EPCOT_ENT_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_FESTIVAL_FAVORITES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_GEO_82",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_REFRESHMENT_STATION",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SPACE_220",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SPACE_220_LOUNGE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_THE_ODYSSEY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_WORLD_DISC_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_CORAL_REEF",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_GARDEN_GRILL",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "EP_MAIN",
+      "to": "DIN_SUNSHINE_SEASONS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_ICE_CREAM_CARTS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_DAWA_BAR",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_HARAMBE_FRUIT",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_HARAMBE_MARKET",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_KUSAFIRI_BAKERY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_MAHINDI",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_TAMU_TAMU",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_TUSKER_HOUSE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_ANANDAPUR_TRUCK",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_CARAVAN_ROAD",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_DRINKWALLAH",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_MR_KAMALS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_QUALITY_BEVERAGES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_ANANDAPUR_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_THIRSTY_RIVER",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_WARUNG_OUTPOST",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_YAK_YETI_QUICK",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_YAK_YETI_TABLE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_CREATURE_COMFORTS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_EIGHT_SPOON",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_FLAME_TREE_BBQ",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_ISLE_OF_JAVA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_NOMAD_LOUNGE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_PIZZAFARI",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_SMILING_CROCODILE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_TERRA_TREATS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_TIFFINS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_PONGU_PONGU",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_SATULI_CANTEEN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_AK_ENT_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "AK_MAIN",
+      "to": "DIN_RAINFOREST_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ICE_CREAM_CARTS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ABC_COMMISSARY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_SCI_FI_THEATER",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_50S_PRIME_TIME",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_BACKLOT_EXPRESS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_DINOSAUR_GERTIES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_DOCKSIDE_DINER",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_EPIC_EATS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_HOLLYWOOD_VINE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_OASIS_CANTEEN",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_PEEVYS_PIPELINE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_BASELINE_TAP",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ICE_COLD_HYDRAULICS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_BROWN_DERBY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_BROWN_DERBY_LOUNGE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_TROLLEY_CAR_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ICE_COLD_SNACKS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_NEIGHBORHOOD_BAKERY",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_PIXAR_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_THE_MARKET",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_DOCKING_BAY_7",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_KAT_SAKAS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_MILK_STAND",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_OGAS_CANTINA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_RONTO_ROASTERS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ANAHEIM_PRODUCE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_CATALINA_EDDIES",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_FAIRFAX_FARE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_FOOD_SWEDISH_CHEF",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_HOLLYWOOD_SCOOPS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_PRETZEL_PALOOZA",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ROSIES_CAFE",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_SUNSHINE_DAY_BAR",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_TOT_JOFFREYS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_POPCORN_SNACKS",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_ROUNDUP_RODEO",
+      "weight": 15,
+      "mode": "Walk",
+      "bidirectional": true
+    },
+    {
+      "from": "HS_MAIN",
+      "to": "DIN_WOODYS_LUNCH_BOX",
+      "weight": 15,
+      "mode": "Walk",
       "bidirectional": true
     }
   ]

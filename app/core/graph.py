@@ -29,7 +29,11 @@ class GraphManager:
             data = json.load(f)
 
         display_names = data.get("display_names", {})
+        # Add dining_display_names to the main display names dictionary
+        display_names.update(data.get("dining_display_names", {}))
         adjacency_list = {}
+
+        print(data.get("connections", []))  # Debug: Print loaded connections
 
         # Parse all connections in graph data.
         for connection in data.get("connections", []):
