@@ -61,7 +61,6 @@
     "Disney Vacation Club Riviera Resort": "RIV_MAIN",
     "Epcot International Gateway": "EP_INTGATE",
     "Hollywood Studios": "HS_MAIN",
-    "Disney's Riviera Resort": "DISNEY'S_RIVIERA_RESORT",
     "Disney's Boardwalk Inn": "BWI_MAIN",
     "Disney's Beach Club Resort": "BC_MAIN",
     "Disney's Yacht Club Resort": "YC_MAIN",
@@ -766,7 +765,7 @@
     },
     {
       "from": "CBR_MAIN",
-      "to": "DISNEY'S_RIVIERA_RESORT",
+      "to": "RIV_MAIN",
       "weight": 10,
       "mode": "Walk",
       "bidirectional": true

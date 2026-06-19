@@ -141,7 +141,7 @@ walks = [
     ("Epcot International Gateway - Crescent Lake Friendship Boat to Epcot", "Epcot International Gateway", 1, "Walk", False),
     ("Hollywood Studios - Crescent Lake Friendship Boat to Hollywood Studios", "Hollywood Studios", 1, "Walk", False),
     
-    ("Disney's Caribbean Beach Resort", "Disney's Riviera Resort", 10, "Walk", True),
+    ("Disney's Caribbean Beach Resort", "Disney Vacation Club Riviera Resort", 10, "Walk", True),
 
     ("Epcot International Gateway", "Disney's Boardwalk Inn", 15, "Walk", True),
     ("Epcot International Gateway", "Disney's Beach Club Resort", 6, "Walk", True),
