@@ -82,9 +82,14 @@ async def ping():
 @router.post("/search-locations", response_class=HTMLResponse)
 async def search(request: Request, q: str = Form(""), graph=Depends(get_graph)):
     """ HTMX Endpoint: Search for locations matching the query. """
+    # Don't include dining locations in the default search results.
+    include_detailed = q.strip()!=""
     matches = {
         name: loc_id for name, loc_id in graph.display_names.items()
-        if q.lower() in name.lower() and loc_id.endswith("_MAIN")
+        # Include matches that contain the query and are main stops, or if detailed search is enabled, also include sub-stops within larger resorts.
+        if q.lower() in name.lower() and loc_id.endswith("_MAIN") and ("(" not in name if not include_detailed else True)
+        # Include dining locations if detailed search is enabled and the query matches, even if they aren't main stops.
+        or (include_detailed and q.lower() in name.lower() and "DIN_" in loc_id)
     }
     print(f"Search query: {q}, Matches found: {len(matches)}")
     return templates.TemplateResponse(
@@ -108,6 +113,7 @@ async def plan_route(
     """ Use custom TSP and Djikstra's logic to plan an optimized route. """
     # Filter out empty stops
     valid_stops = [s for s in stops if s.strip()]
+    print(start, valid_stops, end)
 
     # Run the TSP/Dijkstra logic
     result = graph.plan_itinerary(start, end, valid_stops)
