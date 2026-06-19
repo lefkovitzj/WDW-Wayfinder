@@ -25,6 +25,8 @@ from data.raw_data import (
     internal_bus_loops
 )
 
+from data.raw_dining_data import parks_dining_data, resorts_dining_data, disney_springs_dining_data, din_mapping
+
 def lookup_id(id, mapping=mapping):
     """Helper function to map ID to long strings."""
     for name, mapped_id in mapping.items():
@@ -248,6 +250,35 @@ def generate_busses(final_data, manual_busses, internal_bus_loops):
 
     return bus_connections
 
+def generate_dining_connections(parks_dining_data, resorts_dining_data, disney_springs_dining_data, display_names, mapping=din_mapping):
+    """ Generate walk connections between dining locations and parks/resorts. """
+    dining_connections = []
+    # Estinate a 5 minute walk between dining and disney springs or resorts.
+    for u_raw, v_raw in resorts_dining_data + disney_springs_dining_data:
+        u_id = clean_id(u_raw, mapping)
+        v_id = clean_id(v_raw, mapping)
+        display_names[v_raw] = v_id
+        dining_connections.append({
+            "from": u_id,
+            "to": v_id,
+            "weight": 5,
+            "mode": "Walk",
+            "bidirectional": True
+        })
+    # Estimate a 15 minute walk between dining and parks, since most require going through security, are located at the edge of the park or require navigating crowds.
+    for u_raw, v_raw in parks_dining_data:
+        u_id = clean_id(u_raw, mapping)
+        v_id = clean_id(v_raw, mapping)
+        display_names[v_raw] = v_id
+        dining_connections.append({
+            "from": u_id,
+            "to": v_id,
+            "weight": 15,
+            "mode": "Walk",
+            "bidirectional": True
+        })
+    return dining_connections
+
 def convert_to_json(all_raw_data, manual_busses, bus_only=[], internal_bus_loops=[]):
     """ Convert existing data and generate busses into one dictionary. """
     connections = []
@@ -275,6 +306,11 @@ def convert_to_json(all_raw_data, manual_busses, bus_only=[], internal_bus_loops
         display_names[bus_only_u] = bus_id
     all_transport = {"display_names": display_names, "connections": connections}
     all_transport["connections"].extend(generate_busses(all_transport, manual_busses, internal_bus_loops))
+
+    # Generate dining connections and add to the graph.
+    # Add base mapping to dining mapping to ensure all dining locations are included, even if not in the raw dining data.
+    din_mapping.update(mapping)
+    all_transport["connections"].extend(generate_dining_connections(parks_dining_data, resorts_dining_data, disney_springs_dining_data, display_names, din_mapping))
 
     seen = set()
     all_transport["connections"] = [
